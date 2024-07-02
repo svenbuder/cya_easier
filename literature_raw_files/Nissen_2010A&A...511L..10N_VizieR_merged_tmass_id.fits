@@ -1,0 +1,209 @@
+SIMPLE  =                    T / conforms to FITS standard                      BITPIX  =                    8 / array data type                                NAXIS   =                    0 / number of array dimensions                     EXTEND  =                    T                                                  END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / array data type                                NAXIS   =                    2 / number of array dimensions                     NAXIS1  =                  169 / length of dimension 1                          NAXIS2  =                  100 / length of dimension 2                          PCOUNT  =                    0 / number of group parameters                     GCOUNT  =                    1 / number of groups                               TFIELDS =                   31 / number of table fields                         TTYPE1  = '_RAJ2000'                                                            TFORM1  = 'D       '                                                            TUNIT1  = 'deg     '                                                            TTYPE2  = '_DEJ2000'                                                            TFORM2  = 'D       '                                                            TUNIT2  = 'deg     '                                                            TTYPE3  = 'Name    '                                                            TFORM3  = '10A     '                                                            TTYPE4  = 'm_Name  '                                                            TFORM4  = '1A      '                                                            TTYPE5  = 'RAJ2000 '                                                            TFORM5  = 'D       '                                                            TTYPE6  = 'DEJ2000 '                                                            TFORM6  = 'D       '                                                            TTYPE7  = 'Bmag    '                                                            TFORM7  = 'E       '                                                            TUNIT7  = 'mag     '                                                            TTYPE8  = 'Vmag    '                                                            TFORM8  = 'E       '                                                            TUNIT8  = 'mag     '                                                            TTYPE9  = 'SpType  '                                                            TFORM9  = '8A      '                                                            TTYPE10 = 'Inst    '                                                            TFORM10 = '8A      '                                                            TTYPE11 = 'Inst2   '                                                            TFORM11 = '8A      '                                                            TTYPE12 = 'Simbad  '                                                            TFORM12 = '6A      '                                                            TTYPE13 = 'recno   '                                                            TFORM13 = 'J       '                                                            TTYPE14 = 'Teff    '                                                            TFORM14 = 'I       '                                                            TUNIT14 = 'K       '                                                            TTYPE15 = 'logg    '                                                            TFORM15 = 'E       '                                                            TUNIT15 = 'cm s-2  '                                                            TTYPE16 = '__Fe_H_ '                                                            TFORM16 = 'E       '                                                            TUNIT16 = 'log(Sun)'                                                            TTYPE17 = 'ksi     '                                                            TFORM17 = 'E       '                                                            TUNIT17 = 'km s-1  '                                                            TTYPE18 = '__Na_Fe_'                                                            TFORM18 = 'E       '                                                            TUNIT18 = 'log(Sun)'                                                            TTYPE19 = '__Mg_Fe_'                                                            TFORM19 = 'E       '                                                            TUNIT19 = 'log(Sun)'                                                            TTYPE20 = '__Si_Fe_'                                                            TFORM20 = 'E       '                                                            TUNIT20 = 'log(Sun)'                                                            TTYPE21 = '__Ca_Fe_'                                                            TFORM21 = 'E       '                                                            TUNIT21 = 'log(Sun)'                                                            TTYPE22 = '__Ti_Fe_'                                                            TFORM22 = 'E       '                                                            TUNIT22 = 'log(Sun)'                                                            TTYPE23 = '__Cr_Fe_'                                                            TFORM23 = 'E       '                                                            TUNIT23 = 'log(Sun)'                                                            TTYPE24 = '__Ni_Fe_'                                                            TFORM24 = 'E       '                                                            TUNIT24 = 'log(Sun)'                                                            TTYPE25 = 'U_LSR_  '                                                            TFORM25 = 'I       '                                                            TUNIT25 = 'km s-1  '                                                            TTYPE26 = 'V_LSR_  '                                                            TFORM26 = 'I       '                                                            TUNIT26 = 'km s-1  '                                                            TTYPE27 = 'W_LSR_  '                                                            TFORM27 = 'I       '                                                            TUNIT27 = 'km s-1  '                                                            TTYPE28 = 'Class   '                                                            TFORM28 = '12A     '                                                            TTYPE29 = 'GroupID '                                                            TFORM29 = 'J       '                                                            TNULL29 =          -2147483648                                                  TTYPE30 = 'GroupSize'                                                           TFORM30 = 'J       '                                                            TNULL30 =          -2147483648                                                  TTYPE31 = 'tmass_id'                                                            TFORM31 = '16A     '                                                            EXTNAME = 'Joined  '                                                            TCOMM29 = 'ID for match group'                                                  TCOMM30 = 'Number of rows in match group'                                       DATE-HDU= '2024-07-01T02:21:52'                                                 STILVERS= '4.1-2   '                                                            STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter'                          END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             @f[ÌÌÌÌÌÀ6cÊ†AüBD-21 3420 @f[ÌÌÌÌÌÀ6cÊ†AýA*¸RA"ffF5      VLT/UVES        Simbad   °@ˆQì¿£×?¦ff¼#×
+>£×
+>¸Qì>™™š>uÂ¼õÂ¼#×
+ÿíÿ©ÿ¤TD          €   €   11552846-2223131@Yì¿%‹òXÀ@ß›à$h¬CD-33 3337 @Yì¿%‹òXÀ@ß›à$h¬AõÃAzáF5      VLT/UVES        Simbad   [@w
+=¿®{?Ù™š>¸>£×
+>\)>™™š>™™š¼£×
+     ÿÖÿ“TD          €   €   06544782-3344487@dåX¿%‹òÀF!5y¾ECD-43 6810 @dåX¿%‹òÀF!5y¾FA&{A¸F8      VLT/UVES        Simbad   9@ˆQì¾Ü(ö?¦ff>™š>\)>k…>W
+=>B\<õÂ<#×
+ fÿaÿ§high-alpha  €   €   11084006-4415336@\dõÂ\(ÀF£©‡eC CD-45 3283 @\dõÂ\(ÀF£©‡eC A1G®A&áHG8V-VI  VLT/UVES        Simbad   Ý@‘™š¿hõÃ?€  ¾¨õÃ=£×
+>¸>B\=£×
+¼#×
+¾\)þ¬ÿ+ÿlow-alpha   €   €   07341860-4516433@cIü–/ÉbÀJ>ŠÏWœCD-51 4628 @cIü–/ÉbÀJ>ŠÏW›A'\)A zásdF5    VLT/UVES        Simbad   	@‰ë…¿¦ff?³33¾…¸>¸>B\>ž¸R>uÂ    ½ÌÌÍ
+ÿ ¯low-alpha   €   €   10171492-5229186@Z§»»»»¼ÀLº¡n\CD-57 1633 @Z§»»»»»ÀLº¡n\A £×A£×F8      VLT/UVES        Simbad   ñ@ˆõÃ¿fff?™™š¾¨õÃ<õÂ=uÂ>#×
+<õÂ½#×
+¾B\þ·ÿÿälow-alpha   €   €   07062896-5727292@8/Ébü–ÀNŠÅù,_“CD-61 282  @8/Ébü•ÀNŠÅù,_’A*{A!™šG0      VLT/UVES        Simbad   @‰ë…¿p¤?¦ff¾LÌÍ>W
+=>LÌÍ>\)>.{¼£×
+½ÌÌÍ%þä low-alpha   €   €   01360585-6105034@Gî"""""@)='Ò}'ÓG05-19     @Gî""""!@)='Ò}'ÒA<QìA1ë…G:      VLT/UVES        Simbad   Þ@ˆQì¿—
+=?¦ff¾€  >8Qì>.{>…¸>\)½LÌÍ¾¸.þîÿ§low-alpha   €   €   03112654+1237096@IõiÐ6@5°[¯G05-40     @IõiÐ6œ@5°[°A5ÂA,£×G0      VLT/UVES        Simbad   	£@…p¤¿O\)?™™š=õÂ>³33>ž¸R>ž¸R>€  <õÂ     ‰ÿ&ÿªhigh-alpha  €   €   03273943+2102355@t¶¶iÏ@(ÀÚt§@G18-28     @t¶¶iÏ@(ÀÚt§@A#
+=AÌÍG3      VLT/UVES        Simbad   
+ü@¸¿Tzá?€  =uÂ>¸Qì>™™š>”zá>Š=q=LÌÍ    ÿãÿ*  high-alpha  €   €   22054069+1222364@tênîîîî@ äDDDDDG18-39     @tênîîîî@ äDDDDDA-p¤A&{G0      VLT/UVES        Simbad   ˜@†¸R¿±ë…?À  ½uÂ>³33>”zá>Ç®>ž¸R¼#×
+½LÌÍÿ?þÿÿíhigh-alpha  €   €   22183651+0826448@p­ÝÝÝÝÝÀ!\(õÂG20-15     @p­ÝÝÝÝÝÀ!\(õÂA2áHA)p¤F8      VLT/UVES        Simbad   ‹@Š=q¿¾¸R?ÌÌÍ¾8Qì>aG®>k…>”zá>uÂ¼õÂ½LÌÍ ¡ÿÄÿ.(low-alpha)       17472796-0846474@p­ÝÝÝÝÝÀ!\(õÂG20-15     @p­ÝÝÝÝÝÀ!\(õÂA2áHA)p¤F8      VLT/UVES        Simbad   :¸@‹…¿´zá?ŒÌÍ¾k…>LÌÍ>™š>€  >aG®¼õÂ½LÌÍ ¡ÿÄÿ.(low-alpha)       17472796-0846474@ahˆˆˆˆˆ@333331G46-31     @ahˆˆˆˆˆ@333332A6=qA-Â        VLT/UVES        Simbad   @‡\)¿Tzá?³33¾¸>™š>¸>LÌÍ=áG®¼õÂ½õÂ þÊ 8low-alpha   €   €   09170400+0301295@i$záG¬@4tÃ²¡G63-26     @i$záG­@4tÃ²¡AIë…ABáHsd:F    VLT/UVES        Simbad   ›@…Â¿Ç®?æff½£×
+>³33>úáH>½p¤>\)¼#×
+=uÂ Zþ´ +(high-alpha)€   €   13243058+2027221@kšffffe@O¤úO¤øG66-22     @kšffffe@O¤úO¤ùA2áHA'…G6V     VLT/UVES        Simbad   t@¸¿\(ö?fff¾Â\=£×
+=¸Qì>aG®=ÌÌÍ<õÂ¾\)þôÿA low-alpha   €   €   14431794+0549397@OÞü–/ÉbÀ…g‰«ÍðG82-05     @OÞü–/ÉbÀ…g‰«ÍïA4QìA)™šG::     VLT/UVES        Simbad   @Žff¿@  ?fff¾Ñë…=uÂ=LÌÍ>8Qì=£×
+<£×
+¾#×
+þ›ÿL 5low-alpha   €   €   04145804-0537490@\û»»»»¼¿±#Eg‰«ÍG112-43    @\û»»»»»¿±#Eg‰«ÍA*ffA#33sd:F    VLT/UVES        Simbad   º@€õÃ¿   ?¦ff½áG®>W
+=>™š>”zá>”zá    ¼£×
+ ‘ÿ‰þÛlow-alpha   €   €   07434398-0004006@\ûÂ\(ö¿°HÑYâjôG112-44    @\ûÂ\(õ¿°HÑYâjóA;×
+A4  sd:F    VLT/UVES        Simbad   »@ˆ  ¿¥¸?™™š½õÂ>aG®>LÌÍ>…¸>aG®¼#×
+¼£×
+ Šÿ“þÛlow-alpha   €   €   07434409-0003489@a5ü–/ÉbÀk…¸QëG114-42    @a5ü–/ÉbÀk…¸QêATzáAK×
+G:      VLT/UVES        Simbad   @Œ(ö¿ŒÌÍ?¦ff¾8Qì>8Qì>aG®>uÂ>¸¼£×
+½¸QìyÿCÿ°low-alpha   €   €   09104487-0348093@fÂ\(õ@9‰bü–/ÇG121-12    @fÂ\(õ@9‰bü–/ÈA-¸A%™šF6      VLT/UVES        Simbad   (@‡\)¿n{?³33¾™™š<õÂ=ÌÌÍ>B\=£×
+½#×
+¾B\þ¢ÿ6 clow-alpha   €   €   11443576+2532116@t_Î´è@;c×
+=p¢G188-22    @t_Î´è@;c×
+=p£A(QìA"ffF8      VLT/UVES        Simbad   V@…Â¿¨õÃ?À  ½#×
+>Ç®>½p¤>½p¤>\)½#×
+¼#×
+ Áÿ Ghigh-alpha  €   €   21435712+2723240@@Õ~Kä°¿ó8ãŽ8ãG159-50    @@Õ~Kä±¿ó8ãŽ8ãŽA“AVG1V     VLT/UVES        Simbad   ø@‹×
+¿n{?ŒÌÍ<£×
+>Â\>ž¸R>£×
+>uÂ<£×
+    ÿ6ÿ@ Chigh-alpha  €   €   02144019-0112049@#D§@ÚsÀ žKä±HD3567     @#D§@ÚsÀ žKä±~A\)A(öF5V     VLT/UVES        Simbad   £@€£×¿”zá?À  ¾uÂ>\)>.{>ž¸R>aG®½LÌÍ¾¸ ¤þýÿÍlow-alpha   €   €   00383194-0818327@E%‹òX¾@&½p£×
+=HD17820    @E%‹òX¾@&½p£×
+=A¸RA{G5      VLT/UVES        Simbad   @‡
+=¿+…?¦ff>¸>³33>™™š>Š=q>€  <£×
+<õÂ *ÿ«ÿºTD          €   €   02515835+1122119@K‹Ébü–1À	¼M^o€‘HD22879    @K‹Ébü–/À	¼M^o€‘@ç\)@×®F9V     VLT/UVES        Simbad   @ˆ  ¿Y™š?¦ff=ÌÌÍ>¸Qì>£×
+>™™š>€          ÿ˜ÿ´ÿÛTD          €   €   03402202-0313005@N7Ébü–0ÀLš}'Ò}(HD25704    @N7Ébü–/ÀLš}'Ò}'A
+ffA™šF7V     VLT/UVES        Simbad   ì@ˆQì¿Y™š?³33=£×
+>£×
+>€  >aG®>B\¼#×
+    ÿ‰ÿËÿþTD          €   €   04014460-5712244@Z*DDDDC¿ÞÁlÁlHD51754    @Z*DDDDC¿ÞÁlÁlAoA$ÝG0      VLT/UVES        Simbad   ‡@‰G®¿zá?³33=áG®>¨õÃ>€  >uÂ>W
+=<£×
+<õÂ èÿj high-alpha  €   €   06583851-0028490@\ Út§AÀCu0ì¨cHD59392    @\ Út§@ÀCu0ì¨cA"¸RA33F0V     VLT/UVES        Simbad   |@z=q¿ÌÌÍ?ó33¾™š>\)>Š=q>Â\>¨õÃ    ¼#×
+ sþÍÿç(low-alpha) €   €   07280320-3800410@`ÕÚt§@À0!ý¹u0íHD76932    @`ÕÚt§@À0!ý¹u0ì@Ìzá@»…F7-8IV-VVLT/UVES        Simbad   õ@„(ö¿^¸R?³33=ÌÌÍ>®{>\)>™™š>€  <#×
+    ÿ×ÿ³ LTD          €   €   08584388-1607583@døä±~JÀP[W›à$iHD97320    @døä±~JÀP[W›à$hA
+ffAffF3V     VLT/UVES        Simbad   x@†{¿•Â?ÌÌÍ=ÌÌÍ>®{>\)>…¸>k…½#×
+     PÿõÿâTD          €   €   11110073-6525377@fdÌÌÌÌÍÀ5k`¶`´HD103723   @fdÌÌÌÌÌÀ5k`¶`µA)p¤A!¸F5/F6V  VLT/UVES        Simbad   2@†{¿LÌÍ?™™š¾.{=ÌÌÍ=áG®>W
+==õÂ½#×
+¾\)ÿ¸ÿ? :low-alpha   €   €   11563603-2125096@f«Që…·À:˜vT2íHD105004   @f«Që…·À:˜vT2íA,QìA#\)sd:F8   VLT/UVES        Simbad    z@‰™š¿Që…?™™š½LÌÍ>.{>\)>.{=\)¼õÂ½uÂÿÔÿÿ¤low-alpha   €   €   12052488-2635432@fùiÐ6À$ŸÿÿÿÿÿHD106516   @fùiÐ6À$Ÿÿÿÿÿÿ@Ò=q@Ã…F5V     VLT/UVES        Simbad   !4@p¤¿.{?¦ff>#×
+>®{>™™š>…¸>€      <£×
+ >ÿÃÿÎTD          €   €   12151055-1018440@h*iÐ6œÀ2…°[°ZHD111980   @h*iÐ6œÀ2…°[°ZA\A{F7V     VLT/UVES        Simbad   "’@}p¤¿Š=q?À  <õÂ>¸Qì>ÌÌÍ>®{>€  ¼£×
+     ïÿRÿÇhigh-alpha  €   €   12531501-1831185@h
+=p£ÖÀCB""""!HD113679   @h
+=p£ÖÀCB""""!A$õÃA33G2/G3V  VLT/UVES        Simbad   #(@\)¿&ff?³33>™š>½p¤>¨õÃ>£×
+>…¸<£×
+<õÂÿ þê high-alpha  €   €   13055284-3830599@hÂ m:Ó@1„h¬ñ5yHD114762A A@hÂ m:Ó@1„h¬ñ5y@û33@é™šF9V     VLT/UVES        Simbad   $à@†¸R¿333?À  >\)>”zá>€  >aG®>B\<#×
+    ÿ¹ÿË @TD          €   €   13121982+1731016@iýbü–/ÈÀL·ÀHÑYáHD120559   @iýbü–/ÈÀL·ÀHÑYáA
+{@ÿ
+=G5Vw... VLT/UVES        Simbad   %$@  ¿c×
+?ŒÌÍ=£×
+>¸Qì>\)>Š=q>\)=LÌÍ<õÂÿíÿÚÿâTD          €   €   13514042-5726080@j¿%‹òYÀGDúO¤úQHD121004   @j¿%‹òXÀGDúO¤úOA=qA£×G2V     VLT/UVES        Simbad   &%@‹×
+¿333?¦ff=ÌÌÍ>¸Qì>ž¸R>£×
+>\)<£×
+<#×
+ Fÿ ihigh-alpha  €   €   13535810-4632194@kQë…·À2i>“é>’HD126681   @kQë…·À2i>“é>“AáHA¸G3V     VLT/UVES        Simbad   'ƒ@Žff¿•Â?™™š½uÂ>Â\>×
+=>®{>€  <£×
+¼#×
+ÿñÿäÿÀTD          €   €   14272490-1824402@l£×
+=pÀ6Eg‰«ÌHD132475   @l£×
+=pÀ6Eg‰«ÍA™šA	¸F5/F6V  VLT/UVES        Simbad   (@p£×¿¾¸R?À  ¼£×
+>Ñë…?\>½p¤>uÂ¼õÂ<#×
+ ,þ <(high-alpha)€   €   14594983-2200451@nóÌÌÌÌË@¶iÐ7HD148816   @nóÌÌÌÌÌ@¶iÐ6@ùë…@è£×F8V     VLT/UVESNOT/FIESSimbad   )¿@„(ö¿:áH?³33>\)>£×
+>”zá>€  >aG®    <õÂ bþüÿ·high-alpha        16302844+0410411@nóÌÌÌÌË@¶iÐ7HD148816   @nóÌÌÌÌÌ@¶iÐ6@ùë…@è£×F8V     VLT/UVESNOT/FIESSimbad   YÐ@„zá¿333?³33>\)>£×
+>Š=q>…¸>LÌÍ<£×
+<£×
+ bþüÿ·high-alpha        16302844+0410411@pÚ‘À*1ÇqÇHD163810   @pÚ‘À*1ÇqÇA#×
+Aë…G3V     VLT/UVES        Simbad   *}@‘ë…¿™™š?¦ff¾aG®>8Qì>.{>\)>aG®<£×
+½ÌÌÍ þÿ? %low-alpha   €   €   17583848-1305492@q¹‹òX¿%ÀkÍð4WHD175179   @q¹‹òX¿%ÀkÍð4VAë…A£×G0      VLT/UVES        Simbad   +Q@Š\¿&ff?™™š>¸>®{>\)>\)>€  <õÂ<#×
+ `ÿšÿíTD          €   €   18542319-0436183@raG®z¿ã
+=p£×
+HD179626   @raG®z¿ã
+=p£×
+A7LAýôF7V-VI  VLT/UVESNOT/FIESSimbad   ,Ú@„(ö¿…¸?ÌÌÍ=\)>³33>™™š>£×
+>…¸<#×
+½#×
+ [ÿ) -high-alpha        19132074-0035417@raG®z¿ã
+=p£×
+HD179626   @raG®z¿ã
+=p£×
+A7LAýôF7V-VI  VLT/UVESNOT/FIESSimbad   ]ß@†{¿€  ?³33=uÂ>¸Qì>£×
+>®{>…¸<õÂ½LÌÍ [ÿ) -high-alpha        19132074-0035417@rÄiÐ6œÀ(‚Ø-‚Ø,HD189558   @rÄiÐ6œÀ(‚Ø-‚Ø-AQì@÷
+=G0/G1V  VLT/UVESNOT/FIESSimbad   -ñ@s33¿\)?³33½#×
+>¸Qì>¸Qì>³33>…¸¼£×
+     Pÿ“ 0TD                20010027-1215198@rÄiÐ6œÀ(‚Ø-‚Ø,HD189558   @rÄiÐ6œÀ(‚Ø-‚Ø-AQì@÷
+=G0/G1V  VLT/UVESNOT/FIESSimbad   ^÷@s×
+¿\)?³33¼#×
+>Â\>Â\>¸Qì>Š=q¼#×
+<#×
+ Pÿ“ 0TD                20010027-1215198@sbü–/ÉÀ5^Üº˜vRHD193901   @sbü–/ÉÀ5^Üº˜vSA33A
+¸RF7V     VLT/UVESNOT/FIESSimbad   .@‹…¿‹…?™™š¾Š=q>¸>8Qì>aG®=ÌÌÍ½#×
+¾\)ÿlÿÿ¾low-alpha         20233579-2122124@sbü–/ÉÀ5^Üº˜vRHD193901   @sbü–/ÉÀ5^Üº˜vSA33A
+¸RF7V     VLT/UVESNOT/FIESSimbad   _,@¸¿ˆõÃ?³33¾™™š>.{>#×
+>k…=áG®½#×
+¾\)ÿlÿÿ¾low-alpha         20233579-2122124@s(Ëä±~@"æfffffHD194598   @s(Ëä±~@"æfffffA™šAÂF7V-VI  VLT/UVESNOT/FIESSimbad   /6@Š\¿‹…?³33½õÂ>8Qì>8Qì>aG®>¸½#×
+½¸Qìÿ¿þõÿãlow-alpha         20261191+0927004@s(Ëä±~@"æfffffHD194598   @s(Ëä±~@"æfffffA™šAÂF7V-VI  VLT/UVESNOT/FIESSimbad   `&@Š=q¿Š=q?³33½ÌÌÍ>k…>W
+=>aG®>\)¼õÂ½¸Qìÿ¿þõÿãlow-alpha         20261191+0927004@s¨‘ÀHíË©‡HD199289   @s¨‘ÀHíË©‡A¸AÌÍF5V     VLT/UVES        Simbad   0²@ˆõÃ¿…¸?¦ff=£×
+>¸Qì>ž¸R>Š=q>uÂ¼£×
+<£×
+ÿàÿÉÿíTD          €   €   20580854-4812136@tE»»»»»À;¢¡n[HD205650   @tE»»»»»À;¢¡n\Ap¤A  F8V     VLT/UVES        Simbad   1B@Š=q¿•Â?¦ff=¸Qì>¸Qì>£×
+>\)>k…¼£×
+    ÿŽÿ¹ TD          €   €   21372599-2738061@uÔUUUUUÀ+³ÄÕæøHD219617   @uÔUUUUUÀ+³ÄÕæøA
+{A\F8IV    VLT/UVES        Simbad   2æ@ˆõÃ¿¹™š?À  ¾.{>…¸>³33>ž¸R>LÌÍ½LÌÍ½£×
+ äÿRÿà(low-alpha) €   €   23170501-1351046@v>S m:À±~Kä±HD222766   @v>S m:À±~Kä°A,(öA!ÂG0      VLT/UVES        Simbad   3Ö@ˆ£×¿+…?LÌÍ=uÂ>³33>\)>ž¸R>\)=\)<#×
+ÿMÿS  high-alpha  €   €   23433487-0755238@S_33332@:áG®zHD241253   @S_33332@:áG®zA#×
+A…G0      VLT/UVES        Simbad   4Ç@‰ë…¿ŒÌÍ?¦ff=#×
+>£×
+>ž¸R>™™š>uÂ¼£×
+¼#×
+ ÿ¶ [TD          €   €   05095695+0533268@OÒîîîîï@6Yâjó|HD284248   @OÒîîîîî@6Yâjó|A\A…F2      VLT/UVES        Simbad   5÷@ˆ  ¿ÈõÃ?ÌÌÍ¾uÂ>aG®>k…>£×
+>”zá½\)½\)þ£ÿjÿº(low-alpha) €   €   04143544+2221048@Ißä±~K@7ÆÓ m:G05-36     @Ißä±~K@7ÆÓ m:A5ÂA-G®F5      NOT/FIES        Simbad   6}@‡\)¿p¤?³33¼#×
+>¨õÃ>½p¤>Â\>®{¼#×
+¼#×
+ÿ×þ×ÿÄhigh-alpha  €   €   03265976+2346360@gWü–/Éa?ùÊ†AýºG13-38     @gWü–/Éb?ùÊ†Aý¹A3®A((öF8      NOT/FIES        Simbad   7@‘G®¿aG®?fff=LÌÍ>³33>ž¸R>™™š>£×
+=uÂ     mÿq Yhigh-alpha  €   €   12265985+0133581@m:Ó l@–ÁlÁkG15-23     @m:Ó l@–ÁlÁkA:¸RA/\)K:...   NOT/FIES        Simbad   8±@’=q¿ŒÌÍ?€  ¼£×
+>ÌÌÍ>¨õÃ>£×
+>¨õÃ=uÂ¼#×
+ ÿPÿÇhigh-alpha  €   €   15293167+0608497@mòzáG®@ iÐ6iG16-20     @mòzáG®@ iÐ6iA6\A,£×        NOT/FIES        Simbad   9ù@hõÃ¿µÂ?À  ¾¸>aG®>¨õÃ>£×
+>B\½\)<#×
+ Ðÿq K(low-alpha) €   €   15581861+0203059@q|¥‹òX¿?¾Üº˜vT0G21-22     @q|¥‹òX¿?¾Üº˜vT1A4záA,QìG4      NOT/FIES        Simbad   ;@‡®¿‹…?³33¾…¸=¸Qì=\)>.{<õÂ¼£×
+¾#×
+ ÷þþÿálow-alpha   €   €   18390972+0007144@s£×
+=p@ $h¬ñ4G24-13     @s£×
+=p@ $h¬ñ5A,  A!G®G4      NOT/FIES        Simbad   <)@‰ë…¿8Qì?€  =£×
+>®{>Š=q>”zá>€  <£×
+<#×
+ ¤ÿÚÿ€high-alpha  €   €   20202455+0601526@saÅù,_?áÇqÇqG24-25     @saÅù,_?áÇqÇqA3®A)ÂG0      NOT/FIES        Simbad   =Ä@w
+=¿³33?™™š¼õÂ>®{>Ñë…>£×
+>ž¸R½#×
+    ÿ;ÿ +(high-alpha)€   €   20401610+0033197@që…¸NÀËä±~IG31-55     @që…¸QÀËä±~JA2ffA)™šG:      NOT/FIES        Simbad   >@‰™š¿ŒÌÍ?³33=\)>\)>¨õÃ>”zá>€  =LÌÍ<#×
+ÿéÿHÿÓhigh-alpha  €   €   00292664-0220567@b¿%‹òX@<g
+=p£×G49-19     @b¿%‹òX@<g
+=p£ÖA3
+=A)G®G5      NOT/FIES        Simbad   ?Œ@ˆ  ¿ÌÍ?™™š=õÂ>™™š>Š=q>\)>k…=#×
+<£×
+ %ÿ :high-alpha  €   €   09385060+2824088@c›:Ó m?öffffffG53-41     @c›:Ó m?öffffffA8ÌÍA1p¤sd:F8   NOT/FIES        Simbad   @ã@ˆ£×¿™™š?¦ff>k…>uÂ>uÂ>ž¸R>\)¼õÂ½¸QìÿáþÕÿjlow-alpha   €   €   10272425+0124002@eL®záG@22"""""G56-30     @eL®záG@22""""!A8  A/®G0      NOT/FIES        Simbad   AÆ@ˆQì¿c×
+?¦ff¾B\=ÌÌÍ=õÂ>.{=uÂ¼õÂ¾#×
+  þåÿËlow-alpha   €   €   11213511+1811452@eZ(õÂ[@3äÕæø	G56-36     @eZ(õÂ[@3äÕæø	A((öA QìG0      NOT/FIES        Simbad   B-@ˆõÃ¿p£×?³33½uÂ>B\>B\>€  >.{¼£×
+½£×
+ÿ—ÿ	 low-alpha   €   €   11231628+1953382@e¤‹òX¿%@%Î]L;*G57-07     @e¤‹òX¿%@%Î]L;*A+®A"{G0V     NOT/FIES        Simbad   C,@ˆ  ¾ð£×?ŒÌÍ=õÂ>®{>”zá>”zá>™™š=LÌÍ=LÌÍÿ·ÿ^ÿÎhigh-alpha  €   €   11323412+1054112@CG
+=p£Ö@@€-‚Ø-‚G74-32     @CG
+=p£Ö@@€-‚Ø-‚A2{A(záG0      NOT/FIES        Simbad   DŒ@‹…¿8Qì?ŒÌÍ=ÌÌÍ>½p¤>”zá>™™š>…¸<£×
+<£×
+ÿqÿi Jhigh-alpha  €   €   02341315+3300051@CËwwwww@n]L:G75-31     @CËwwwww@n]L:A/×
+A(záF8      NOT/FIES        Simbad   Ez@€£×¿ƒ×
+?³33¾B\=õÂ>.{>ž¸R>B\½uÂ¾¸þýÿ2 mlow-alpha   €   €   02382152+0226444@N}~Kä°@CÞŠÏW›G81-02     @N}~Kä°@CÞŠÏW›A4QìA+\)F8      NOT/FIES        Simbad   Fã@†{¿0£×?¦ff=uÂ>€  >B\>LÌÍ=áG®¼#×
+½#×
+ÿQÿ7 high-alpha  €   €   04035522+3944194@QË:Ó l@9ï¤úO¤øG85-13     @QË:Ó m@9ï¤úO¤ùA,záA"ffG0      NOT/FIES        Simbad   Gü@Œ(ö¿
+=?€  >¸>¨õÃ>\)>Š=q>€  =#×
+<õÂÿHÿÕ #high-alpha  €   €   04444204+2556097@YïiÐ6@AÂöåÔG87-13     @YïiÐ6œ@AÂöåÔA8ÌÍA1¸sd:F2   NOT/FIES        Simbad   HÅ@„(ö¿‹…?À  ¾€  =ÌÌÍ>8Qì>£×
+>aG®½#×
+½õÂÿ7þâ low-alpha   €   €   06545629+3530589@A/Ébü–@;iÐ6jG94-49     @A/Ébü–@;iÐ6iA0õÃA&ffG0      NOT/FIES        Simbad   Iý@  ¿LÌÍ?ŒÌÍ=uÂ>®{>£×
+>”zá>\)<õÂ<#×
+ ¬ÿ ÿþhigh-alpha  €   €   02165655+2724486@S§@Út@D ì¨dÜG96-20     @S§@Út@D ì¨dÛA!G®A\F8      NOT/FIES        Simbad   J•@¸¿c×
+?À  >¸>™™š>™™š>Š=q>€  ½uÂ    ÿ€ÿ¥ vhigh-alpha  €   €   05052867+4015264@W]G®zà@@µg‰«ÍïG98-53     @W]G®zà@@µg‰«ÍïA:ffA2=qF8      NOT/FIES        Simbad   KØ@‡\)¿^¸R?¦ff½\)>LÌÍ>.{>€  =õÂ<#×
+½¸Qìÿdþùÿ low-alpha   €   €   06134982+3325024@U7N´è@›N´èG99-21     @U7N´è@›N´èA0  A%p¤G0      NOT/FIES        Simbad   Lo@Œzá¿+…?fff=áG®>¨õÃ>Š=q>”zá>…¸=LÌÍ<£×
+ÿÀÿJ high-alpha  €   €   05392743+0357026@efffff@AÝL;*G119-64    @efffff@AÝL;*A"áHA  G0      NOT/FIES        Simbad   M%@…Â¿½p¤?À  ¾™š>€  >W
+=>½p¤>”zá¼#×
+½uÂ íþÝÿˆ(low-alpha) €   €   11124798+3543448@rLiÐ6@BŽ8ãŽ9G125-13    @rLiÐ6@BŽ8ãŽ8A*áHA#33F1      NOT/FIES        Simbad   NØ@ˆõÃ¿·
+=?À  ¾.{>™™š>\)>™™š>LÌÍ½¸Qì½¸Qì ×ÿÿc(high-alpha)€   €   19310923+3609110@tÿEù,_’@8dzáG®G127-26    @tÿEù,_’@8dzáG®A333A)¸F9      NOT/FIES        Simbad   OŸ@„zá¿®?™™š=ÌÌÍ>ž¸R>aG®>aG®>LÌÍ<õÂ     «ÿ­ÿÎhigh-alpha  €   €   22234910+2423335@iæòX¿%‹@;«`¶`´G150-40    @iæòX¿%‹@;«`¶`µA0õÃA+33sd:F9   NOT/FIES        Simbad   PP@‚áH¿O\)?³33>\)>\)>B\>B\=õÂ<#×
+½£×
+ÿÁþÂ low-alpha   €   €   13485213+2740093@bM
+=p£ÖÀ²¡n^G161-73    @bM
+=p£ÖÀ²¡n]A5G®A-p¤G:      NOT/FIES        Simbad   Qb@€  ¿€  ?³33¾¸Qì>¸>¸>€  >\)½uÂ¾™š äÿ *low-alpha   €   €   09453782-0440282@p‰
+=p£Ö@2Ž“é>“éG170-56    @p‰
+=p£Ö@2Ž“é>“éA$QìA£×F6V     NOT/FIES        Simbad   Rj@ƒ×
+¿k…?À  ½áG®>.{>\)>uÂ=õÂ¼£×
+½áG®ÿÌþßÿãlow-alpha   €   €   17381560+1833255@7˜6iÏ@H^Üº˜vTG172-61    @7˜6iÏ@H^Üº˜vSA9ë…A.=qK0      NOT/FIES        Simbad   Si@
+=¿€  ?fff¾8Qì>#×
+>.{>…¸>#×
+=#×
+½ÌÌÍÿòþõ 9low-alpha   €   €   01342265+4844275@f±~Kä@IpãŽ8ãŽG176-53    @f±~Kä@IpãŽ8ãA'33AffsdG0    NOT/FIES        Simbad   T“@\)¿«…?€  ¾¸Qì>™š>™š>€  >™š¼#×
+½õÂÿþñ =low-alpha   €   €   11463514+5052547@nÅù,_’@E‰«ÍðG180-24    @nÅù,_’@E‰«ÍðA%G®A™šF5      NOT/FIES        Simbad   Ut@†¸R¿±ë…?À  ¾\)>ž¸R>ž¸R>Ç®>ž¸R<õÂ½#×
+ oÿÿëhigh-alpha  €   €   16031329+4214466@s¼hN´@={rêaÙPG187-18    @s¼hN´@={rêaÙPA+®A!¸G0      NOT/FIES        Simbad   Vç@Œzá¿+…?ŒÌÍ=uÂ>”zá>…¸>…¸>k…<£×
+     mÿ~ Hhigh-alpha  €   €   21030615+2928564@Y{ù,_’Å@MRO¤úO¤G192-43    @Y{ù,_’Å@MRO¤úO¤A,  A%¸sd:F2   NOT/FIES        Simbad   W@‰G®¿«…?À  ¾W
+=>B\>k…>¨õÃ>”zá½LÌÍ½¸Qìþ¹ÿ ÿñlow-alpha   €   €   06474494+5838350@t*|–/Éb@HnîîîîîG232-18    @t*|–/Éb@HnîîîîîA4QìA)™šG2V:    NOT/FIES        Simbad   X·@\)¿n{?¦ff½uÂ>³33>®{>®{>…¸=LÌÍ     Hÿ chigh-alpha  €   €   21303731+4851595@pzß’Åù,@Ê†Aý¹HD159482   @pzß’Åù,@Ê†Aý¹A33A=qG0V     NOT/FIES        Simbad   Zi@‰ë…¿:áH?¦ff>™š>®{>£×
+>™™š>€  =LÌÍ<£×
+ÿ\ÿÑ _high-alpha  €   €   17344305+0600519@pŽuÂ\(@B—‰«ÍðHD160693   @pŽuÂ\(@B—‰«ÍðA\)AÂG0V     NOT/FIES        Simbad   [R@ˆ£×¾úáH?ŒÌÍ=LÌÍ>uÂ>B\>W
+=>\)¼#×
+¼#×
+ ×ÿ— \high-alpha  €   €   17393690+3711021@qßÇ®záÀ4uÔÃ²¡HD177095   @qßÇ®záÀ4uÔÃ²¡A$QìA=qG6V     NOT/FIES        Simbad   \å@Œzá¿=p¤?fff=LÌÍ>Â\>™™š>ž¸R>\)<£×
+<#×
+ Œÿvÿéhigh-alpha  €   €   19035673-2027354@qÒâü–/É@3Ê†AýHD230409   @qÒâü–/É@3Ê†AýA,záA!G®G0      NOT/FIES        Simbad   aÆ@‘G®¿Y™š?ŒÌÍ=LÌÍ>™™š>€  >…¸>…¸=uÂ     ¤ÿŽÿühigh-alpha  €   €                   @_6Ó m9@K°[¯HD233511   @_6Ó m9@K°[¯A#
+=A\)sdF6    NOT/FIES        Simbad   bv@‡\)¿Æff?¦ff¾B\>¸Qì>\)>ÌÌÍ>™™š½LÌÍ½LÌÍÿ}ÿ (high-alpha)€   €   08192257+5405101@b™™™™™@Lô¨dÛ–HD237822   @b™™™™™@Lô¨dÛ–A)p¤A\)G3V     NOT/FIES        Simbad   cã@Š\¾æff?ŒÌÍ>™š>³33>…¸>\)>…¸=#×
+=LÌÍ Qÿ} ƒhigh-alpha  €   €   09364951+5754412@V³ù,_’Å@3\_’Åù,HD250792A A@V³ù,_’Å@3\_’Åù,A^5AõÃG0V     NOT/FIES        Simbad   dq@
+=¿G®?ŒÌÍ¾8Qì>k…>¸>¨õÃ>…¸=#×
+½õÂ õÿ hlow-alpha   €   €   06031481+1921394                                                                                                                                                                                                                                                                                                                                                                                            
