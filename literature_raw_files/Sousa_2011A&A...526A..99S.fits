@@ -1,0 +1,478 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                 7359 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0'?>
+<VOTABLE version="1.4"
+ xmlns="http://www.ivoa.net/xml/VOTable/v1.3">
+<!--
+ !  VOTable written by STIL version 4.1-2 (uk.ac.starlink.votable.VOTableWriter)
+ !  at 2024-07-03T12:13:40
+ !-->
+<RESOURCE>
+<!-- Describes BINTABLE extensions in the following HDU.-->
+<TABLE name="Joined" nrows="104">
+<PARAM arraysize="13" datatype="char" name="CDS-CAT" value="J/A+A/526/A99">
+<DESCRIPTION>Catalogue designation in CDS nomenclature</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="20" datatype="char" name="CDS-NAME" value="J/A+A/526/A99/table1">
+<DESCRIPTION>Table name in METAtab</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__1" value="meta.id;meta.main">
+<DESCRIPTION>................................byte#0</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="UCD__2" value="meta.number">
+<DESCRIPTION>................................byte#10</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="UCD__3" value="meta.number">
+<DESCRIPTION>................................byte#12</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="8" datatype="char" name="UCD__4" value="stat.snr">
+<DESCRIPTION>................................byte#14</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="8" datatype="char" name="UCD__5" value="stat.snr">
+<DESCRIPTION>................................byte#18</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="8" datatype="char" name="UCD__6" value="stat.snr">
+<DESCRIPTION>................................byte#22</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="*" datatype="char" name="UCD__7" value="">
+<DESCRIPTION>................................byte#26</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="UCD__8" value="pos.eq.ra;meta.main">
+<DESCRIPTION>...............................byte#32</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="20" datatype="char" name="UCD__9" value="pos.eq.dec;meta.main">
+<DESCRIPTION>..............................byte#40</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="20" datatype="char" name="CDS-NAME" value="J/A+A/526/A99/table2">
+<DESCRIPTION>Table name in METAtab</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="UCD__1" value="meta.record">
+<DESCRIPTION>................................byte#0</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__2" value="meta.id;meta.main">
+<DESCRIPTION>................................byte#4</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="26" datatype="char" name="UCD__3" value="phys.temperature.effective">
+<DESCRIPTION>........................byte#14</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="37" datatype="char" name="UCD__4" value="stat.error;phys.temperature.effective">
+<DESCRIPTION>.............byte#16</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="12" datatype="char" name="UCD__5" value="phys.gravity">
+<DESCRIPTION>................................byte#18</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__6" value="stat.error">
+<DESCRIPTION>................................byte#22</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="20" datatype="char" name="UCD__7" value="phys.veloc.microTurb">
+<DESCRIPTION>..............................byte#26</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__8" value="stat.error">
+<DESCRIPTION>................................byte#30</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="UCD__9" value="phys.abund.Fe">
+<DESCRIPTION>................................byte#34</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="24" datatype="char" name="UCD__10" value="stat.error;phys.abund.Fe">
+<DESCRIPTION>..........................byte#38</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="UCD__11" value="meta.number">
+<DESCRIPTION>................................byte#42</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="UCD__12" value="meta.number">
+<DESCRIPTION>................................byte#44</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="9" datatype="char" name="UCD__13" value="phys.mass">
+<DESCRIPTION>................................byte#46</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__14" value="stat.error">
+<DESCRIPTION>................................byte#50</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="9" datatype="char" name="UCD__15" value="phys.mass">
+<DESCRIPTION>................................byte#54</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="20" datatype="char" name="UCD__16" value="stat.error;phys.mass">
+<DESCRIPTION>..............................byte#58</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__17" value="pos.parallax.trig">
+<DESCRIPTION>................................byte#62</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__18" value="stat.error">
+<DESCRIPTION>................................byte#66</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="12" datatype="char" name="UCD__19" value="pos.parallax">
+<DESCRIPTION>................................byte#70</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="First input table" value="1: Sousa_2011A&amp;A...526A..99S.fits"/>
+<PARAM arraysize="35" datatype="char" name="Second input table" value="2: Sousa_2011A&amp;A...526A..99S.fits-2"/>
+<FIELD arraysize="10" datatype="char" name="Name_1"/>
+<FIELD datatype="short" name="Nsp"/>
+<FIELD datatype="short" name="Ncsp"/>
+<FIELD datatype="float" name="S_Nh"/>
+<FIELD datatype="float" name="S_Nl"/>
+<FIELD datatype="float" name="S_N"/>
+<FIELD arraysize="6" datatype="char" name="Simbad"/>
+<FIELD datatype="double" name="_RA" unit="deg"/>
+<FIELD datatype="double" name="_DE" unit="deg"/>
+<FIELD datatype="int" name="recno">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD arraysize="10" datatype="char" name="Name_2"/>
+<FIELD datatype="short" name="Teff" unit="K">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="e_Teff" unit="K">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="logg" unit="log(cm.s**-2)"/>
+<FIELD datatype="float" name="e_logg" unit="log(cm.s**-2)"/>
+<FIELD datatype="float" name="xi" unit="km/s"/>
+<FIELD datatype="float" name="e_xi" unit="km/s"/>
+<FIELD datatype="float" name="__Fe_H_" unit="log(Sun)"/>
+<FIELD datatype="float" name="e__Fe_H_" unit="log(Sun)"/>
+<FIELD datatype="short" name="NFe1">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="NFe2">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="M_HIP" unit="solMass"/>
+<FIELD datatype="float" name="e_M_HIP" unit="solMass"/>
+<FIELD datatype="float" name="Mass" unit="solMass"/>
+<FIELD datatype="float" name="e_Mass" unit="solMass"/>
+<FIELD datatype="float" name="plxH" unit="mas"/>
+<FIELD datatype="float" name="e_plxH" unit="mas"/>
+<FIELD datatype="float" name="plx" unit="mas"/>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                  122 / width of table in bytes                        NAXIS2  =                  104 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                   28 / number of columns                              EXTNAME = 'Joined  '           / table name                                     TTYPE1  = 'Name_1  '           / label for column 1                             TFORM1  = '10A     '           / format for column 1                            TTYPE2  = 'Nsp     '           / label for column 2                             TFORM2  = 'I       '           / format for column 2                            TTYPE3  = 'Ncsp    '           / label for column 3                             TFORM3  = 'I       '           / format for column 3                            TTYPE4  = 'S_Nh    '           / label for column 4                             TFORM4  = 'E       '           / format for column 4                            TTYPE5  = 'S_Nl    '           / label for column 5                             TFORM5  = 'E       '           / format for column 5                            TTYPE6  = 'S_N     '           / label for column 6                             TFORM6  = 'E       '           / format for column 6                            TTYPE7  = 'Simbad  '           / label for column 7                             TFORM7  = '6A      '           / format for column 7                            TTYPE8  = '_RA     '           / label for column 8                             TFORM8  = 'D       '           / format for column 8                            TUNIT8  = 'deg     '           / units for column 8                             TTYPE9  = '_DE     '           / label for column 9                             TFORM9  = 'D       '           / format for column 9                            TUNIT9  = 'deg     '           / units for column 9                             TTYPE10 = 'recno   '           / label for column 10                            TFORM10 = 'J       '           / format for column 10                           TNULL10 =          -2147483648 / blank value for column 10                      TTYPE11 = 'Name_2  '           / label for column 11                            TFORM11 = '10A     '           / format for column 11                           TTYPE12 = 'Teff    '           / label for column 12                            TFORM12 = 'I       '           / format for column 12                           TUNIT12 = 'K       '           / units for column 12                            TNULL12 =               -32768 / blank value for column 12                      TTYPE13 = 'e_Teff  '           / label for column 13                            TFORM13 = 'I       '           / format for column 13                           TUNIT13 = 'K       '           / units for column 13                            TNULL13 =               -32768 / blank value for column 13                      TTYPE14 = 'logg    '           / label for column 14                            TFORM14 = 'E       '           / format for column 14                           TUNIT14 = 'log(cm.s**-2)'      / units for column 14                            TTYPE15 = 'e_logg  '           / label for column 15                            TFORM15 = 'E       '           / format for column 15                           TUNIT15 = 'log(cm.s**-2)'      / units for column 15                            TTYPE16 = 'xi      '           / label for column 16                            TFORM16 = 'E       '           / format for column 16                           TUNIT16 = 'km/s    '           / units for column 16                            TTYPE17 = 'e_xi    '           / label for column 17                            TFORM17 = 'E       '           / format for column 17                           TUNIT17 = 'km/s    '           / units for column 17                            TTYPE18 = '__Fe_H_ '           / label for column 18                            TFORM18 = 'E       '           / format for column 18                           TUNIT18 = 'log(Sun)'           / units for column 18                            TTYPE19 = 'e__Fe_H_'           / label for column 19                            TFORM19 = 'E       '           / format for column 19                           TUNIT19 = 'log(Sun)'           / units for column 19                            TTYPE20 = 'NFe1    '           / label for column 20                            TFORM20 = 'I       '           / format for column 20                           TNULL20 =               -32768 / blank value for column 20                      TTYPE21 = 'NFe2    '           / label for column 21                            TFORM21 = 'I       '           / format for column 21                           TNULL21 =               -32768 / blank value for column 21                      TTYPE22 = 'M_HIP   '           / label for column 22                            TFORM22 = 'E       '           / format for column 22                           TUNIT22 = 'solMass '           / units for column 22                            TTYPE23 = 'e_M_HIP '           / label for column 23                            TFORM23 = 'E       '           / format for column 23                           TUNIT23 = 'solMass '           / units for column 23                            TTYPE24 = 'Mass    '           / label for column 24                            TFORM24 = 'E       '           / format for column 24                           TUNIT24 = 'solMass '           / units for column 24                            TTYPE25 = 'e_Mass  '           / label for column 25                            TFORM25 = 'E       '           / format for column 25                           TUNIT25 = 'solMass '           / units for column 25                            TTYPE26 = 'plxH    '           / label for column 26                            TFORM26 = 'E       '           / format for column 26                           TUNIT26 = 'mas     '           / units for column 26                            TTYPE27 = 'e_plxH  '           / label for column 27                            TFORM27 = 'E       '           / format for column 27                           TUNIT27 = 'mas     '           / units for column 27                            TTYPE28 = 'plx     '           / label for column 28                            TFORM28 = 'E       '           / format for column 28                           TUNIT28 = 'mas     '           / units for column 28                            DATE-HDU= '2024-07-03T12:13:40' / Date of HDU creation (UTC)                    STILVERS= '4.1-2   '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / STIL Author class      END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             HD102200    C$Ä C öC{¿ Simbad@fêè(Âr¿GüÒ∫K   HD102200  ) A@í·H=#◊
+?¬è\>kÖøåÃÕ=#◊
+ ß ?O\)<£◊
+?Tz·<ı¬èAP  ?z·HAê£◊HD104800    B˜ffBåffCku√Simbad@f†ΩÿÍA9@
+πﬁ|QrY    HD104800  A @è
+=<£◊
+?^∏R=LÃÕøJ=q<£◊
+ Î "?GÆ<£◊
+?GÆ<£◊
+Ac◊
+?™=qA~·HHD105004    B£33B4ffC
+ËˆSimbad@f´PL*⁄o¿:òr$Q_µ   !HD105004  | '@äè\<ı¬è?LÃÕ=£◊
+øO\)<ı¬è Ë !?J=q=è\)?J=q<ı¬è>kÖ@:=qA=qHD107094    BˆÃÕBø33Cèî{Simbad@gáK>¿F÷prË   "HD107094  ∫ @ëGÆ<ı¬è?=p§<ı¬èøè\<#◊
+ !?O\)<ı¬è?O\)<ı¬èAéÃÕ?îz·Aï◊
+HD108564    C≥3BóffCvä=Simbad@gbå°˝D¿0È:h±öA   #HD108564  “ E@ïp§>.{>Ö∏?#◊
+øxQÏ=è\) “ ?333    ¿  ¿  B∏?ÅGÆ¿  HD109310    	C4ÃÕB˛ÃÕCŸ
+Simbad@géä•!Ïâ¿7ÑÇπ‚   $HD109310  " @ëôö<£◊
+?ì33<ı¬èøè\<#◊
+ ı "?^∏R<ı¬è?aGÆ<ı¬èAìÖ?hı√A±\)HD109684    C33Bú  CoffSimbad@g£ “í á@%u≠Ö#a   %HD109684  h @å(ˆ<£◊
+?ú(ˆ<ı¬èæÆ{<#◊
+ ˛ #?n{<ı¬è?n{=#◊
+ANff?Ä  Aj∏RHD111515    CALÕC<ôöCáÆSimbad@h˙"…ÁŒ?Û4∆Q∏A   &HD111515   @è
+=<£◊
+?5¬è=#◊
+ø(ˆ<#◊
+   ?E∏<£◊
+?GÆ<£◊
+AıÆ?=p§AÚ(ˆHD111777    C233B¸ôöCö∆fSimbad@h!çw| Ç¿LIáWG˝M   'HD111777  " @é∏R<ı¬è?QÎÖ=#◊
+ø.{<#◊
+ ˘ !?LÃÕ<£◊
+?LÃÕ<ı¬èA•\)?Ö∏A∞ı√HD113679    Bπ33B33C@Û3Simbad@hèOê¿CB"&À.   (HD113679  à @àQÏ<£◊
+?ä=q=#◊
+ø(ˆ<£◊
+ ¸ !?Tz·<ı¬è?Tz·<ı¬èA  ?∞£◊A33HD11397    ! !CffB  D"hRSimbad@;Î:ÆôL≥¿0QQF¯c   HD11397   º @é∏R=#◊
+?@  =LÃÕø
+=q<£◊
+  !?LÃÕ<ı¬è?O\)<ı¬èAò=q?Æ{AìÆHD119949    C@ôöC@Ä Cà'ÆSimbad@i÷4rn·¿4⁄A_E‡¥   )HD119949  ◊ $@è
+==#◊
+?”33=u¬èæ—ÎÖ<£◊
+ ‚ #?àı√=#◊
+?É◊
+<ı¬èA?\)?\(ˆAé·HHD121004    BÁffBH  C2}qSimbad@jøÆqØŒ¿GDˆwõ   *HD121004  7 @è\)<ı¬è?Bè\=LÃÕø5¬è<£◊
+ ¯  ?J=q<ı¬è?J=q<ı¬èAÖôö?û∏RAåQÏHD123517   	 Bª33BåôöCQè\Simbad@jØ˚¶√2¿Sπt;tÿ   +HD123517  ¬ @Çè\=LÃÕ?√◊
+<ı¬è=∏QÏ<£◊
+ ¸ $¿  ¿  ?ö·H=£◊
+¿  ¿  @πôöHD124785    C33B8ffC∆ó
+Simbad@j«ß2ﬂP\¿I$èï»   ,HD124785  Î @Üff<ı¬è?•∏<ı¬èø\)<£◊
+ Ê "?ÅGÆ=è\)?^∏R<£◊
+Ap§?Ä  AS◊
+HD126681    BœffBF  CéŒSimbad@kRH∫¶¿2iFëÃ•/   -HD126681  ¬ "@ñff<ı¬è?QÎÖ=ÃÃÕøì33<ı¬è œ ?8QÏ<£◊
+?5¬è<£◊
+A®QÏ?è\)A≤z·HD126793    C?ÃÕBºôöCí8RSimbad@k1∞cu¿¿Onaá¬x   .HD126793   !@ç¬è<ı¬è?ú(ˆ=u¬èø5¬è<£◊
+ Í "?QÎÖ<#◊
+?Tz·<ı¬èAî=q?xQÏA¨{HD126803    Bƒ  B,ÃÕC<◊
+Simbad@k(o_"Ï¿G^› ˆ   /HD126803  ^ @è\)=#◊
+?\)=LÃÕø(ˆ<£◊
+ ˇ !?GÆ<£◊
+?GÆ<£◊
+Aôp§?ö·HA¢·HHD128340    CLÕBåôöC1´ÖSimbad@khquç¿8	‘˚ü0R   0HD128340  s (@îz·<£◊
+?µ¬è=£◊
+øÃÕ<ı¬è › !?s33<ı¬è?s33<ı¬èA9ÎÖ?s33AÇı√HD128575                 Simbad@kï≠)∑)¸¿RìgAoïÄ             Ä Ä ¿  ¿  ¿  ¿  ¿  ¿  Ä Ä ¿  ¿  ¿  ¿  ¿  ¿  ¿  HD129229    C%Ä B<ffCa0§Simbad@käÅ˛„∏)@óNÏ‰˘   1HD129229   @xı√=#◊
+?Ø\)<ı¬èæ◊
+=<£◊
+ ¯ #?ê£◊=ı¬è?É◊
+=u¬è@„33?¨ÃÕA∏HD131653    BﬁffBnÃÕC:^∏Simbad@k¯Òçp~é¿"1“ã"ˆ-   2HD131653  Ã @ëGÆ=#◊
+>≥33=∏QÏø(ı√<£◊
+ !?:·H<£◊
+?=p§<£◊
+A°\)?îz·Aì\)HD134088    C[  C  CõÀÖSimbad@la¨ıﬁÖ£¿ß∆M5   3HD134088  + @é∏R<ı¬è?\(ˆ=#◊
+ø@  <£◊
+ Ò !?GÆ<#◊
+?J=q<£◊
+A‘ı√?\(ˆA›p§HD134113    C8LÕBíffD‘{Simbad@l^33»TØ@!¬ræËL   4HD134113  ñ @à  <ı¬è?¢è\=#◊
+ø=p§<£◊
+ È !?aGÆ<£◊
+?O\)<#◊
+A^è\?ö·HAë
+=HD134440   
+ 
+B˘  BRffCí+ÖSimbad@lq∫¨ŸË=¿0vÇ!Âå   5HD134440  { 0@ôôö=£◊
+?É◊
+>LÃÕø®ı√<ı¬è ‚ ¿  ¿  ¿  ¿  Bè\?Ωp§¿  HD144589    B∂33B733CyŸöSimbad@n=,„:V¿=ˆdßR   6HD144589  ‰ %@àı√<ı¬è?‹(ˆ=LÃÕΩLÃÕ<ı¬è ¯ "¿  ¿  ?ö·H=LÃÕ¿  ¿  @πôöHD145344    C33BÉ  C;œ\Simbad@n‹Påq¿Tﬁv:êN   7HD145344  ˇ )@åz·=#◊
+?Ωp§=£◊
+ø.{<ı¬è € "?hı√<£◊
+?aGÆ<ı¬èA=p§?z·AáGÆHD145417    Ct  BˇÃÕCâæ∏Simbad@nnyxØµì¿L…vkJ   8HD145417  é 5@ö=q=ı¬è?&ff>u¬èøùp§=#◊
+ ì ¿  ¿  ¿  ¿  Bê?.{¿  HD147518    B—33BpÃÕC‹)Simbad@n«ÉØ"«í¿I∂Áﬁ∏Á   9HD147518  ˙ @åÃÕ<ı¬è?+Ö=u¬èø!GÆ<£◊
+ "?LÃÕ<£◊
+?LÃÕ<ı¬èAT  ?´ÖAd  HD148211   " CxöBëôöDNú)Simbad@nŸ∏HK÷¿6 u»b´   :HD148211  < @ãÖ<£◊
+?≥33=#◊
+ø∏R<£◊
+ È !?^∏R<#◊
+?Yôö<£◊
+Aöè\?=p§A¬∏RHD148816    CÇs3C!ÊfCŒ»ˆSimbad@nÛÀppìÜ@∂™ÚÊ‚   ;HD148816   @åz·<£◊
+?Æ{=LÃÕø5¬è<£◊
+ Ê "?\(ˆ    ?Tz·<£◊
+AªGÆ?J=qA¸QÏHD149747   	 	B∫  A‘ÃÕC&î{Simbad@p?˜,0¯¿UœåqWCS   <HD149747  ø #@|ÃÕ=#◊
+?£◊
+=LÃÕæÆ{<ı¬è "¿  ¿  ?}p§=u¬è¿  ¿  @Ì¬èHD150177    CÌÃÕC133Dç„ÖSimbad@o=7°˛¿#Ú—ÍZ€   =HD150177  H @Ö¬è<ı¬è?·GÆ=u¬èøz·<£◊
+ Œ !?Çè\<£◊
+?p£◊<ı¬èA«Æ?!GÆA˛z·HD161265    BB  BB  BB  Simbad@p®πa˜õï¿B§˘f†ßzÄ             Ä Ä ¿  ¿  ¿  ¿  ¿  ¿  Ä Ä ¿  ¿  ¿  ¿  ¿  ¿  ¿  HD164500    B≤ÃÕB£33BÚ{Simbad@pÓ√Wvó≈¿FÓXÎk|ˆÄ             Ä Ä ¿  ¿  ¿  ¿  ¿  ¿  Ä Ä ¿  ¿  ¿  ¿  ¿  ¿  ¿  HD167300   	 	B€ffB<ffCÃÕSimbad@q*¯Ω∞∏:¿N˜µ∞ÄN   >HD167300  Õ @âôö<ı¬è?Üff<ı¬èæÊff<#◊
+ ˝ "?p£◊=#◊
+?^∏R<ı¬èAÖ?û∏RA=ÎÖHD16784     C ôöC ôöC ôöSimbad@DÆç¶ó¿>"©‚E´   HD16784   Õ @ä·H<£◊
+?ëÎÖ=#◊
+ø&ff<£◊
+  "?\(ˆ<ı¬è?Tz·<£◊
+AçÆ?kÖAÆ{HD171028   0 'C8ÃÕB´ffDPÛ3Simbad@qai®ô∑@»sµ^–   ?HD171028  ' @u¬è<ı¬è?û∏R<£◊
+æı¬è<#◊
+ ˝ !¿  ¿  ?ÅGÆ=u¬è¿  ¿  A&{HD171587    C)ôöBó33Cˆ#◊Simbad@qpù[`ê¬¿%»πAÌi   @HD171587  $ @í·H<£◊
+?Bè\=#◊
+ø#◊
+<#◊
+  !?E∏<£◊
+?Bè\<£◊
+A¡33?z·HAÈ∏HD175179    B„ffB∂  C/˙·Simbad@qπã¸äâ+¿k≤i£´   AHD175179  Ñ @é∏R<ı¬è?aGÆ=u¬èø(ı√<£◊
+ Ò !?O\)<ı¬è?O\)<ı¬èAip§?•∏AÅ∏HD17548    
+ 	C9ÊfBVffC|ú)Simbad@Eßâ¨sø¯'â¨s`   HD17548   { @é{<£◊
+?ó
+==#◊
+øÆ<£◊
+ Ó !?aGÆ<£◊
+?c◊
+=#◊
+AëÖ?8QÏA§∏RHD175607    CöB´ÃÕCvffSimbad@q‘]©%áI¿PåT‰QÙ◊   BHD175607   @êQÏ<ı¬è?ôö=#◊
+ø∏R<#◊
+ !?E∏<£◊
+?E∏<£◊
+A∞∏R?ÅGÆAÕ\)HD17865     C8Ä B≈33Dﬁ∏Simbad@EVX‚d¿F
+hxƒ≠   HD17865   ı @ä=q<ı¬è?îz·=#◊
+øÎÖ<£◊
+ Ú !?c◊
+<#◊
+?Yôö<£◊
+Ayôö?&ffAô¬èHD181720    Cd33B‰33D033Simbad@r+àFˇQ<¿@u£Ä“·Z   CHD181720  † @à  <£◊
+?îz·<£◊
+øÆ<#◊
+ ˝ "?kÖ<#◊
+?\(ˆ<£◊
+Aâ¬è?îz·A©◊
+HD187151    B“  B“  B“  Simbad@rìˇ‡äÔ≤¿,≈¯˝≈ŒÄ             Ä Ä ¿  ¿  ¿  ¿  ¿  ¿  Ä Ä ¿  ¿  ¿  ¿  ¿  ¿  ¿  HD190984   . ,CffBOôöD3ãÖSimbad@rÓ8ãV¿P'µ»˜ÃÑ   DHD190984  w @Ä£◊<ı¬è? =q<ı¬èæ˙·H<£◊
+ È #?îz·=ı¬è?u¬è=#◊
+@Æ∏R?é{A  HD193901    B◊33BdÃÕC	«ÆSimbad@scÀÙ¿5^‡◊‘ˆı   EHD193901  Î "@ç∏=LÃÕ?
+=q=·GÆøàı√<ı¬è ﬁ ?=p§<£◊
+?=p§<£◊
+A∂=q?Ä  A§∏RHD195633    C ffBª33C9µ√Simbad@sAôsº@˛Nñ≠ù   FHD195633  
+ %@à  =LÃÕ?º(ˆ=u¬èøè\<ı¬è Ê "?z·H<ı¬è?n{<ı¬èA!∏?W
+=AMp§HD196892    B≈ôöBÖôöCû∏Simbad@scJ¿Én¿2 Ê[Í°   GHD196892  ∏ 8@ê  <ı¬è?ö·H=ı¬èøc◊
+<ı¬è Ã  ?Tz·<#◊
+?Tz·<ı¬èAÅ33?n{A´◊
+HD197083    C ffBQ33C∞Ø\Simbad@si‘€î˛à¿@™∫ˆ   HHD197083  g @ê  <£◊
+?fff<£◊
+æÊff<#◊
+ ˇ !?Yôö<ı¬è?Yôö<ı¬èA\  ?ëÎÖA|QÏHD197197    COôöB¶ffCÛèSimbad@sjz˛’º¿*0ãCïÅ   IHD197197  ¥ @Üff<£◊
+?†  <£◊
+æÎÖ<#◊
+ ˛ !?n{<#◊
+?c◊
+<£◊
+Ah  ?kÖAå  HD197536    CÃÕC  CK—ÏSimbad@srxÜ∫6¿$˝RöH\◊   JHD197536  Ÿ @åz·<ı¬è?´Ö=#◊
+æ—ÎÖ<£◊
+ Û "?u¬è<ı¬è?p£◊=#◊
+Abff?n{AéQÏHD197890                 Simbad@s  
+1…¿BLÙï˜‹Ä             Ä Ä ¿  ¿  ¿  ¿  ¿  ¿  Ä Ä ¿  ¿  ¿  ¿  ¿  ¿  ¿  HD199288    CÕåÕCàffDé2èSimbad@s¶´ÿ∂˝∂¿Fè;â¢{   KHD199288  r @é∏R<ı¬è?n{=#◊
+ø!GÆ<£◊
+ ˚ !?QÎÖ    ?QÎÖ<ı¬èB4Æ>ÎÖBOı√HD199289    CÃÕB≈33CIz·Simbad@s®ëpÂ∞¿HMŸ   LHD199289  ( %@îz·<ı¬è?¶ff=ÃÃÕøz·H<ı¬è œ ?J=q<#◊
+?J=q<ı¬èAóôö?Bè\A÷QÏHD199604    CöC  CñãÖSimbad@s¨ZÕœ¿9a~O¿ñ   MHD199604  π @ä·H<ı¬è?Ö∏=#◊
+ø∏R<£◊
+ Û !?Tz·<#◊
+?Tz·<£◊
+Am∏?u¬èAà(ˆHD199847    BÏÃÕBá33CRÏSimbad@s∫ôÿ9)u¿Nµ˝eíZ   NHD199847  É @á
+=<£◊
+?Ö∏<ı¬èø
+=q<£◊
+ ˛ !?Yôö<ı¬è?Yôö<£◊
+AKÆ?îz·AV∏RHD206998    C  BπôöC`áÆSimbad@tnÔkÜH¿K”…¬Ü
+   OHD206998  æ @áÆ<ı¬è?ê£◊=#◊
+ø0£◊<£◊
+  "?c◊
+<£◊
+?QÎÖ<£◊
+A5∏?ä=qAe¬èHD207190    ChÄ CLÕCÜ@ Simbad@tn≠*ñ‹7¿3ìÏV’œ™   PHD207190  " @äè\<ı¬è?¡GÆ=#◊
+æ◊
+=<£◊
+ Ë #?}p§<ı¬è?u¬è<ı¬èAÜQÏ?@  A£\)HD207869    CLÕB$ÃÕC‘˛∏Simbad@tå≤|›Aæ¿QAQ∆<øã   QHD207869  ó @ê  =LÃÕ?:·H=LÃÕæÊff<£◊
+ !?O\)<ı¬è?QÎÖ<ı¬èA¨ff?åÃÕAú£◊HD210752    CeôöCÄ D.IöSimbad@t“Á
+≠I¡¿‡-%£?ì   RHD210752  ? @êı√<ı¬è?ôôö=#◊
+øz·<£◊
+ Î "?\(ˆ<£◊
+?^∏R=#◊
+A›∏?.{B£◊HD215257   % Cê&fBŸ  Dt!HSimbad@uOaòßC.@>¸ƒ ?   SHD215257  § @é∏R<£◊
+?≥33=LÃÕø!GÆ<£◊
+ ‚ "?^∏R<#◊
+?^∏R=#◊
+A∫(ˆ?+ÖAÎ¬èHD218504    C@  Bì33Dö·Simbad@u≤‹V˚	¿2¿é¸üÅ   THD218504  J @ä·H<ı¬è?ö·H=LÃÕøÃÕ<£◊
+  !?fff<#◊
+?^∏R<£◊
+AtQÏ?GÆAö{HD221580   6 6B˛ffB)ôöD"eSimbad@v≠F◊¥W¿J‘=Ÿb∂   UHD221580    @+Ö=#◊
+?¸(ˆ=#◊
+øê£◊<£◊
+ ÿ "?z·H>ä=q?åÃÕ>Ä  ?Bè\?£◊
+@∏HD223854    CÄ CLÕC}ı√Simbad@vdu™¨ˇ0@¶ ~≥Ûp   VHD223854  ¿ @Çè\<ı¬è?ÃÃÕ=LÃÕø
+=q<£◊
+ ‰ "?}p§<ı¬è?p£◊<ı¬èA?Æ?O\)AYÎÖHD224347    CÊfB  CÇè\Simbad@vt≠p~é™¿◊X√Œó   WHD224347  Ã @à£◊<ı¬è?ßÆ=#◊
+æ◊
+=<£◊
+ Ì #?s33<ı¬è?p£◊<ı¬èAF=q?c◊
+AZ{HD224817    C>≥3BÔ  D5É◊Simbad?œÒ∑˜¿'•¡Rtˇ˝   XHD224817   @ãÖ<£◊
+?ê£◊=#◊
+øÆ<£◊
+ ˜ !?hı√<£◊
+?\(ˆ<ı¬èAZ·H?ú(ˆAéè\HD22879    $ CµYöC`LÕD†qSimbad@Kãƒ}[ˇ¿	º_m}ôˇ   HD22879   ¸ !@ê£◊<ı¬è?ôôö=è\)øQÎÖ<£◊
+ ﬁ "?O\)<#◊
+?O\)<ı¬èBz·?\)BD∏RHD25704     C>≥3B˘33CÂs3Simbad@N7Õÿƒ¯⁄¿LöyevdÅ   HD25704   6 !@ê£◊<£◊
+?Ø\)=è\)øTz·<£◊
+ ⁄ "?QÎÖ<#◊
+?QÎÖ<ı¬èAõp§?(ı√A∆  HD31128    % %B˛ÃÕBÃÕD${Simbad@RB§à"Ç¿;lU´å∞   HD31128   – C@úÃÕ=LÃÕ@AGÆ?GÆø±ÎÖ=#◊
+ | ?GÆ<ı¬è?E∏<£◊
+Ap  ?ê£◊Aπ◊
+HD38510     CÊfBËffC?@ Simbad@Uíì≈ w∂¿:˝ÂÈºh)   	HD38510    %@ä=q<ı¬è?¶ff=è\)øO\)<£◊
+ ﬂ "?\(ˆ<#◊
+?QÎÖ<£◊
+Aw◊
+?GÆAò=qHD40865     C)≥3B‡ffDÌqSimbad@V~‡€Sø·¿BáBø ‚Ê   
+HD40865   W @ê  <ı¬è?^∏R<ı¬èæ¬è\<#◊
+ ˇ !?\(ˆ<ı¬è?\(ˆ<ı¬èAù∏?8QÏA§(ˆHD51754     C  BH  CÏ!HSimbad@Z*FÊŸæLøﬁ¿Èßot   HD51754   ÿ @èÆ<£◊
+?Üff=#◊
+øÃÕ<£◊
+ ˙ !?Yôö<ı¬è?Yôö<ı¬èAHı√?îz·AÖHD56274     
+C^ôöC!ÃÕDŸöSimbad@[=ã•szŸ¿*Uñì˚‚   HD56274   f @êQÏ<ı¬è?p£◊=#◊
+ø
+=q<£◊
+ ¸ !?W
+=<ı¬è?W
+=<ı¬èA˜ôö?@  A˙{HD59984    - !C˘33CqÊfD›≈√Simbad@\Aâieä¿!√=?¥⁄    HD59984   J @Ö¬è<£◊
+?πôö=LÃÕø0£◊<£◊
+ · !?c◊
+<#◊
+?\(ˆ<#◊
+BGÆ?
+=qB2£◊HD61902     CAÄ B‘33Cá§Simbad@\ÆN‘m{D¿Iä´à_¿   HD61902   A @å(ˆ<ı¬è? =q=u¬èø∏R<£◊
+ ‘ !?n{<£◊
+?hı√=#◊
+AK\)?è\Aàè\HD62849     BÀôöBF  Cñt{Simbad@\ˆK˚µs¿JA#ËÑ)   HD62849   ⁄ @e¬è<ı¬è?Ö∏<£◊
+æ.{<£◊
+ #¿  ¿  ?û∏R>\)¿  ¿  @Ø
+=HD68089     B©33B333C1O\Simbad@^ëW…PXe¿E	ãï#—6   HD68089   › @êı√=#◊
+?(ı√=è\)øE∏<£◊
+ ¯ "?E∏<£◊
+?E∏<£◊
+Ab∏R?\(ˆAqGÆHD68284    
+ C\ffB‰ôöCπŒSimbad@^Ω9?ò„ÿ@!;rU@   HD68284   - @Çè\<ı¬è?≥33=#◊
+ø   <£◊
+ ı !?ÅGÆ=#◊
+?n{<£◊
+AR=q?aGÆAÑè\HD69611     C<öBˆÃÕCÇqSimbad@_”ÑvÚ•¿ÍΩN⁄@…   HD69611   Ç @âÎÖ<ı¬è?}p§=#◊
+øz·<£◊
+ ˚ !?Yôö<ı¬è?W
+=<£◊
+A§  ?s33A√p§HD75745     	BÁ  Bô33Cêu√Simbad@`åÀg{º¿J<˝‹i
+%   HD75745   ˝ #@âGÆ<ı¬è?´Ö=u¬èøGÆ<ı¬è ‚ "¿  ¿  ?O\)<£◊
+¿  ¿  A(£◊HD77110     C33B_33CÂp§Simbad@`⁄aæÑ√◊¿Aß∏8I√∞   HD77110   U @è\)<£◊
+?\(ˆ=#◊
+ø   <£◊
+ ˝ !?W
+=<£◊
+?W
+=<ı¬èAÇ=q?p£◊Aí=qHD78747     CmÃÕC%ÃÕDP!ÏSimbad@aã!6…I¿I=¿“L8’   HD78747   ú @é{<£◊
+?åÃÕ=#◊
+ø+Ö<£◊
+ Ó  ?O\)    ?QÎÖ<ı¬èAƒ=q?\)AÊ  HD79601     CWöC≥3DˆSimbad@aMÛR®CÄ¿E'ªsÉU   HD79601   ¡ @ä=q<ı¬è?ãÖ=#◊
+ø
+=<£◊
+ ˜ "?Yôö<£◊
+?W
+=<£◊
+Açôö?#◊
+A©ÖHD88474     C  B~ÃÕC<}qSimbad@c	B\≠«ï¿QóoB—≈   HD88474   Í (@z=q<ı¬è?Ùz·=è\)æı¬è<ı¬è Í "?ùp§=LÃÕ?áÆ=u¬è@–QÏ?ÆA
+=HD88725     CiffC9Ä DVKÖSimbad@c1xƒÆI@	5‹{ÆUπ   HD88725    @èÆ<ı¬è?\(ˆ<ı¬èø#◊
+<#◊
+ ı !?LÃÕ<#◊
+?LÃÕ<ı¬èA·ÎÖ?8QÏB ffHD90422     CPLÕB´33CëÒÏSimbad@cãÓùı¿:¿FócB}‚<   HD90422   ≈ !@Ñz·<ı¬è?’¬è=u¬èø∏R<£◊
+ › !?}p§=#◊
+?fff<£◊
+A"ff?W
+=AV·HHD91345     BΩôöAıôöC ú)Simbad@c∞ù=√n¿Q„Â‘√≤°   HD91345    '@êı√=#◊
+?5¬è=ı¬èøÖ∏<ı¬è · ?@  <£◊
+?@  <£◊
+AÖÆ?c◊
+AôÎÖHD94444     C&LÕB¥  CÑfSimbad@dkjÌî1¿F4¶Å«åJ   HD94444   n @ä·H<ı¬è?•∏=LÃÕø∏R<£◊
+ Î "?^∏R<#◊
+?\(ˆ<£◊
+Aã
+=?E∏Aö=qHD95860     BºÃÕB@ÃÕC4#◊Simbad@d∂ƒÒHÌ¿JüùØÿàb   HD95860   ¶ @è\)<ı¬è?†  =#◊
+æû∏R<£◊
+ ˛ #¿  ¿  ?u¬è=#◊
+¿  ¿  A\)HD967      " C/ÊfBÿôöD@¢èSimbad@&6W∑\¿&üàˆ   HD967     ¿ @êı√<£◊
+?E∏=#◊
+ø.{<#◊
+ ¯ !?GÆ<£◊
+?GÆ<ı¬èAº  ?Çè\A÷(ˆHD97320     C7Ä Bæ  CÉ∑
+Simbad@d¯Fèw¿P[Vyƒˇÿ   HD97320    4@í=q=#◊
+?¿  >.{øÜff<ı¬è ∑ ?QÎÖ<#◊
+?Tz·<ı¬èAí·H?z·A∫z·HD97783     C  B“ÃÕCcÄ Simbad@e®VπŸc¿7•äî“BÊ   HD97783   2 @ê  <£◊
+?aGÆ=#◊
+ø:·H<£◊
+ Û !?J=q<£◊
+?J=q<ı¬èApQÏ?ãÖAéffBD+062932   Bà33BL  BÔè\Simbad@köeiì°@Oì5“I„   YBD+062932 ò %@ç¬è=LÃÕ=u¬è?∏RøW
+==#◊
+ ˇ !¿  ¿  ¿  ¿  AM¬è@0£◊¿  BD+063077   BffBffBffSimbad@mU3øò@Ä&_˝ˆ
+   ZBD+063077 ¯ ´@ûff>ôö?àı√>¬è\æ∏QÏ=ı¬è ˜ #¿  ¿  ¿  ¿  @‡ı√@GÆ¿  BD+083095   B†33B0  Bœî{Simbad@m∑€ì‘E›@ ÿ∂≤Õ÷   [BD+083095 ` )@É◊
+=#◊
+?Yôö=£◊
+øE∏<ı¬è Ô "¿  ¿  ¿  ¿  @ö=q@(ˆ¿  BD-004234   AqôöAqôöAqôöSimbad@t0ÀíœKC?Ã`ÿˇ9ÔÖÄ             Ä Ä ¿  ¿  ¿  ¿  ¿  ¿  Ä Ä ¿  ¿  ¿  ¿  ¿  ¿  ¿  BD-032525   BPffBPffBPffSimbad@`ŸY$ÇN≤¿t £Ä             Ä Ä ¿  ¿  ¿  ¿  ¿  ¿  Ä Ä ¿  ¿  ¿  ¿  ¿  ¿  ¿  BD-084501   By33BffBÀÃÕSimbad@p≠›VlÙ¿!èRïüPÚ   \BD-084501 H T@ôÎÖ=è\)@
+=?:·Hø±ÎÖ=u¬è J ?LÃÕ<ı¬è?LÃÕ<ı¬èAp§@p§A (ˆCD-2310879 # #B©  B$  C“î{Simbad@h{´∑7¯4¿8káwÁPî   ]CD-2310879Ñ +@ïp§=#◊
+?Ëı√=∏QÏæu¬è<£◊
+ ” !?ôôö<ı¬è?ôôö<ı¬è@Ì∏?ÿQÏ@Ïz·CD-436810  	 B∞ffB-ôöC+åÕSimbad@dÂW“N¥¿F!3ìﬂÏ   ^CD-436810 { @ç∏<£◊
+?ãÖ=#◊
+æ·GÆ<£◊
+ ¸ #?hı√<ı¬è?hı√=#◊
+AQÏ?•∏A=qCD-4512460  BPffB"  B¢û∏Simbad@qDÜä9Ò¿FΩk≈˚   _CD-4512460H E@çp§=LÃÕ?@  >.{ø\(ˆ=LÃÕ ÿ !¿  ¿  ?O\)<ı¬è¿  ¿  @ºÃÕCD-452997   A¡ôöA¡ôöA¡ôöSimbad@Z˜æàB†’¿Gr^ítj   `CD-452997 ¿ "@åz·=u¬è>u¬è>Bè\øW
+=<ı¬è ˜ "¿  ¿  ?8QÏ<£◊
+¿  ¿  Az·CD-571633   B÷  BÑ  CJ∏Simbad@Zß∏]í"‹¿L∫¢œªG   aCD-571633 W )@é∏R<ı¬è?ëÎÖ=£◊
+øYôö<ı¬è ÿ !¿  ¿  ?QÎÖ<ı¬èAè\?aGÆA<z·                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
