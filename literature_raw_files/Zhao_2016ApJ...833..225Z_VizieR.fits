@@ -1,0 +1,1581 @@
+SIMPLE  =                    T / Standard FITS Format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    0 / No Image --- just extension(s)                 EXTEND  =                    T / There are standard extensions                  ORIGIN  = 'xml2fits_v1.95'     / Converted from XML-Astrores to FITS                                     e-mail: question@simbad.u-strasbg.fr                   COMMENT  ARG='-rm'                                                              LONGSTRN= 'OGIP 1.0'           / Long string convention (&/CONTINUE) may be usedDATE    = '2024-07-04'         / Written on 2024-07-04:01:30:16 (GMT)                                        by: www-data@vizier.astro.unistra.fr                        **********************************************************                          EXCERPT from catalogues stored in VizieR (CDS)                                             with the following conditions:                                   **********************************************************                                                                                                      VizieR Astronomical Server vizier.cds.unistra.fr                                Date: 2024-07-04T01:30:16 [V7.33.3]                                             Explanations and Statistics of UCDs: See LINK below                             In case of problem, please report to: cds-question@unistra.fr                                                                                          INFO    = 'service_protocol=ASU' / IVOID of the protocol through which the data                                  was retrieved #                                INFO    = 'request_date=2024-07-04T01:30:16' / Query execution date #           INFO    = 'request=https://vizier.cds.unistra.fr/viz-bin/asu-binfits?-oc.form=&'CONTINUE  'dec&-out.max=unlimited&#out.form=FITS (binary) Table&-out.all=2&-or&'CONTINUE  'der=I&-source=J/ApJ/833/225/stars&-source=J/ApJ/833/225/table3&' / Fu                                 ll request URL (POST) #                        INFO    = 'contact=cds-question@unistra.fr' / Email or URL to contact publisher                                  #                                              INFO    = 'server_software=7.33.3' / Software version #                         INFO    = 'publisher=CDS'      / Data centre that produced the VOTable #        INFO    = 'CatalogsExamined=2'                                                           2 catalogues with potential matches were examined.                     INFO    = 'ivoid=ivo://cds.vizier/j/apj/833/225' / IVOID of underlying data                                      collection #                                                                                                                   INFO    = 'creator=Zhao G.'    / First author or institution #                                                                                                  INFO    = 'cites=bibcode:2016ApJ...833..225Z' / Article or Data origin sources #                                                                                INFO    = 'editor=Astrophysical Journal (AAS)' / Editor name (article) #                                                                                        INFO    = 'original_date=2016' / Year of the article publication #                                                                                              INFO    = 'reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/ApJ/833/2&'CONTINUE  '25      '           / Dataset landing page #                                                                                                         INFO    = 'citation=doi:10.26093/cds/vizier.18330225' / Dataset identifier that                                  can be used for citation #                                                                                                     INFO    = 'publication_date=2017-07-18' / Date of first publication in the data                                  centre #                                                                                                                       INFO    = 'rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html' /                                  Licence URI #                                                                                                                                                                                                  END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / Binary Table Extension                         BITPIX  =                    8 / binary data                                    NAXIS   =                    2 / Simple 2-D matrix                              NAXIS1  =                   61 / Number of bytes per record                     NAXIS2  =                   51 / Number of records                              PCOUNT  =                    0 / Get rid of random parameters                   GCOUNT  =                    1 / Only one group (isn't it obvious?)             TFIELDS =                   11 / Number of data fields (columns)                CDS-CAT = 'J/ApJ/833/225'      / Catalogue designation in CDS nomenclature               -2.6<=[Fe/H]<=0.2 F and G dwarfs. II. Abundances (Zhao+, 2016)         EXTNAME = 'J_ApJ_833_225_stars' / Identification of the table                   CDS-NAME= 'J/ApJ/833/225/stars' / Table name in METAtab                                  List of objects from table 3; table added by CDS                       UCD__1  = 'meta.record'        / ................................byte#0         TDISP1  = 'I8      '           / Display Fortran Format                         TFORM1  = 'J       '           / 32-bit integer                                 TTYPE1  = 'recno   '           / Record number assigned by the VizieR team.                                      Should Not be used for identification. (link)  UCD__2  = 'meta.id;meta.main'  / ................................byte#4         TDISP2  = 'A10     '           / Display Fortran Format                         TFORM2  = '10A     '           / Ascii string                                   TTYPE2  = 'Name    '           / Object, Simbad name (link)                     UCD__3  = 'phys.temperature.effective' / ........................byte#14        TDISP3  = 'I4      '           / Display Fortran Format                         TFORM3  = 'I       '           / 16-bit (short) integer                         TTYPE3  = 'Teff    '           / [4810/6600] Object effective temperature,                                       derived (1)                                    TUNIT3  = 'K       '           / Kelvin                                         UCD__4  = 'phys.gravity'       / ................................byte#16        TDISP4  = 'F5.2    '           / Display Fortran Format                         TFORM4  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE4  = 'logg    '           / [3/4.8] Object surface gravity, derived (1)    TUNIT4  = 'cm.s**-2'           / centimetre times second power-2                UCD__5  = 'phys.abund.Z'       / ................................byte#20        TDISP5  = 'F5.2    '           / Display Fortran Format                         TFORM5  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE5  = '__Fe_H_ '           / [-2.7/0.3] Object metallicity, derived (1)     TUNIT5  = 'log(Sun)'           / <?log><?Sun)>                                  UCD__6  = 'phys.veloc.microTurb' / ..............................byte#24        TDISP6  = 'F4.1    '           / Display Fortran Format                         TFORM6  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE6  = 'xi      '           / [0.6/2] Microturbulence velocity, derived (1)  TUNIT6  = 'km/s    '           / kilometre per second                           UCD__7  = 'src.class'          / ................................byte#28        TDISP7  = 'A10     '           / Display Fortran Format                         TFORM7  = '10A     '           / Ascii string                                   TTYPE7  = 'Pop     '           / Object Galactic population (Halo, Thick disk or                                 Thin disk)                                     UCD__8  = 'meta.ref.url'       / ................................byte#38        TDISP8  = 'A1      '           / Display Fortran Format                         TFORM8  = 'A       '           / Ascii string                                   TTYPE8  = 'A       '           / Display the 20 abundance measurements for this                                  star (link)                                    UCD__9  = 'meta.ref.url'       / ................................byte#39        TDISP9  = 'A6      '           / Display Fortran Format                         TFORM9  = '6A      '           / Ascii string                                   TTYPE9  = 'Simbad  '           / Simbad column added by the CDS                 UCD__10 = 'pos.eq.ra;meta.main' / ...............................byte#45        TDISP10 = 'F9.5    '           / Display Fortran Format                         TFORM10 = 'D       '           / 64-bit floating-point (double precision)       TTYPE10 = '_RA     '           / Right Ascension (J2000) from SIMBAD (not part                                   of the original data)                          TUNIT10 = 'deg     '           / degree                                         UCD__11 = 'pos.eq.dec;meta.main' / ..............................byte#53        TDISP11 = 'F9.5    '           / Display Fortran Format                         TFORM11 = 'D       '           / 64-bit floating-point (double precision)       TTYPE11 = '_DE     '           / Declination (J2000) from SIMBAD (not part of                                    the original data)                             TUNIT11 = 'deg     '           / degree                                         END                                                                                                                                                                                                                                                HD 19373  @‡®=ÌÌÍ?™™šThin disk *Simbad@G¢$Ø†¹@HÎâßu¥   HD 22484  p@‚=q<#×
+?ŒÌÍThin disk *Simbad@Kğ‹J’?Ù´ÔLÛò3   HD 22879  ¨@‰G®¿W
+=?€  Thick disk*Simbad@K‹Ä}[ÿÀ	¼_m}™ÿ   HD 24289  \@mp¤¿øQì?ŒÌÍHalo      *Simbad@LıÆ"¦ÀŸ 47   HD 30562  @‚\>.{?¦ffThin disk *Simbad@R	³Ü#"sÀ²8Ú<!   HD 30743  2@†ff¾áG®?æffThin disk *Simbad@RCÜ’û‘À+Š
+eˆ   HD 34411  Ú@‡\)<#×
+?™™šThin disk *Simbad@SòBaD@D­²œçs   HD 43318  j@záH¾B\?Ù™šThin disk *Simbad@Wy#9Àëí¿àcÙóäà   	HD 45067  H@|(ö¾#×
+?À  Thin disk *Simbad@XiŠNê¿îD­Ïğ´   
+HD 45205  @‚\¿^¸R?ŒÌÍThick disk*Simbad@Xd-³Ç*l@Nd^ )¦   HD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk *Simbad@Y­IËØ!Û¿áNêsÇ¿   HD 52711  @Š\¾W
+=?™™šThin disk *Simbad@ZxHÊ\P@=VJÖ¦
+ğ   HD 58855  
+@Š=q¾”zá?ÌÌÍThin disk *Simbad@\ìòù†@HÖ+Uï   HD 59374  Ú@Œ(ö¿aG®?™™šThick disk*Simbad@\'¼èS;@2ö®Çç+   HD 59984  *@€£×¿0£×?³33Thin disk *Simbad@\A‰ieŠÀ!Ã=?´Ú    HD 62301  Ğ@‚áH¿333?¦ffThick disk*Simbad@]ü3³[@CÇ6ú8W¾   HD 64090  @–ff¿İp¤?333Halo      *Simbad@]˜Õ®Ç@>šåúÍ   HD 69897  `@‡®¾€  ?³33Thin disk *Simbad@_AYò¹@;7»–s\   HD 74000  Q@„(ö¿ü(ö?¦ffHalo      *Simbad@`FÆ6‘\À0X[båHô   HD 76932  î@ƒ33¿záH?¦ffThick disk*Simbad@`ÕÛ”şˆ×À0!úV¢Œ'   HD 82943  R@‹×
+>B\?™™šThin disk *Simbad@aöÃÎ—×àÀ(BTk¾5   HD 84937  Î@‚áHÀ
+=q?Ù™šHalo      *Simbad@bgzÏÍÁw@+}5¶Sœ   HD 89744  ˆ@~{>¸?Ù™šThin disk *Simbad@cqh‰ı\@@DaD/K   HD 90839  3@Œ(ö¾8Qì?³33Thin disk *Simbad@cµ»¢ú@Kı‚9¹î[   HD 92855  „@‹…½õÂ?¦ffThin disk *Simbad@d Øe@GsˆÕmÌ   HD 94028  R@Š\¿¼(ö?¦ffThick disk*Simbad@d[¿ûVô@4G	‡¯Óß   HD 99984  .@n{¾Â\?æffThin disk *Simbad@e”&›şo5@E–,ÊÂ×˜   HD 100563 <@Š=q=uÂ?ÌÌÍThin disk *Simbad@e²í1IİQ@{7¤R‰ø   HD 102870 @„zá=áG®?À  Thin disk *Simbad@f5ûÆÍ7?ü<J¿XÏt   HD 103095 
+@•¸¿¡G®?fffHalo      *Simbad@fGÕşED•@BÛı”,ÑÀ   HD 105755 ¨@™š¿:áH?™™šThin disk *Simbad@fÒŞrÿZ@K>{¶f@    HD 106516 œ@{¿:áH?À  Thick disk*Simbad@fùh[båHÀ$Ÿòµôz   !HD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo      *Simbad@gL©!s^ã?ô‹ØN"+   "HD 110897  @¸¿ë…?™™šThin disk *Simbad@gçë±d©V@C£³˜õó   #HD 114710 Ê@
+==uÂ?ŒÌÍThin disk *Simbad@h¾ü`Ÿ@;àĞƒ‚G´   $HD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk *Simbad@hó=íMÕEÀ2Oª‡¶Ñq   %HD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk*Simbad@la¬õŞ…£À§ÆM5   &HD 134169 @€£×¿G®?™™šThin disk *Simbad@lbhaËU¤@qÙÀ¡];   'HD 138776 @‰™š>uÂ?¦ffThin disk *Simbad@m2A~ºñÀÊä$Ã   (HD 140283 ”@lÌÍÀp¤?ÌÌÍHalo      *Simbad@mxi¶”Û”À%İóÛ ö   )HD 142091 Ê@G®½\)?™™šThin disk *Simbad@m¹Û…D °@AÔ%Ëÿ¾   *HD 142373 Æ@}p¤¿
+=q?³33Thin disk *Simbad@mÅgĞ(¡ß@E9ËZM›   +BD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo      *Simbad@têoï+„@ äBâ¼   ,BD+09 0352@ˆ  ÀÂ?¦ffHalo      *Simbad@D'FRâ„•@#ŠAh—ø   -BD+24 1676B@y™šÀ(ö?À  Halo      *Simbad@\+úš5@8äy‘»   .BD+29 2091ä@•p¤¿ôzá?LÌÍHalo      *Simbad@d;x=‡@<fÀZ   /BD+37 1458|@lÌÍ¿ù™š?€  Halo      *Simbad@W€gäŒ5ë@BÜfr$   0BD+66 0268´@—
+=À×
+?™šHalo      *Simbad@JiG¢mİ"@P®½GI   1BD-04 3208ö@‚\ÀÌÍ?³33Halo      *Simbad@fº¡ ÎÀïd>&d¦   2BD-13 3442 @|ÌÍÀ'®?³33Halo      *Simbad@fÀÕ5àDÀ,9aéZ‰   3G090-003  w@y™šÀ\?¦ffHalo      *Simbad@\öÌ3@@nßzNz·                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         XTENSION= 'BINTABLE'           / Binary Table Extension                         BITPIX  =                    8 / binary data                                    NAXIS   =                    2 / Simple 2-D matrix                              NAXIS1  =                   67 / Number of bytes per record                     NAXIS2  =                 1020 / Number of records                              PCOUNT  =                    0 / Get rid of random parameters                   GCOUNT  =                    1 / Only one group (isn't it obvious?)             TFIELDS =                   15 / Number of data fields (columns)                EXTNAME = 'J_ApJ_833_225_table3' / Identification of the table                  CDS-NAME= 'J/ApJ/833/225/table3' / Table name in METAtab                                 Summary of the obtained stellar abundances                             UCD__1  = 'meta.id;meta.main'  / ................................byte#0         TDISP1  = 'A10     '           / Display Fortran Format                         TFORM1  = '10A     '           / Ascii string                                   TTYPE1  = 'Name    '           / Object, Simbad name                            UCD__2  = 'phys.temperature.effective' / ........................byte#10        TDISP2  = 'I4      '           / Display Fortran Format                         TFORM2  = 'I       '           / 16-bit (short) integer                         TTYPE2  = 'Teff    '           / [4810/6600] Object effective temperature,                                       derived (1)                                    TUNIT2  = 'K       '           / Kelvin                                         UCD__3  = 'phys.gravity'       / ................................byte#12        TDISP3  = 'F5.2    '           / Display Fortran Format                         TFORM3  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE3  = 'logg    '           / [3/4.8] Object surface gravity, derived (1)    TUNIT3  = 'cm.s**-2'           / centimetre times second power-2                UCD__4  = 'phys.abund.Z'       / ................................byte#16        TDISP4  = 'F5.2    '           / Display Fortran Format                         TFORM4  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE4  = '__Fe_H_ '           / [-2.7/0.3] Object metallicity, derived (1)     TUNIT4  = 'log(Sun)'           / <?log><?Sun)>                                  UCD__5  = 'phys.veloc.microTurb' / ..............................byte#20        TDISP5  = 'F4.1    '           / Display Fortran Format                         TFORM5  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE5  = 'xi      '           / [0.6/2] Microturbulence velocity, derived (1)  TUNIT5  = 'km/s    '           / kilometre per second                           UCD__6  = 'src.class'          / ................................byte#24        TDISP6  = 'A10     '           / Display Fortran Format                         TFORM6  = '10A     '           / Ascii string                                   TTYPE6  = 'Pop     '           / Object Galactic population (Halo, Thick disk or                                 Thin disk)                                     UCD__7  = 'meta.id '           / ................................byte#34        TDISP7  = 'I2      '           / Display Fortran Format                         TFORM7  = 'I       '           / 16-bit (short) integer                         TTYPE7  = 'Z       '           / [3/63]? Atomic number                          TNULL7  =               -32768 / NULL definition                                UCD__8  = 'meta.note'          / ................................byte#36        TDISP8  = 'A5      '           / Display Fortran Format                         TFORM8  = '5A      '           / Ascii string                                   TTYPE8  = 'Species '           / Chemical species investigated                  UCD__9  = 'meta.number'        / ................................byte#41        TDISP9  = 'I2      '           / Display Fortran Format                         TFORM9  = 'I       '           / 16-bit (short) integer                         TTYPE9  = 'N       '           / [0/29]? Number of lines fit                    TNULL9  =               -32768 / NULL definition                                UCD__10 = 'phys.abund'         / ................................byte#43        TDISP10 = 'F5.2    '           / Display Fortran Format                         TFORM10 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE10 = '__X_H_LTE'          / [-3.6/2.8]? Abundance, relative to hydrogen,                                    LTE case                                       TUNIT10 = 'log(Sun)'           / <?log><?Sun)>                                  UCD__11 = 'stat.error;phys.abund' / .............................byte#47        TDISP11 = 'F5.2    '           / Display Fortran Format                         TFORM11 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE11 = 'e__X_H_LTE'         / [0/0.3]? Uncertainty in [X/H]LTE               TUNIT11 = 'log(Sun)'           / <?log><?Sun)>                                  UCD__12 = 'phys.abund'         / ................................byte#51        TDISP12 = 'F5.2    '           / Display Fortran Format                         TFORM12 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE12 = '__X_Fe_LTE'         / [-1.1/0.7]? Abundance, relative to iron, LTE                                    case                                           TUNIT12 = 'log(Sun)'           / <?log><?Sun)>                                  UCD__13 = 'phys.abund'         / ................................byte#55        TDISP13 = 'F5.2    '           / Display Fortran Format                         TFORM13 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE13 = '__X_H_NLTE'         / [-3.3/2.7]? Abundance, relative to hydrogen,                                    NLTE case                                      TUNIT13 = 'log(Sun)'           / <?log><?Sun)>                                  UCD__14 = 'stat.error;phys.abund' / .............................byte#59        TDISP14 = 'F5.2    '           / Display Fortran Format                         TFORM14 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE14 = 'e__X_H_NLTE'        / [0/0.3]? Uncertainty in [X/H]NLTE              TUNIT14 = 'log(Sun)'           / <?log><?Sun)>                                  UCD__15 = 'phys.abund'         / ................................byte#63        TDISP15 = 'F5.2    '           / Display Fortran Format                         TFORM15 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE15 = '__X_Fe_NLTE'        / [-0.8/0.7]? Abundance, relative to iron, NLTE                                   case                                           TUNIT15 = 'log(Sun)'           / <?log><?Sun)>                                  END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             HD 19373  @‡®=ÌÌÍ?™™šThin disk  Li I  @   ÿÿÿÿÿÿÿÿ@{ÿÿÿÿÿÿÿÿHD 19373  @‡®=ÌÌÍ?™™šThin disk  C I       =#×
+½ÌÌÍ½LÌÍ=LÌÍ¾™šHD 19373  @‡®=ÌÌÍ?™™šThin disk   CH    =ÌÌÍ=uÂ    ÿÿÿÿÿÿÿÿÿÿÿÿHD 19373  @‡®=ÌÌÍ?™™šThin disk  O I   <#×
+<#×
+½¸Qì½uÂ=#×
+¾#×
+HD 19373  @‡®=ÌÌÍ?™™šThin disk  Na I  >Š=q=uÂ>.{>W
+==#×
+=áG®HD 19373  @‡®=ÌÌÍ?™™šThin disk  Mg I  =õÂ<£×
+<£×
+=áG®<£×
+<#×
+HD 19373  @‡®=ÌÌÍ?™™šThin disk  Al I  =£×
+<£×
+¼£×
+=ÌÌÍ<#×
+    HD 19373  @‡®=ÌÌÍ?™™šThin disk  Si I  	=áG®<õÂ<#×
+=áG®<õÂ<#×
+HD 19373  @‡®=ÌÌÍ?™™šThin disk  Si II <õÂ=#×
+½\)<£×
+=#×
+½£×
+HD 19373  @‡®=ÌÌÍ?™™šThin disk  K I   >aG®ÿÿÿÿ=õÂ=LÌÍÿÿÿÿ½LÌÍHD 19373  @‡®=ÌÌÍ?™™šThin disk  Ca I  =£×
+=LÌÍ¼£×
+=#×
+=LÌÍ½uÂHD 19373  @‡®=ÌÌÍ?™™šThin disk  Sc II 	=õÂ<õÂ<£×
+=áG®<õÂ<#×
+HD 19373  @‡®=ÌÌÍ?™™šThin disk  Ti II 
+=\)<õÂ¼õÂ=\)<õÂ¼õÂHD 19373  @‡®=ÌÌÍ?™™šThin disk  Fe I  >#×
+=\)=uÂ>.{=\)=\)HD 19373  @‡®=ÌÌÍ?™™šThin disk  Fe II =ÌÌÍ=LÌÍ    =ÌÌÍ=LÌÍ    HD 19373  @‡®=ÌÌÍ?™™šThin disk  Cu I  >8Qì<£×
+=£×
+>#×
+<£×
+=uÂHD 19373  @‡®=ÌÌÍ?™™šThin disk  &Sr II =#×
+=£×
+½uÂ<£×
+=LÌÍ½£×
+HD 19373  @‡®=ÌÌÍ?™™šThin disk  (Zr II ½uÂ<õÂ¾#×
+½LÌÍ<õÂ¾™šHD 19373  @‡®=ÌÌÍ?™™šThin disk  8Ba II =#×
+<£×
+½uÂ<#×
+=#×
+½¸QìHD 19373  @‡®=ÌÌÍ?™™šThin disk  ?Eu II ½ÌÌÍÿÿÿÿ¾LÌÍ½¸Qìÿÿÿÿ¾B\HD 22484  p@‚=q<#×
+?ŒÌÍThin disk  Li I  @®ÿÿÿÿÿÿÿÿ@¸ÿÿÿÿÿÿÿÿHD 22484  p@‚=q<#×
+?ŒÌÍThin disk  C I   ½\)=#×
+½£×
+½¸Qì=#×
+½ÌÌÍHD 22484  p@‚=q<#×
+?ŒÌÍThin disk   CH    =\)<õÂ=uÂÿÿÿÿÿÿÿÿÿÿÿÿHD 22484  p@‚=q<#×
+?ŒÌÍThin disk  O I   <#×
+=uÂ    ½\)=LÌÍ½£×
+HD 22484  p@‚=q<#×
+?ŒÌÍThin disk  Na I  <õÂ=¸Qì<£×
+¼#×
+=\)¼£×
+HD 22484  p@‚=q<#×
+?ŒÌÍThin disk  Mg I      =#×
+¼#×
+    <õÂ¼#×
+HD 22484  p@‚=q<#×
+?ŒÌÍThin disk  Al I  ¾¸=#×
+¾\)½áG®<õÂ½õÂHD 22484  p@‚=q<#×
+?ŒÌÍThin disk  Si I  	½LÌÍ=LÌÍ½uÂ½uÂ=LÌÍ½\)HD 22484  p@‚=q<#×
+?ŒÌÍThin disk  Si II ¼£×
+=#×
+¼õÂ½uÂ=LÌÍ½\)HD 22484  p@‚=q<#×
+?ŒÌÍThin disk  K I   >B\ÿÿÿÿ>8Qì¼õÂÿÿÿÿ½#×
+HD 22484  p@‚=q<#×
+?ŒÌÍThin disk  Ca I  ½LÌÍ=#×
+½uÂ½¸Qì=#×
+½ÌÌÍHD 22484  p@‚=q<#×
+?ŒÌÍThin disk  Sc II 	¼#×
+<õÂ¼£×
+¼£×
+<£×
+¼õÂHD 22484  p@‚=q<#×
+?ŒÌÍThin disk  Ti II ¼õÂ=#×
+½#×
+¼õÂ=#×
+½#×
+HD 22484  p@‚=q<#×
+?ŒÌÍThin disk  Fe I  ¼#×
+=uÂ¼£×
+<#×
+=uÂ    HD 22484  p@‚=q<#×
+?ŒÌÍThin disk  Fe II <#×
+=#×
+    <#×
+=#×
+    HD 22484  p@‚=q<#×
+?ŒÌÍThin disk  Cu I  ½\)<£×
+½£×
+½\)<£×
+½£×
+HD 22484  p@‚=q<#×
+?ŒÌÍThin disk  &Sr II ½LÌÍ=£×
+½uÂ½\)=#×
+½£×
+HD 22484  p@‚=q<#×
+?ŒÌÍThin disk  (Zr II     =uÂ¼#×
+<#×
+=\)    HD 22484  p@‚=q<#×
+?ŒÌÍThin disk  8Ba II >B\<õÂ>8Qì>¸<õÂ=õÂHD 22484  p@‚=q<#×
+?ŒÌÍThin disk  ?Eu II <#×
+ÿÿÿÿ    <£×
+ÿÿÿÿ<#×
+HD 22879  ¨@‰G®¿W
+=?€  Thick disk Li I  ?ÚáHÿÿÿÿÿÿÿÿ?ØQìÿÿÿÿÿÿÿÿHD 22879  ¨@‰G®¿W
+=?€  Thick disk C I   ¿&ffÿÿÿÿ>B\¿&ffÿÿÿÿ>B\HD 22879  ¨@‰G®¿W
+=?€  Thick disk  CH     ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 22879  ¨@‰G®¿W
+=?€  Thick disk O I   ¾¸R=#×
+?®¾”zá=#×
+?ÌÍHD 22879  ¨@‰G®¿W
+=?€  Thick disk Na I  ¿O\)=#×
+<õÂ¿LÌÍ<õÂ=#×
+HD 22879  ¨@‰G®¿W
+=?€  Thick disk Mg I  ¿®<õÂ>¸R¿¸<õÂ>£×
+HD 22879  ¨@‰G®¿W
+=?€  Thick disk Al I  ¿c×
+ÿÿÿÿ½LÌÍ¿LÌÍÿÿÿÿ=#×
+HD 22879  ¨@‰G®¿W
+=?€  Thick disk Si I  	¿™š=#×
+>uÂ¿™š=#×
+>uÂHD 22879  ¨@‰G®¿W
+=?€  Thick disk Si II ¿ÌÍ<£×
+>”zá¿
+=q<#×
+>™™šHD 22879  ¨@‰G®¿W
+=?€  Thick disk K I   ¾Ü(öÿÿÿÿ>Ñë…¿
+=ÿÿÿÿ>€  HD 22879  ¨@‰G®¿W
+=?€  Thick disk Ca I  ¿#×
+=uÂ>LÌÍ¿#×
+=uÂ>LÌÍHD 22879  ¨@‰G®¿W
+=?€  Thick disk Sc II 	¿0£×=#×
+>™š¿+…<õÂ>.{HD 22879  ¨@‰G®¿W
+=?€  Thick disk Ti II ¿\)<£×
+>\)¿\)<£×
+>\)HD 22879  ¨@‰G®¿W
+=?€  Thick disk Fe I  ¿fff=#×
+½uÂ¿^¸R=#×
+¼õÂHD 22879  ¨@‰G®¿W
+=?€  Thick disk Fe II ¿W
+==\)    ¿W
+==\)    HD 22879  ¨@‰G®¿W
+=?€  Thick disk Cu I  ¿…¸<õÂ¾LÌÍ¿G®<£×
+¾.{HD 22879  ¨@‰G®¿W
+=?€  Thick disk &Sr II ¿=p¤=LÌÍ=ÌÌÍ¿@  =áG®=¸QìHD 22879  ¨@‰G®¿W
+=?€  Thick disk (Zr II ¿¸Rÿÿÿÿ>aG®¿
+=ÿÿÿÿ>€  HD 22879  ¨@‰G®¿W
+=?€  Thick disk 8Ba II ¿O\)=\)<õÂ¿\(ö<õÂ¼£×
+HD 22879  ¨@‰G®¿W
+=?€  Thick disk ?Eu II ¿   ÿÿÿÿ>®{¿   ÿÿÿÿ>®{HD 24289  \@mp¤¿øQì?ŒÌÍHalo       Li I  @Âÿÿÿÿÿÿÿÿ@¸ÿÿÿÿÿÿÿÿHD 24289  \@mp¤¿øQì?ŒÌÍHalo       C I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 24289  \@mp¤¿øQì?ŒÌÍHalo        CH    ¿Æff=\)>Ç®ÿÿÿÿÿÿÿÿÿÿÿÿHD 24289  \@mp¤¿øQì?ŒÌÍHalo       O I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 24289  \@mp¤¿øQì?ŒÌÍHalo       Na I  ¿Ş¸R<#×
+>LÌÍÀÂ    ¾™šHD 24289  \@mp¤¿øQì?ŒÌÍHalo       Mg I  ¿ã×
+=LÌÍ>#×
+¿İp¤=\)>W
+=HD 24289  \@mp¤¿øQì?ŒÌÍHalo       Al I  À'
+=ÿÿÿÿ¿+…À¸ÿÿÿÿ¾\)HD 24289  \@mp¤¿øQì?ŒÌÍHalo       Si I  ¿Ù™š=£×
+>uÂ¿Ñë…=\)>™™šHD 24289  \@mp¤¿øQì?ŒÌÍHalo       Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 24289  \@mp¤¿øQì?ŒÌÍHalo       K I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 24289  \@mp¤¿øQì?ŒÌÍHalo       Ca I  ¿ÚáH=£×
+>k…¿Ó33=uÂ>”záHD 24289  \@mp¤¿øQì?ŒÌÍHalo       Sc II ÀG®ÿÿÿÿ½£×
+¿÷
+=ÿÿÿÿ<#×
+HD 24289  \@mp¤¿øQì?ŒÌÍHalo       Ti II 
+¿İp¤=\)>W
+=¿Ü(ö=uÂ>aG®HD 24289  \@mp¤¿øQì?ŒÌÍHalo       Fe I  À\=£×
+½ÌÌÍ¿ü(ö=£×
+¼õÂHD 24289  \@mp¤¿øQì?ŒÌÍHalo       Fe II 
+¿øQì>.{    ¿øQì>.{    HD 24289  \@mp¤¿øQì?ŒÌÍHalo       Cu I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 24289  \@mp¤¿øQì?ŒÌÍHalo       &Sr II ¿ğ£×=£×
+=uÂÀë…=ÌÌÍ½¸QìHD 24289  \@mp¤¿øQì?ŒÌÍHalo       (Zr II ¿Ó33<#×
+>”zá¿Ï\)<#×
+>£×
+HD 24289  \@mp¤¿øQì?ŒÌÍHalo       8Ba II ¿ù™š=uÂ¼#×
+¿æff=£×
+>\)HD 24289  \@mp¤¿øQì?ŒÌÍHalo       ?Eu II ¿¯\)ÿÿÿÿ?ë…¿®{ÿÿÿÿ?záHD 30562  @‚\>.{?¦ffThin disk  Li I  @/\)ÿÿÿÿÿÿÿÿ@+…ÿÿÿÿÿÿÿÿHD 30562  @‚\>.{?¦ffThin disk  C I   =uÂ=uÂ½áG®<õÂ<õÂ¾\)HD 30562  @‚\>.{?¦ffThin disk   CH    
+=uÂ<£×
+½áG®ÿÿÿÿÿÿÿÿÿÿÿÿHD 30562  @‚\>.{?¦ffThin disk  O I   =£×
+<õÂ½¸Qì<£×
+=uÂ¾™šHD 30562  @‚\>.{?¦ffThin disk  Na I  >uÂ=uÂ=\)>LÌÍ=LÌÍ<õÂHD 30562  @‚\>.{?¦ffThin disk  Mg I  >™š=#×
+¼£×
+>\)=#×
+¼õÂHD 30562  @‚\>.{?¦ffThin disk  Al I  >aG®ÿÿÿÿ=LÌÍ>W
+=ÿÿÿÿ=#×
+HD 30562  @‚\>.{?¦ffThin disk  Si I  >™š=LÌÍ¼£×
+>™š=#×
+¼£×
+HD 30562  @‚\>.{?¦ffThin disk  Si II >™š=\)¼£×
+>¸=\)½#×
+HD 30562  @‚\>.{?¦ffThin disk  K I   >¨õÃÿÿÿÿ>#×
+>8Qìÿÿÿÿ<#×
+HD 30562  @‚\>.{?¦ffThin disk  Ca I  >#×
+=LÌÍ¼#×
+=õÂ=#×
+½LÌÍHD 30562  @‚\>.{?¦ffThin disk  Sc II 	>Š=q=#×
+=ÌÌÍ>€  <õÂ=£×
+HD 30562  @‚\>.{?¦ffThin disk  Ti II >™š=uÂ¼£×
+>™š=uÂ¼£×
+HD 30562  @‚\>.{?¦ffThin disk  Fe I  >B\=#×
+<£×
+>B\=#×
+<£×
+HD 30562  @‚\>.{?¦ffThin disk  Fe II >.{=£×
+    >.{=£×
+    HD 30562  @‚\>.{?¦ffThin disk  Cu I  >\)=LÌÍ¼õÂ=¸Qì<õÂ½£×
+HD 30562  @‚\>.{?¦ffThin disk  &Sr II >¸=£×
+½#×
+=áG®=LÌÍ½uÂHD 30562  @‚\>.{?¦ffThin disk  (Zr II =õÂ=#×
+½LÌÍ>¸=#×
+½#×
+HD 30562  @‚\>.{?¦ffThin disk  8Ba II =áG®<õÂ½uÂ=£×
+<£×
+½¸QìHD 30562  @‚\>.{?¦ffThin disk  ?Eu II <£×
+ÿÿÿÿ¾™š=\)ÿÿÿÿ½ÌÌÍHD 30743  2@†ff¾áG®?æffThin disk  Li I  @&ffÿÿÿÿÿÿÿÿ@#33ÿÿÿÿÿÿÿÿHD 30743  2@†ff¾áG®?æffThin disk  C I   ¾uÂ>8Qì>LÌÍ¾™™š=\)>\)HD 30743  2@†ff¾áG®?æffThin disk   CH    ¾W
+==#×
+>k…ÿÿÿÿÿÿÿÿÿÿÿÿHD 30743  2@†ff¾áG®?æffThin disk  O I   ¾™™š=áG®>\)¾Ü(ö=uÂ<#×
+HD 30743  2@†ff¾áG®?æffThin disk  Na I  ¾¨õÃ<£×
+=áG®¾®{<#×
+=ÌÌÍHD 30743  2@†ff¾áG®?æffThin disk  Mg I  ¾³33=¸Qì=¸Qì¾®{=¸Qì=ÌÌÍHD 30743  2@†ff¾áG®?æffThin disk  Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 30743  2@†ff¾áG®?æffThin disk  Si I  ¾¸R<£×
+>¸¾¸R<£×
+>¸HD 30743  2@†ff¾áG®?æffThin disk  Si II ¾”zá=#×
+>™š¾¨õÃ=#×
+=áG®HD 30743  2@†ff¾áG®?æffThin disk  K I   ½õÂÿÿÿÿ>£×
+¾ÌÌÍÿÿÿÿ=#×
+HD 30743  2@†ff¾áG®?æffThin disk  Ca I  ¾×
+==LÌÍ<£×
+¾Ü(ö=£×
+<#×
+HD 30743  2@†ff¾áG®?æffThin disk  Sc II ¾¨õÃ=#×
+=áG®¾¨õÃ<õÂ=áG®HD 30743  2@†ff¾áG®?æffThin disk  Ti II 
+¾¸Qì=LÌÍ=£×
+¾½p¤=uÂ=\)HD 30743  2@†ff¾áG®?æffThin disk  Fe I  ¾ğ£×=uÂ¼õÂ¾Ü(ö=uÂ<#×
+HD 30743  2@†ff¾áG®?æffThin disk  Fe II ¾áG®=\)    ¾áG®=\)    HD 30743  2@†ff¾áG®?æffThin disk  Cu I  ¾úáH<õÂ½LÌÍ¾Ü(ö<#×
+<#×
+HD 30743  2@†ff¾áG®?æffThin disk  &Sr II ¾¨õÃ    =áG®¾³33=ÌÌÍ=¸QìHD 30743  2@†ff¾áG®?æffThin disk  (Zr II ¾³33<õÂ=¸Qì¾£×
+<õÂ=õÂHD 30743  2@†ff¾áG®?æffThin disk  8Ba II ¾®{<õÂ=ÌÌÍ¾Ñë…=uÂ<õÂHD 30743  2@†ff¾áG®?æffThin disk  ?Eu II ¾½p¤ÿÿÿÿ=\)¾…¸ÿÿÿÿ>8QìHD 34411  Ú@‡\)<#×
+?™™šThin disk  Li I  @×
+ÿÿÿÿÿÿÿÿ@\ÿÿÿÿÿÿÿÿHD 34411  Ú@‡\)<#×
+?™™šThin disk  C I   ½LÌÍ<£×
+½uÂ½\)=LÌÍ½£×
+HD 34411  Ú@‡\)<#×
+?™™šThin disk   CH    ½£×
+<£×
+½¸QìÿÿÿÿÿÿÿÿÿÿÿÿHD 34411  Ú@‡\)<#×
+?™™šThin disk  O I   ½#×
+=uÂ½LÌÍ½uÂ=#×
+½\)HD 34411  Ú@‡\)<#×
+?™™šThin disk  Na I  =\)<£×
+=uÂ=LÌÍ<£×
+=#×
+HD 34411  Ú@‡\)<#×
+?™™šThin disk  Mg I  <#×
+=#×
+    <#×
+<õÂ    HD 34411  Ú@‡\)<#×
+?™™šThin disk  Al I  =£×
+<#×
+=\)=ÌÌÍ<#×
+=¸QìHD 34411  Ú@‡\)<#×
+?™™šThin disk  Si I  =#×
+<õÂ<õÂ<õÂ<£×
+<£×
+HD 34411  Ú@‡\)<#×
+?™™šThin disk  Si II <£×
+<#×
+<#×
+<#×
+<#×
+    HD 34411  Ú@‡\)<#×
+?™™šThin disk  K I   >\)ÿÿÿÿ>¸¼£×
+ÿÿÿÿ¼õÂHD 34411  Ú@‡\)<#×
+?™™šThin disk  Ca I  ¼õÂ<õÂ½#×
+½uÂ=#×
+½\)HD 34411  Ú@‡\)<#×
+?™™šThin disk  Sc II 	=#×
+<£×
+<õÂ<õÂ<õÂ<£×
+HD 34411  Ú@‡\)<#×
+?™™šThin disk  Ti II 
+    =#×
+¼#×
+    =#×
+¼#×
+HD 34411  Ú@‡\)<#×
+?™™šThin disk  Fe I      =#×
+¼#×
+¼#×
+=#×
+¼£×
+HD 34411  Ú@‡\)<#×
+?™™šThin disk  Fe II <#×
+<õÂ    <#×
+<õÂ    HD 34411  Ú@‡\)<#×
+?™™šThin disk  Cu I  =uÂ<õÂ=LÌÍ=LÌÍ<õÂ=#×
+HD 34411  Ú@‡\)<#×
+?™™šThin disk  &Sr II ½#×
+    ½LÌÍ½LÌÍ<#×
+½uÂHD 34411  Ú@‡\)<#×
+?™™šThin disk  (Zr II ½£×
+=\)½¸Qì½\)=\)½£×
+HD 34411  Ú@‡\)<#×
+?™™šThin disk  8Ba II ½\)<õÂ½£×
+½¸Qì=#×
+½ÌÌÍHD 34411  Ú@‡\)<#×
+?™™šThin disk  ?Eu II ¼õÂÿÿÿÿ½#×
+¼õÂÿÿÿÿ½#×
+HD 43318  j@záH¾B\?Ù™šThin disk  Li I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 43318  j@záH¾B\?Ù™šThin disk  C I   ½ÌÌÍ=áG®=¸Qì¾8Qì<#×
+<#×
+HD 43318  j@záH¾B\?Ù™šThin disk   CH    ¾¸=#×
+=uÂÿÿÿÿÿÿÿÿÿÿÿÿHD 43318  j@záH¾B\?Ù™šThin disk  O I       =¸Qì>B\¾8Qì=#×
+<#×
+HD 43318  j@záH¾B\?Ù™šThin disk  Na I  ½ÌÌÍ=LÌÍ=¸Qì¾#×
+=#×
+<õÂHD 43318  j@záH¾B\?Ù™šThin disk  Mg I  ¾8Qì=£×
+<#×
+¾8Qì=uÂ<#×
+HD 43318  j@záH¾B\?Ù™šThin disk  Al I  ¾\)ÿÿÿÿ½¸Qì¾B\ÿÿÿÿ    HD 43318  j@záH¾B\?Ù™šThin disk  Si I  	¾.{<#×
+<£×
+¾8Qì<#×
+<#×
+HD 43318  j@záH¾B\?Ù™šThin disk  Si II ¾\)    =LÌÍ¾B\<#×
+    HD 43318  j@záH¾B\?Ù™šThin disk  K I   =LÌÍÿÿÿÿ>uÂ¾B\ÿÿÿÿ    HD 43318  j@záH¾B\?Ù™šThin disk  Ca I  ¾LÌÍ=#×
+¼#×
+¾…¸=uÂ½LÌÍHD 43318  j@záH¾B\?Ù™šThin disk  Sc II ½¸Qì<õÂ=ÌÌÍ½áG®<£×
+=£×
+HD 43318  j@záH¾B\?Ù™šThin disk  Ti II 
+¾#×
+=#×
+<õÂ¾#×
+=#×
+<õÂHD 43318  j@záH¾B\?Ù™šThin disk  Fe I  ¾uÂ=ÌÌÍ½LÌÍ¾LÌÍ=#×
+¼#×
+HD 43318  j@záH¾B\?Ù™šThin disk  Fe II ¾B\=£×
+    ¾B\=£×
+    HD 43318  j@záH¾B\?Ù™šThin disk  Cu I  ¾¨õÃ<õÂ¾\)¾™™š<õÂ½áG®HD 43318  j@záH¾B\?Ù™šThin disk  &Sr II ½\)=£×
+=õÂ½¸Qì    =ÌÌÍHD 43318  j@záH¾B\?Ù™šThin disk  (Zr II ¾\)=#×
+=LÌÍ½õÂ=#×
+=\)HD 43318  j@záH¾B\?Ù™šThin disk  8Ba II ¼õÂ<£×
+>#×
+¾\)=#×
+=LÌÍHD 43318  j@záH¾B\?Ù™šThin disk  ?Eu II ½\)ÿÿÿÿ=õÂ¼õÂÿÿÿÿ>#×
+HD 45067  H@|(ö¾#×
+?À  Thin disk  Li I  @®ÿÿÿÿÿÿÿÿ@¸ÿÿÿÿÿÿÿÿHD 45067  H@|(ö¾#×
+?À  Thin disk  C I   ½õÂ<õÂ=#×
+¾B\=uÂ¼õÂHD 45067  H@|(ö¾#×
+?À  Thin disk   CH    ¾#×
+=uÂ    ÿÿÿÿÿÿÿÿÿÿÿÿHD 45067  H@|(ö¾#×
+?À  Thin disk  O I   ½\)=ÌÌÍ=¸Qì¾8Qì<£×
+¼£×
+HD 45067  H@|(ö¾#×
+?À  Thin disk  Na I  ¼£×
+<õÂ>\)½ÌÌÍ=#×
+=uÂHD 45067  H@|(ö¾#×
+?À  Thin disk  Mg I  ¾\)=uÂ<£×
+¾\)=LÌÍ<£×
+HD 45067  H@|(ö¾#×
+?À  Thin disk  Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 45067  H@|(ö¾#×
+?À  Thin disk  Si I  	½áG®<õÂ=LÌÍ¾¸<õÂ<õÂHD 45067  H@|(ö¾#×
+?À  Thin disk  Si II ½õÂ<#×
+=#×
+¾#×
+<#×
+    HD 45067  H@|(ö¾#×
+?À  Thin disk  K I   >™šÿÿÿÿ>¸R¾¸ÿÿÿÿ<õÂHD 45067  H@|(ö¾#×
+?À  Thin disk  Ca I  ¾B\<õÂ¼õÂ¾k…=LÌÍ½\)HD 45067  H@|(ö¾#×
+?À  Thin disk  Sc II 	½õÂ<õÂ=#×
+¾¸<£×
+<õÂHD 45067  H@|(ö¾#×
+?À  Thin disk  Ti II ½õÂ<õÂ=#×
+½õÂ<õÂ=#×
+HD 45067  H@|(ö¾#×
+?À  Thin disk  Fe I  ¾B\=#×
+¼õÂ¾.{=#×
+¼#×
+HD 45067  H@|(ö¾#×
+?À  Thin disk  Fe II ¾#×
+=uÂ    ¾#×
+=uÂ    HD 45067  H@|(ö¾#×
+?À  Thin disk  Cu I  ¾aG®<õÂ½uÂ¾k…<£×
+½\)HD 45067  H@|(ö¾#×
+?À  Thin disk  &Sr II ¾\)<õÂ<£×
+¾™š<õÂ<#×
+HD 45067  H@|(ö¾#×
+?À  Thin disk  (Zr II ¾k…<#×
+½\)¾W
+=<#×
+½LÌÍHD 45067  H@|(ö¾#×
+?À  Thin disk  8Ba II ½ÌÌÍ=uÂ=uÂ¾8Qì=¸Qì¼£×
+HD 45067  H@|(ö¾#×
+?À  Thin disk  ?Eu II ¾.{ÿÿÿÿ¼#×
+½áG®ÿÿÿÿ=LÌÍHD 45205  @‚\¿^¸R?ŒÌÍThick disk Li I  @ë…ÿÿÿÿÿÿÿÿ@ £×ÿÿÿÿÿÿÿÿHD 45205  @‚\¿^¸R?ŒÌÍThick disk C I   ¿
+==¸Qì>\)¿(ö<õÂ>…¸HD 45205  @‚\¿^¸R?ŒÌÍThick disk  CH    ¿Tzá<õÂ=#×
+ÿÿÿÿÿÿÿÿÿÿÿÿHD 45205  @‚\¿^¸R?ŒÌÍThick disk O I   ¾€  =áG®?¸R¾…¸=¸Qì?(öHD 45205  @‚\¿^¸R?ŒÌÍThick disk Na I  ¿J=q<õÂ=£×
+¿G®<£×
+=¸QìHD 45205  @‚\¿^¸R?ŒÌÍThick disk Mg I  ¿(ö=\)>…¸¿
+==£×
+>\)HD 45205  @‚\¿^¸R?ŒÌÍThick disk Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 45205  @‚\¿^¸R?ŒÌÍThick disk Si I  	¿#×
+=#×
+>k…¿!G®<õÂ>uÂHD 45205  @‚\¿^¸R?ŒÌÍThick disk Si II ¿
+=q<#×
+>¨õÃ¿\)<#×
+>¸RHD 45205  @‚\¿^¸R?ŒÌÍThick disk K I   ¾™™šÿÿÿÿ?ë…¿záÿÿÿÿ>”záHD 45205  @‚\¿^¸R?ŒÌÍThick disk Ca I  ¿:áH=uÂ>\)¿5Â=uÂ>#×
+HD 45205  @‚\¿^¸R?ŒÌÍThick disk Sc II 	¿(ö=\)>…¸¿
+==LÌÍ>\)HD 45205  @‚\¿^¸R?ŒÌÍThick disk Ti II ¿ë…=#×
+>™™š¿ë…=#×
+>™™šHD 45205  @‚\¿^¸R?ŒÌÍThick disk Fe I  ¿s33=uÂ½£×
+¿k…=uÂ½LÌÍHD 45205  @‚\¿^¸R?ŒÌÍThick disk Fe II ¿^¸R<õÂ    ¿^¸R<õÂ    HD 45205  @‚\¿^¸R?ŒÌÍThick disk Cu I  ¿ˆõÃ<õÂ¾LÌÍ¿G®<õÂ¾\)HD 45205  @‚\¿^¸R?ŒÌÍThick disk &Sr II ¿Tzá=uÂ=#×
+¿Tzá=áG®=#×
+HD 45205  @‚\¿^¸R?ŒÌÍThick disk (Zr II ¿:áH<õÂ>\)¿8Qì<#×
+>™šHD 45205  @‚\¿^¸R?ŒÌÍThick disk 8Ba II ¿xQì=áG®½ÌÌÍ¿‚\=#×
+¾™šHD 45205  @‚\¿^¸R?ŒÌÍThick disk ?Eu II ¿™šÿÿÿÿ>Š=q¿™šÿÿÿÿ>Š=qHD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  Li I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  C I   ¾Ü(ö=#×
+=#×
+¾áG®<õÂ<õÂHD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk   CH    ¾”zá=\)>8QìÿÿÿÿÿÿÿÿÿÿÿÿHD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  O I   ¾™š=áG®>£×
+¾½p¤=#×
+=ÌÌÍHD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  Na I  ¾Â\<õÂ=¸Qì¾½p¤<£×
+=ÌÌÍHD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  Mg I  ¾¨õÃ>\)>\)¾¨õÃ>\)>\)HD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  Si I  ¾³33<õÂ=õÂ¾®{<£×
+>¸HD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  Si II ¾\)=uÂ>B\¾£×
+=\)>™šHD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  K I   ¾8Qìÿÿÿÿ>”zá¾áG®ÿÿÿÿ<õÂHD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  Ca I  ¾Ñë…=uÂ=uÂ¾×
+=<õÂ=LÌÍHD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  Sc II ¾ğ£×=#×
+    ¾Ü(ö=LÌÍ=#×
+HD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  Ti II ¾Ü(ö<õÂ=#×
+¾Ü(ö<õÂ=#×
+HD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  Fe I  ¿¸=#×
+½LÌÍ¿\=#×
+½#×
+HD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  Fe II ¾ğ£×=\)    ¾ğ£×=\)    HD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  Cu I  ¿.{    ¾W
+=¿
+=<£×
+½õÂHD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  &Sr II ¾úáHÿÿÿÿ¼£×
+¾Ü(öÿÿÿÿ=#×
+HD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  (Zr II ¾Â\    =¸Qì¾³33    =õÂHD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  8Ba II ¾aG®>¸>€  ¾¸R<õÂ>#×
+HD 49933  È@„ÌÍ¾ğ£×?Ù™šThin disk  ?Eu II ¾®{ÿÿÿÿ>¸¾aG®ÿÿÿÿ>€  HD 52711  @Š\¾W
+=?™™šThin disk  Li I  ?ë…ÿÿÿÿÿÿÿÿ?èõÃÿÿÿÿÿÿÿÿHD 52711  @Š\¾W
+=?™™šThin disk  C I   ¾#×
+<#×
+=LÌÍ¾™š<#×
+=uÂHD 52711  @Š\¾W
+=?™™šThin disk   CH    	¾8Qì=#×
+<õÂÿÿÿÿÿÿÿÿÿÿÿÿHD 52711  @Š\¾W
+=?™™šThin disk  O I   ¾LÌÍ=\)<#×
+¾LÌÍ=\)<#×
+HD 52711  @Š\¾W
+=?™™šThin disk  Na I  ½õÂ=#×
+=¸Qì¾\)=#×
+=\)HD 52711  @Š\¾W
+=?™™šThin disk  Mg I  ¾¸=\)=£×
+¾\)=uÂ=\)HD 52711  @Š\¾W
+=?™™šThin disk  Al I  ¾¸<õÂ=£×
+½ÌÌÍ=#×
+=áG®HD 52711  @Š\¾W
+=?™™šThin disk  Si I  	¾¸<£×
+=£×
+¾\)<õÂ=\)HD 52711  @Š\¾W
+=?™™šThin disk  Si II ¾.{<#×
+=#×
+¾B\<#×
+<£×
+HD 52711  @Š\¾W
+=?™™šThin disk  K I   ½£×
+ÿÿÿÿ>¸¾.{ÿÿÿÿ=#×
+HD 52711  @Š\¾W
+=?™™šThin disk  Ca I  ¾B\<õÂ<£×
+¾W
+==#×
+    HD 52711  @Š\¾W
+=?™™šThin disk  Sc II 	½áG®<õÂ=ÌÌÍ½áG®=#×
+=ÌÌÍHD 52711  @Š\¾W
+=?™™šThin disk  Ti II 
+¾B\<õÂ<£×
+¾B\<õÂ<£×
+HD 52711  @Š\¾W
+=?™™šThin disk  Fe I  ¾8Qì=LÌÍ<õÂ¾#×
+=LÌÍ=LÌÍHD 52711  @Š\¾W
+=?™™šThin disk  Fe II ¾W
+==LÌÍ    ¾W
+==LÌÍ    HD 52711  @Š\¾W
+=?™™šThin disk  Cu I  ¾aG®<#×
+¼#×
+¾W
+=<£×
+    HD 52711  @Š\¾W
+=?™™šThin disk  &Sr II ¾.{=#×
+=#×
+¾B\<#×
+<£×
+HD 52711  @Š\¾W
+=?™™šThin disk  (Zr II ¾LÌÍ=#×
+<#×
+¾8Qì=#×
+<õÂHD 52711  @Š\¾W
+=?™™šThin disk  8Ba II ¾B\<õÂ<£×
+¾aG®<#×
+¼#×
+HD 52711  @Š\¾W
+=?™™šThin disk  ?Eu II ¾uÂÿÿÿÿ¼õÂ¾B\ÿÿÿÿ<£×
+HD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  Li I  @áHÿÿÿÿÿÿÿÿ@õÃÿÿÿÿÿÿÿÿHD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  C I   ¾LÌÍ=áG®=¸Qì¾Š=q<õÂ<£×
+HD 58855  
+@Š=q¾”zá?ÌÌÍThin disk   CH    ½õÂ=uÂ>.{ÿÿÿÿÿÿÿÿÿÿÿÿHD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  O I   ¾LÌÍ=LÌÍ=¸Qì¾®{<#×
+½LÌÍHD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  Na I  ¾k…=LÌÍ=uÂ¾€  <õÂ=#×
+HD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  Mg I  ¾W
+==LÌÍ=£×
+¾W
+==LÌÍ=£×
+HD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  Si I  ¾W
+==#×
+=£×
+¾W
+=<õÂ=£×
+HD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  Si II ¾LÌÍ<£×
+=¸Qì¾uÂ<õÂ=LÌÍHD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  K I   =áG®ÿÿÿÿ>ÌÌÍ¾™šÿÿÿÿ>\)HD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  Ca I  ¾W
+==LÌÍ=£×
+¾€  =LÌÍ=#×
+HD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  Sc II ¾aG®=uÂ=\)¾aG®=uÂ=\)HD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  Ti II 
+¾aG®=uÂ=\)¾aG®=uÂ=\)HD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  Fe I  ¾™™š=uÂ¼#×
+¾\)=LÌÍ<#×
+HD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  Fe II ¾”zá=LÌÍ    ¾”zá=LÌÍ    HD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  Cu I  ¾¸Qì<õÂ½\)¾¸R<£×
+¼£×
+HD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  &Sr II ¾uÂ=£×
+=LÌÍ¾…¸<#×
+<õÂHD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  (Zr II ¾#×
+<õÂ>¸¾™š<£×
+>\)HD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  8Ba II ½£×
+<#×
+>W
+=¾.{=uÂ=õÂHD 58855  
+@Š=q¾”zá?ÌÌÍThin disk  ?Eu II ¾.{ÿÿÿÿ=õÂ½LÌÍÿÿÿÿ>uÂHD 59374  Ú@Œ(ö¿aG®?™™šThick disk Li I  ?æffÿÿÿÿÿÿÿÿ?æffÿÿÿÿÿÿÿÿHD 59374  Ú@Œ(ö¿aG®?™™šThick disk C I   ¿=p¤=ÌÌÍ>\)¿:áH=uÂ>™šHD 59374  Ú@Œ(ö¿aG®?™™šThick disk  CH    	¿:áH=#×
+>™šÿÿÿÿÿÿÿÿÿÿÿÿHD 59374  Ú@Œ(ö¿aG®?™™šThick disk O I   ¾³33=#×
+?®¾¸R=#×
+?ë…HD 59374  Ú@Œ(ö¿aG®?™™šThick disk Na I  ¿O\)=uÂ=\)¿LÌÍ=uÂ=£×
+HD 59374  Ú@Œ(ö¿aG®?™™šThick disk Mg I  ¿zá<õÂ>™™š¿zá<õÂ>™™šHD 59374  Ú@Œ(ö¿aG®?™™šThick disk Al I  ¿333=£×
+>8Qì¿¸R=\)>…¸HD 59374  Ú@Œ(ö¿aG®?™™šThick disk Si I  ¿¸R=LÌÍ>…¸¿(ö=LÌÍ>Š=qHD 59374  Ú@Œ(ö¿aG®?™™šThick disk Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 59374  Ú@Œ(ö¿aG®?™™šThick disk K I   ¾ğ£×ÿÿÿÿ>Ñë…¿#×
+ÿÿÿÿ>uÂHD 59374  Ú@Œ(ö¿aG®?™™šThick disk Ca I  ¿8Qì=LÌÍ>#×
+¿333=LÌÍ>8QìHD 59374  Ú@Œ(ö¿aG®?™™šThick disk Sc II 	¿.{<õÂ>LÌÍ¿&ff<£×
+>k…HD 59374  Ú@Œ(ö¿aG®?™™šThick disk Ti II ¿
+==#×
+>”zá¿
+==#×
+>”záHD 59374  Ú@Œ(ö¿aG®?™™šThick disk Fe I  ¿s33=\)½\)¿fff=\)¼£×
+HD 59374  Ú@Œ(ö¿aG®?™™šThick disk Fe II ¿aG®=LÌÍ    ¿aG®=LÌÍ    HD 59374  Ú@Œ(ö¿aG®?™™šThick disk Cu I  ¿{    ¾k…¿†ff<#×
+¾.{HD 59374  Ú@Œ(ö¿aG®?™™šThick disk &Sr II ¿Y™š=£×
+<õÂ¿^¸R<#×
+<#×
+HD 59374  Ú@Œ(ö¿aG®?™™šThick disk (Zr II ¿8Qì=uÂ>#×
+¿333=uÂ>8QìHD 59374  Ú@Œ(ö¿aG®?™™šThick disk 8Ba II ¿ˆõÃ=LÌÍ¾B\¿ˆõÃ<#×
+¾B\HD 59374  Ú@Œ(ö¿aG®?™™šThick disk ?Eu II ¾áG®ÿÿÿÿ>áG®¾áG®ÿÿÿÿ>áG®HD 59984  *@€£×¿0£×?³33Thin disk  Li I  @{ÿÿÿÿÿÿÿÿ@(öÿÿÿÿÿÿÿÿHD 59984  *@€£×¿0£×?³33Thin disk  C I   ¿™š<£×
+=¸Qì¿™š<£×
+=¸QìHD 59984  *@€£×¿0£×?³33Thin disk   CH    ¿   =LÌÍ>B\ÿÿÿÿÿÿÿÿÿÿÿÿHD 59984  *@€£×¿0£×?³33Thin disk  O I   ¾ÌÌÍ=ÌÌÍ>”zá¾Â\=LÌÍ>¸RHD 59984  *@€£×¿0£×?³33Thin disk  Na I  ¿+…=\)<£×
+¿+…=\)<£×
+HD 59984  *@€£×¿0£×?³33Thin disk  Mg I  ¿™š<õÂ=¸Qì¿zá<õÂ=áG®HD 59984  *@€£×¿0£×?³33Thin disk  Al I  ¿!G®=uÂ=uÂ¿
+=q=uÂ>™šHD 59984  *@€£×¿0£×?³33Thin disk  Si I  
+¿¸R=#×
+=\)¿(ö=#×
+=£×
+HD 59984  *@€£×¿0£×?³33Thin disk  Si II ¿™š=LÌÍ=¸Qì¿(ö=#×
+=£×
+HD 59984  *@€£×¿0£×?³33Thin disk  K I   ¾³33ÿÿÿÿ>®{¿&ffÿÿÿÿ=#×
+HD 59984  *@€£×¿0£×?³33Thin disk  Ca I  ¿5Â=LÌÍ¼£×
+¿5Â=uÂ¼£×
+HD 59984  *@€£×¿0£×?³33Thin disk  Sc II 	¿(ö<õÂ=£×
+¿
+=<õÂ=ÌÌÍHD 59984  *@€£×¿0£×?³33Thin disk  Ti II ¿ë…<õÂ=õÂ¿ë…<õÂ=õÂHD 59984  *@€£×¿0£×?³33Thin disk  Fe I  ¿@  =\)½uÂ¿@  =\)½uÂHD 59984  *@€£×¿0£×?³33Thin disk  Fe II ¿0£×=\)    ¿0£×=\)    HD 59984  *@€£×¿0£×?³33Thin disk  Cu I  ¿^¸R<£×
+¾8Qì¿O\)<£×
+½õÂHD 59984  *@€£×¿0£×?³33Thin disk  &Sr II ¿=p¤<õÂ½LÌÍ¿@  =LÌÍ½uÂHD 59984  *@€£×¿0£×?³33Thin disk  (Zr II ¿+…<õÂ<£×
+¿&ff=#×
+=#×
+HD 59984  *@€£×¿0£×?³33Thin disk  8Ba II ¿J=q<õÂ½ÌÌÍ¿Y™š=#×
+¾#×
+HD 59984  *@€£×¿0£×?³33Thin disk  ?Eu II ¿®ÿÿÿÿ>#×
+¾õÂÿÿÿÿ>W
+=HD 62301  Ğ@‚áH¿333?¦ffThick disk Li I  @\ÿÿÿÿÿÿÿÿ@G®ÿÿÿÿÿÿÿÿHD 62301  Ğ@‚áH¿333?¦ffThick disk C I   ¾Ñë…=#×
+>”zá¾æff=#×
+>€  HD 62301  Ğ@‚áH¿333?¦ffThick disk  CH    ¿zá<õÂ=õÂÿÿÿÿÿÿÿÿÿÿÿÿHD 62301  Ğ@‚áH¿333?¦ffThick disk O I   ¾Š=q=¸Qì>Ü(ö¾™™š=uÂ>ÌÌÍHD 62301  Ğ@‚áH¿333?¦ffThick disk Na I  ¿333<£×
+    ¿333<õÂ    HD 62301  Ğ@‚áH¿333?¦ffThick disk Mg I  ¿ÌÍ=LÌÍ>™š¿®=LÌÍ>.{HD 62301  Ğ@‚áH¿333?¦ffThick disk Al I  ¿.{ÿÿÿÿ<£×
+¿záÿÿÿÿ=õÂHD 62301  Ğ@‚áH¿333?¦ffThick disk Si I  ¿
+=q=LÌÍ>#×
+¿®<õÂ>.{HD 62301  Ğ@‚áH¿333?¦ffThick disk Si II ¾Ü(ö<£×
+>Š=q¾æff<£×
+>€  HD 62301  Ğ@‚áH¿333?¦ffThick disk K I   ¾.{ÿÿÿÿ?®¾æffÿÿÿÿ>€  HD 62301  Ğ@‚áH¿333?¦ffThick disk Ca I  ¿#×
+=uÂ=uÂ¿&ff=LÌÍ=LÌÍHD 62301  Ğ@‚áH¿333?¦ffThick disk Sc II 	¿®=\)>.{¿\=uÂ>B\HD 62301  Ğ@‚áH¿333?¦ffThick disk Ti II ¿¸=LÌÍ>8Qì¿¸=LÌÍ>8QìHD 62301  Ğ@‚áH¿333?¦ffThick disk Fe I  ¿E¸=\)½\)¿=p¤=\)½#×
+HD 62301  Ğ@‚áH¿333?¦ffThick disk Fe II ¿333=#×
+    ¿333=#×
+    HD 62301  Ğ@‚áH¿333?¦ffThick disk Cu I  ¿Y™š<õÂ¾™š¿LÌÍ<£×
+½ÌÌÍHD 62301  Ğ@‚áH¿333?¦ffThick disk &Sr II ¿.{=uÂ<£×
+¿0£×=õÂ<#×
+HD 62301  Ğ@‚áH¿333?¦ffThick disk (Zr II ¿&ff=#×
+=LÌÍ¿#×
+<õÂ=uÂHD 62301  Ğ@‚áH¿333?¦ffThick disk 8Ba II ¿G®<#×
+½£×
+¿W
+==uÂ¾\)HD 62301  Ğ@‚áH¿333?¦ffThick disk ?Eu II ¾ÌÌÍÿÿÿÿ>™™š¾ÌÌÍÿÿÿÿ>™™šHD 64090  @–ff¿İp¤?333Halo       Li I  ?¡G®ÿÿÿÿÿÿÿÿ?¢\ÿÿÿÿÿÿÿÿHD 64090  @–ff¿İp¤?333Halo       C I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 64090  @–ff¿İp¤?333Halo        CH    ¿Ï\)=#×
+=áG®ÿÿÿÿÿÿÿÿÿÿÿÿHD 64090  @–ff¿İp¤?333Halo       O I   ¿p¤ÿÿÿÿ?   ¿‹…ÿÿÿÿ?#×
+HD 64090  @–ff¿İp¤?333Halo       Na I  ¿ù™š=LÌÍ¾aG®ÀG®=#×
+¾”záHD 64090  @–ff¿İp¤?333Halo       Mg I  ¿¹™š=LÌÍ>\)¿¼(ö<õÂ>…¸HD 64090  @–ff¿İp¤?333Halo       Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 64090  @–ff¿İp¤?333Halo       Si I  ¿Æff    >8Qì¿Æff<#×
+>8QìHD 64090  @–ff¿İp¤?333Halo       Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 64090  @–ff¿İp¤?333Halo       K I   ¿Ğ£×ÿÿÿÿ=ÌÌÍ¿Ï\)ÿÿÿÿ=áG®HD 64090  @–ff¿İp¤?333Halo       Ca I  ¿Æff=LÌÍ>8Qì¿¾¸R=uÂ>uÂHD 64090  @–ff¿İp¤?333Halo       Sc II ¿å¸=#×
+½uÂ¿Ü(ö=#×
+<#×
+HD 64090  @–ff¿İp¤?333Halo       Ti II 	¿¾¸R<õÂ>uÂ¿½p¤<õÂ>€  HD 64090  @–ff¿İp¤?333Halo       Fe I  ¿à  =uÂ¼£×
+¿à  =uÂ¼£×
+HD 64090  @–ff¿İp¤?333Halo       Fe II ¿İp¤=\)    ¿İp¤=\)    HD 64090  @–ff¿İp¤?333Halo       Cu I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 64090  @–ff¿İp¤?333Halo       &Sr II ¿áG®    ¼õÂ¿â\    ½#×
+HD 64090  @–ff¿İp¤?333Halo       (Zr II ¿¨õÃ=LÌÍ>Ñë…¿§®=LÌÍ>×
+=HD 64090  @–ff¿İp¤?333Halo       8Ba II ¿ğ£×=õÂ¾™š¿èõÃ=uÂ½¸QìHD 64090  @–ff¿İp¤?333Halo       ?Eu II ¿³33ÿÿÿÿ>¨õÃ¿³33ÿÿÿÿ>¨õÃHD 69897  `@‡®¾€  ?³33Thin disk  Li I  @/\)ÿÿÿÿÿÿÿÿ@,(öÿÿÿÿÿÿÿÿHD 69897  `@‡®¾€  ?³33Thin disk  C I   ¾k…=#×
+<£×
+¾aG®<£×
+<õÂHD 69897  `@‡®¾€  ?³33Thin disk   CH    ¾k…=LÌÍ<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿHD 69897  `@‡®¾€  ?³33Thin disk  O I   ¾™š=£×
+=ÌÌÍ¾k…=#×
+<£×
+HD 69897  `@‡®¾€  ?³33Thin disk  Na I  ¾aG®=#×
+<õÂ¾k…<õÂ<£×
+HD 69897  `@‡®¾€  ?³33Thin disk  Mg I  ¾uÂ=£×
+<#×
+¾uÂ=£×
+<#×
+HD 69897  `@‡®¾€  ?³33Thin disk  Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 69897  `@‡®¾€  ?³33Thin disk  Si I  ¾uÂ=#×
+<#×
+¾uÂ=#×
+<#×
+HD 69897  `@‡®¾€  ?³33Thin disk  Si II ¾8Qì<õÂ=\)¾W
+=<õÂ=#×
+HD 69897  `@‡®¾€  ?³33Thin disk  K I   ¼£×
+ÿÿÿÿ>k…¾€  ÿÿÿÿ    HD 69897  `@‡®¾€  ?³33Thin disk  Ca I  ¾™™š=#×
+½LÌÍ¾£×
+=LÌÍ½\)HD 69897  `@‡®¾€  ?³33Thin disk  Sc II ¾€  <õÂ    ¾€  <õÂ    HD 69897  `@‡®¾€  ?³33Thin disk  Ti II ¾uÂ<õÂ<#×
+¾uÂ=#×
+<#×
+HD 69897  `@‡®¾€  ?³33Thin disk  Fe I  ¾¸R=uÂ½uÂ¾”zá=uÂ½#×
+HD 69897  `@‡®¾€  ?³33Thin disk  Fe II ¾€  =#×
+    ¾€  =#×
+    HD 69897  `@‡®¾€  ?³33Thin disk  Cu I  ¾Ü(ö<£×
+¾8Qì¾ÌÌÍ<£×
+¾™šHD 69897  `@‡®¾€  ?³33Thin disk  &Sr II ¾LÌÍ<#×
+=LÌÍ¾aG®=uÂ<õÂHD 69897  `@‡®¾€  ?³33Thin disk  (Zr II ¾¸=uÂ=õÂ½ÌÌÍ=uÂ>™šHD 69897  `@‡®¾€  ?³33Thin disk  8Ba II ¾\)=uÂ=áG®¾B\<#×
+=uÂHD 69897  `@‡®¾€  ?³33Thin disk  ?Eu II ¾B\ÿÿÿÿ=uÂ¾#×
+ÿÿÿÿ=¸QìHD 74000  Q@„(ö¿ü(ö?¦ffHalo       Li I  @=qÿÿÿÿÿÿÿÿ@õÃÿÿÿÿÿÿÿÿHD 74000  Q@„(ö¿ü(ö?¦ffHalo       C I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 74000  Q@„(ö¿ü(ö?¦ffHalo        CH    ¿Î{=LÌÍ>¸QìÿÿÿÿÿÿÿÿÿÿÿÿHD 74000  Q@„(ö¿ü(ö?¦ffHalo       O I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 74000  Q@„(ö¿ü(ö?¦ffHalo       Na I  ¿«…=#×
+?!G®¿Ó33<õÂ>£×
+HD 74000  Q@„(ö¿ü(ö?¦ffHalo       Mg I  ¿×
+==#×
+>”zá¿Ñë…=#×
+>¨õÃHD 74000  Q@„(ö¿ü(ö?¦ffHalo       Al I  À=qÿÿÿÿ¾áG®¿õÂÿÿÿÿ=LÌÍHD 74000  Q@„(ö¿ü(ö?¦ffHalo       Si I  ¿ÚáH=#×
+>…¸¿Ğ£×<õÂ>®{HD 74000  Q@„(ö¿ü(ö?¦ffHalo       Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 74000  Q@„(ö¿ü(ö?¦ffHalo       K I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 74000  Q@„(ö¿ü(ö?¦ffHalo       Ca I  ¿İp¤=ÌÌÍ>uÂ¿Ğ£×=\)>®{HD 74000  Q@„(ö¿ü(ö?¦ffHalo       Sc II ¿ù™š<£×
+<£×
+¿ï\)<#×
+=ÌÌÍHD 74000  Q@„(ö¿ü(ö?¦ffHalo       Ti II ¿Ş¸R=¸Qì>k…¿İp¤=¸Qì>uÂHD 74000  Q@„(ö¿ü(ö?¦ffHalo       Fe I  À33=\)½£×
+¿ş¸R=\)¼£×
+HD 74000  Q@„(ö¿ü(ö?¦ffHalo       Fe II ¿ü(ö=\)    ¿ü(ö=\)    HD 74000  Q@„(ö¿ü(ö?¦ffHalo       Cu I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 74000  Q@„(ö¿ü(ö?¦ffHalo       &Sr II ¿Ñë…=£×
+>¨õÃ¿å¸=¸Qì>8QìHD 74000  Q@„(ö¿ü(ö?¦ffHalo       (Zr II ¿¹™š<#×
+?¸¿·
+=    ?
+=qHD 74000  Q@„(ö¿ü(ö?¦ffHalo       8Ba II ¿ü(ö=\)    ¿â\=uÂ>LÌÍHD 74000  Q@„(ö¿ü(ö?¦ffHalo       ?Eu II ¿èõÃÿÿÿÿ>™š¿áG®ÿÿÿÿ>W
+=HD 76932  î@ƒ33¿záH?¦ffThick disk Li I  @
+áHÿÿÿÿÿÿÿÿ@	™šÿÿÿÿÿÿÿÿHD 76932  î@ƒ33¿záH?¦ffThick disk C I   ¿&ff<£×
+>¨õÃ¿+…<£×
+>¸RHD 76932  î@ƒ33¿záH?¦ffThick disk  CH    ¿W
+==#×
+>\)ÿÿÿÿÿÿÿÿÿÿÿÿHD 76932  î@ƒ33¿záH?¦ffThick disk O I   ¾ÌÌÍ<£×
+?zá¾Ç®<£×
+?
+=HD 76932  î@ƒ33¿záH?¦ffThick disk Na I  ¿c×
+<#×
+=¸Qì¿aG®<õÂ=ÌÌÍHD 76932  î@ƒ33¿záH?¦ffThick disk Mg I  ¿!G®=LÌÍ>³33¿¸R=uÂ>¸QìHD 76932  î@ƒ33¿záH?¦ffThick disk Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 76932  î@ƒ33¿záH?¦ffThick disk Si I  ¿zá=uÂ>ÌÌÍ¿\)<õÂ>×
+=HD 76932  î@ƒ33¿záH?¦ffThick disk Si II ¿ÌÍ=\)>Ü(ö¿ë…=uÂ>Ñë…HD 76932  î@ƒ33¿záH?¦ffThick disk K I   ¿®ÿÿÿÿ>æff¿J=qÿÿÿÿ>B\HD 76932  î@ƒ33¿záH?¦ffThick disk Ca I  ¿0£×=LÌÍ>”zá¿0£×=uÂ>”záHD 76932  î@ƒ33¿záH?¦ffThick disk Sc II 	¿fff=LÌÍ=£×
+¿^¸R<õÂ=áG®HD 76932  î@ƒ33¿záH?¦ffThick disk Ti II ¿&ff=#×
+>¨õÃ¿&ff=#×
+>¨õÃHD 76932  î@ƒ33¿záH?¦ffThick disk Fe I  ¿}p¤=LÌÍ¼#×
+¿s33=uÂ<õÂHD 76932  î@ƒ33¿záH?¦ffThick disk Fe II ¿záH=LÌÍ    ¿záH=LÌÍ    HD 76932  î@ƒ33¿záH?¦ffThick disk Cu I  ¿G®<£×
+¼õÂ¿n{<#×
+=LÌÍHD 76932  î@ƒ33¿záH?¦ffThick disk &Sr II ¿G®<#×
+>LÌÍ¿G®=£×
+>LÌÍHD 76932  î@ƒ33¿záH?¦ffThick disk (Zr II ¿zá<#×
+>ÌÌÍ¿zá<£×
+>ÌÌÍHD 76932  î@ƒ33¿záH?¦ffThick disk 8Ba II ¿n{=uÂ=LÌÍ¿}p¤<£×
+¼#×
+HD 76932  î@ƒ33¿záH?¦ffThick disk ?Eu II ¿   ÿÿÿÿ>õÂ¾úáHÿÿÿÿ>úáHHD 82943  R@‹×
+>B\?™™šThin disk  Li I  @(öÿÿÿÿÿÿÿÿ@=qÿÿÿÿÿÿÿÿHD 82943  R@‹×
+>B\?™™šThin disk  C I   >¸<õÂ½uÂ=áG®=LÌÍ½£×
+HD 82943  R@‹×
+>B\?™™šThin disk   CH    >LÌÍ<õÂ<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿHD 82943  R@‹×
+>B\?™™šThin disk  O I   =õÂ=uÂ½\)=£×
+=LÌÍ½áG®HD 82943  R@‹×
+>B\?™™šThin disk  Na I  >£×
+=#×
+>¸>”zá<õÂ=ÌÌÍHD 82943  R@‹×
+>B\?™™šThin disk  Mg I  >.{=#×
+¼£×
+>#×
+=#×
+¼õÂHD 82943  R@‹×
+>B\?™™šThin disk  Al I  >W
+=<#×
+<£×
+>LÌÍ<#×
+<#×
+HD 82943  R@‹×
+>B\?™™šThin disk  Si I  	>aG®<õÂ<õÂ>W
+=<õÂ<£×
+HD 82943  R@‹×
+>B\?™™šThin disk  Si II >™š<#×
+½#×
+>™š    ½#×
+HD 82943  R@‹×
+>B\?™™šThin disk  K I   >…¸ÿÿÿÿ=\)>aG®ÿÿÿÿ<õÂHD 82943  R@‹×
+>B\?™™šThin disk  Ca I  >8Qì=#×
+¼#×
+>\)=#×
+½LÌÍHD 82943  R@‹×
+>B\?™™šThin disk  Sc II 	>€  =#×
+=uÂ>uÂ=#×
+=LÌÍHD 82943  R@‹×
+>B\?™™šThin disk  Ti II >.{<õÂ¼£×
+>#×
+<õÂ¼õÂHD 82943  R@‹×
+>B\?™™šThin disk  Fe I  >LÌÍ=#×
+<#×
+>LÌÍ=#×
+<#×
+HD 82943  R@‹×
+>B\?™™šThin disk  Fe II >B\=#×
+    >B\=#×
+    HD 82943  R@‹×
+>B\?™™šThin disk  Cu I  >uÂ<#×
+=LÌÍ>uÂ<£×
+=LÌÍHD 82943  R@‹×
+>B\?™™šThin disk  &Sr II =¸Qìÿÿÿÿ½ÌÌÍ=áG®ÿÿÿÿ½£×
+HD 82943  R@‹×
+>B\?™™šThin disk  (Zr II =¸Qì=LÌÍ½ÌÌÍ=ÌÌÍ=uÂ½¸QìHD 82943  R@‹×
+>B\?™™šThin disk  8Ba II =#×
+<#×
+¾™š<õÂ<£×
+¾#×
+HD 82943  R@‹×
+>B\?™™šThin disk  ?Eu II ¼#×
+ÿÿÿÿ¾LÌÍ¼#×
+ÿÿÿÿ¾LÌÍHD 84937  Î@‚áHÀ
+=q?Ù™šHalo       Li I  @(öÿÿÿÿÿÿÿÿ@
+áHÿÿÿÿÿÿÿÿHD 84937  Î@‚áHÀ
+=q?Ù™šHalo       C I   ¿úáH=\)>W
+=¿ê=q<£×
+>¨õÃHD 84937  Î@‚áHÀ
+=q?Ù™šHalo        CH    ¿å¸=LÌÍ>½p¤ÿÿÿÿÿÿÿÿÿÿÿÿHD 84937  Î@‚áHÀ
+=q?Ù™šHalo       O I   ¿Â\<#×
+?#×
+¿¼(ö    ?0£×HD 84937  Î@‚áHÀ
+=q?Ù™šHalo       Na I  Àzá=¸Qì=ÌÌÍÀzá    ¾#×
+HD 84937  Î@‚áHÀ
+=q?Ù™šHalo       Mg I  ¿ù™š=uÂ>W
+=¿÷
+==£×
+>k…HD 84937  Î@‚áHÀ
+=q?Ù™šHalo       Al I  À;…ÿÿÿÿ¿E¸ÀõÃÿÿÿÿ¾k…HD 84937  Î@‚áHÀ
+=q?Ù™šHalo       Si I  ¿õÂ    >uÂ¿ğ£×<#×
+>”záHD 84937  Î@‚áHÀ
+=q?Ù™šHalo       Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 84937  Î@‚áHÀ
+=q?Ù™šHalo       K I   ¿ù™šÿÿÿÿ>W
+=¿î{ÿÿÿÿ>™™šHD 84937  Î@‚áHÀ
+=q?Ù™šHalo       Ca I  ¿ë…=\)>£×
+¿Ş¸R=\)>×
+=HD 84937  Î@‚áHÀ
+=q?Ù™šHalo       Sc II À…=#×
+¼£×
+À×
+<õÂ=ÌÌÍHD 84937  Î@‚áHÀ
+=q?Ù™šHalo       Ti II ¿å¸=uÂ>½p¤¿â\=uÂ>Ç®HD 84937  Î@‚áHÀ
+=q?Ù™šHalo       Fe I  À{=£×
+½uÂÀ
+=q=ÌÌÍ    HD 84937  Î@‚áHÀ
+=q?Ù™šHalo       Fe II À
+=q=\)    À
+=q=\)    HD 84937  Î@‚áHÀ
+=q?Ù™šHalo       Cu I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 84937  Î@‚áHÀ
+=q?Ù™šHalo       &Sr II À¸R<#×
+½\)À¸=#×
+¾.{HD 84937  Î@‚áHÀ
+=q?Ù™šHalo       (Zr II ¿à  =#×
+>Ñë…¿à  =#×
+>Ñë…HD 84937  Î@‚áHÀ
+=q?Ù™šHalo       8Ba II À=q=\)¾€  À
+áH=#×
+¼#×
+HD 84937  Î@‚áHÀ
+=q?Ù™šHalo       ?Eu II ¿áG®ÿÿÿÿ>ÌÌÍ¿İp¤ÿÿÿÿ>Ü(öHD 89744  ˆ@~{>¸?Ù™šThin disk  Li I  ?÷
+=ÿÿÿÿÿÿÿÿ?ó33ÿÿÿÿÿÿÿÿHD 89744  ˆ@~{>¸?Ù™šThin disk  C I   =LÌÍ=uÂ½£×
+=LÌÍ=uÂ½£×
+HD 89744  ˆ@~{>¸?Ù™šThin disk   CH    >8Qì=#×
+=LÌÍÿÿÿÿÿÿÿÿÿÿÿÿHD 89744  ˆ@~{>¸?Ù™šThin disk  O I   >¸=¸Qì    ¼õÂ<#×
+¾#×
+HD 89744  ˆ@~{>¸?Ù™šThin disk  Na I  >”zá=uÂ>#×
+>k…<õÂ=ÌÌÍHD 89744  ˆ@~{>¸?Ù™šThin disk  Mg I  >W
+==\)=£×
+>LÌÍ=LÌÍ=\)HD 89744  ˆ@~{>¸?Ù™šThin disk  Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 89744  ˆ@~{>¸?Ù™šThin disk  Si I  >B\=uÂ=uÂ>8Qì=uÂ=LÌÍHD 89744  ˆ@~{>¸?Ù™šThin disk  Si II >\)=uÂ<#×
+=ÌÌÍ=LÌÍ¼õÂHD 89744  ˆ@~{>¸?Ù™šThin disk  K I   >ğ£×ÿÿÿÿ>®{>B\ÿÿÿÿ=uÂHD 89744  ˆ@~{>¸?Ù™šThin disk  Ca I  >B\=LÌÍ=uÂ=õÂ=#×
+¼#×
+HD 89744  ˆ@~{>¸?Ù™šThin disk  Sc II >LÌÍ=#×
+=\)>.{=LÌÍ=#×
+HD 89744  ˆ@~{>¸?Ù™šThin disk  Ti II 
+>\)=\)<#×
+>¸=£×
+    HD 89744  ˆ@~{>¸?Ù™šThin disk  Fe I  >\)=#×
+<#×
+>™š=LÌÍ<£×
+HD 89744  ˆ@~{>¸?Ù™šThin disk  Fe II >¸<õÂ    >¸<õÂ    HD 89744  ˆ@~{>¸?Ù™šThin disk  Cu I  =ÌÌÍ<#×
+¼õÂ=áG®<#×
+¼£×
+HD 89744  ˆ@~{>¸?Ù™šThin disk  &Sr II =áG®ÿÿÿÿ¼£×
+=õÂÿÿÿÿ¼#×
+HD 89744  ˆ@~{>¸?Ù™šThin disk  (Zr II >™š=uÂ<£×
+>#×
+=uÂ<õÂHD 89744  ˆ@~{>¸?Ù™šThin disk  8Ba II >…¸=#×
+>¸>B\=uÂ=uÂHD 89744  ˆ@~{>¸?Ù™šThin disk  ?Eu II <õÂÿÿÿÿ½ÌÌÍ=\)ÿÿÿÿ½uÂHD 90839  3@Œ(ö¾8Qì?³33Thin disk  Li I  @+…ÿÿÿÿÿÿÿÿ@'
+=ÿÿÿÿÿÿÿÿHD 90839  3@Œ(ö¾8Qì?³33Thin disk  C I   ¾8Qì=#×
+    ¾k…<£×
+½LÌÍHD 90839  3@Œ(ö¾8Qì?³33Thin disk   CH    ½õÂ<£×
+=uÂÿÿÿÿÿÿÿÿÿÿÿÿHD 90839  3@Œ(ö¾8Qì?³33Thin disk  O I   ½áG®=#×
+=\)¾#×
+=LÌÍ<£×
+HD 90839  3@Œ(ö¾8Qì?³33Thin disk  Na I  ¾#×
+<õÂ<£×
+¾.{<£×
+<#×
+HD 90839  3@Œ(ö¾8Qì?³33Thin disk  Mg I  ¾™š<õÂ<õÂ¾™š=#×
+<õÂHD 90839  3@Œ(ö¾8Qì?³33Thin disk  Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 90839  3@Œ(ö¾8Qì?³33Thin disk  Si I  	¾¸<#×
+=LÌÍ¾\)<£×
+=#×
+HD 90839  3@Œ(ö¾8Qì?³33Thin disk  Si II ½õÂ<£×
+=uÂ¾™š<#×
+<õÂHD 90839  3@Œ(ö¾8Qì?³33Thin disk  K I   =¸Qìÿÿÿÿ>Š=q½\)ÿÿÿÿ=áG®HD 90839  3@Œ(ö¾8Qì?³33Thin disk  Ca I  ¾#×
+=#×
+<£×
+¾B\=uÂ¼#×
+HD 90839  3@Œ(ö¾8Qì?³33Thin disk  Sc II ¾#×
+<õÂ<£×
+¾#×
+<õÂ<£×
+HD 90839  3@Œ(ö¾8Qì?³33Thin disk  Ti II ¾8Qì=LÌÍ    ¾8Qì=LÌÍ    HD 90839  3@Œ(ö¾8Qì?³33Thin disk  Fe I  ¾\)=LÌÍ=#×
+½õÂ=LÌÍ=uÂHD 90839  3@Œ(ö¾8Qì?³33Thin disk  Fe II ¾8Qì=LÌÍ    ¾8Qì=LÌÍ    HD 90839  3@Œ(ö¾8Qì?³33Thin disk  Cu I  ¾aG®<£×
+½#×
+¾W
+=<£×
+¼õÂHD 90839  3@Œ(ö¾8Qì?³33Thin disk  &Sr II ¼£×
+=£×
+>#×
+¼õÂ<£×
+>™šHD 90839  3@Œ(ö¾8Qì?³33Thin disk  (Zr II ½¸Qìÿÿÿÿ=¸Qì½\)ÿÿÿÿ=áG®HD 90839  3@Œ(ö¾8Qì?³33Thin disk  8Ba II <#×
+=LÌÍ>B\½LÌÍ=#×
+>¸HD 90839  3@Œ(ö¾8Qì?³33Thin disk  ?Eu II ½¸Qìÿÿÿÿ=¸Qì½LÌÍÿÿÿÿ>¸HD 92855  „@‹…½õÂ?¦ffThin disk  Li I  @®ÿÿÿÿÿÿÿÿ@ÂÿÿÿÿÿÿÿÿHD 92855  „@‹…½õÂ?¦ffThin disk  C I   ¾LÌÍ=#×
+½£×
+¾LÌÍ=#×
+½£×
+HD 92855  „@‹…½õÂ?¦ffThin disk   CH    ¾#×
+=ÌÌÍ½#×
+ÿÿÿÿÿÿÿÿÿÿÿÿHD 92855  „@‹…½õÂ?¦ffThin disk  O I   ½¸Qì=£×
+<õÂ½õÂ=LÌÍ    HD 92855  „@‹…½õÂ?¦ffThin disk  Na I  ½#×
+    =£×
+½\)<#×
+=LÌÍHD 92855  „@‹…½õÂ?¦ffThin disk  Mg I  ½¸Qì=LÌÍ<õÂ½áG®=LÌÍ<#×
+HD 92855  „@‹…½õÂ?¦ffThin disk  Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 92855  „@‹…½õÂ?¦ffThin disk  Si I  ½ÌÌÍ<õÂ<£×
+½ÌÌÍ<õÂ<£×
+HD 92855  „@‹…½õÂ?¦ffThin disk  Si II ½\)<#×
+=LÌÍ½¸Qì<#×
+<õÂHD 92855  „@‹…½õÂ?¦ffThin disk  K I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 92855  „@‹…½õÂ?¦ffThin disk  Ca I  ¼£×
+=LÌÍ=ÌÌÍ½uÂ<õÂ=uÂHD 92855  „@‹…½õÂ?¦ffThin disk  Sc II ½#×
+ÿÿÿÿ=£×
+½uÂÿÿÿÿ=uÂHD 92855  „@‹…½õÂ?¦ffThin disk  Ti II ¾™š=uÂ¼õÂ¾™š=uÂ¼õÂHD 92855  „@‹…½õÂ?¦ffThin disk  Fe I  ½õÂ=LÌÍ    ½ÌÌÍ=#×
+<£×
+HD 92855  „@‹…½õÂ?¦ffThin disk  Fe II ½õÂ<õÂ    ½õÂ<õÂ    HD 92855  „@‹…½õÂ?¦ffThin disk  Cu I  ¾”zá<#×
+¾.{¾\)<£×
+¾#×
+HD 92855  „@‹…½õÂ?¦ffThin disk  &Sr II ½õÂ=\)    ¾¸<#×
+¼#×
+HD 92855  „@‹…½õÂ?¦ffThin disk  (Zr II ½áG®<#×
+<#×
+½ÌÌÍ<#×
+<£×
+HD 92855  „@‹…½õÂ?¦ffThin disk  8Ba II >™š=LÌÍ>Š=q>¸=\)>€  HD 92855  „@‹…½õÂ?¦ffThin disk  ?Eu II ½ÌÌÍÿÿÿÿ<£×
+½ÌÌÍÿÿÿÿ<£×
+HD 94028  R@Š\¿¼(ö?¦ffThick disk Li I  @G®ÿÿÿÿÿÿÿÿ@  ÿÿÿÿÿÿÿÿHD 94028  R@Š\¿¼(ö?¦ffThick disk C I   ¿¥¸ÿÿÿÿ>8Qì¿¥¸ÿÿÿÿ>8QìHD 94028  R@Š\¿¼(ö?¦ffThick disk  CH    	¿ª=q=LÌÍ>\)ÿÿÿÿÿÿÿÿÿÿÿÿHD 94028  R@Š\¿¼(ö?¦ffThick disk O I   ¿k…>™š?ÌÍ¿Y™š>¸?¸RHD 94028  R@Š\¿¼(ö?¦ffThick disk Na I  ¿¬ÌÍ>™š=õÂ¿¸Qì<£×
+<õÂHD 94028  R@Š\¿¼(ö?¦ffThick disk Mg I  ¿£×=uÂ>®{¿\)=\)>³33HD 94028  R@Š\¿¼(ö?¦ffThick disk Al I  ¿øQìÿÿÿÿ¾ğ£×¿¸Qìÿÿÿÿ<õÂHD 94028  R@Š\¿¼(ö?¦ffThick disk Si I  ¿‘ë…<#×
+>¨õÃ¿Š=q<#×
+>Ç®HD 94028  R@Š\¿¼(ö?¦ffThick disk Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 94028  R@Š\¿¼(ö?¦ffThick disk K I   ¿•Âÿÿÿÿ>™™š¿œ(öÿÿÿÿ>€  HD 94028  R@Š\¿¼(ö?¦ffThick disk Ca I  ¿¸R=LÌÍ>k…¿˜Qì=LÌÍ>\)HD 94028  R@Š\¿¼(ö?¦ffThick disk Sc II ¿ºáH<£×
+<#×
+¿¯\)<£×
+=ÌÌÍHD 94028  R@Š\¿¼(ö?¦ffThick disk Ti II ¿”zá<õÂ>¸R¿”zá<õÂ>¸RHD 94028  R@Š\¿¼(ö?¦ffThick disk Fe I  ¿Ã×
+=uÂ½uÂ¿½p¤=uÂ¼#×
+HD 94028  R@Š\¿¼(ö?¦ffThick disk Fe II ¿¼(ö=#×
+    ¿¼(ö=#×
+    HD 94028  R@Š\¿¼(ö?¦ffThick disk Cu I  ¿ôzáÿÿÿÿ¾áG®¿áG®ÿÿÿÿ¾”záHD 94028  R@Š\¿¼(ö?¦ffThick disk &Sr II ¿šáHÿÿÿÿ>…¸¿§®ÿÿÿÿ>#×
+HD 94028  R@Š\¿¼(ö?¦ffThick disk (Zr II ¿xQì    ?   ¿s33<#×
+?¸HD 94028  R@Š\¿¼(ö?¦ffThick disk 8Ba II ¿®{<õÂ=áG®¿§®=#×
+>#×
+HD 94028  R@Š\¿¼(ö?¦ffThick disk ?Eu II ¿hõÃÿÿÿÿ?\)¿Y™šÿÿÿÿ?¸RHD 99984  .@n{¾Â\?æffThin disk  Li I  @#33ÿÿÿÿÿÿÿÿ@ £×ÿÿÿÿÿÿÿÿHD 99984  .@n{¾Â\?æffThin disk  C I   ¾€      >¸¾€      >¸HD 99984  .@n{¾Â\?æffThin disk   CH    ¾B\=LÌÍ>B\ÿÿÿÿÿÿÿÿÿÿÿÿHD 99984  .@n{¾Â\?æffThin disk  O I   ¾#×
+=£×
+>aG®¾¨õÃ<õÂ=LÌÍHD 99984  .@n{¾Â\?æffThin disk  Na I  ¾Š=q<õÂ=áG®¾£×
+<£×
+=uÂHD 99984  .@n{¾Â\?æffThin disk  Mg I  ¾”zá=uÂ=¸Qì¾”zá=#×
+=¸QìHD 99984  .@n{¾Â\?æffThin disk  Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 99984  .@n{¾Â\?æffThin disk  Si I  ¾™™š<õÂ=£×
+¾£×
+<õÂ=uÂHD 99984  .@n{¾Â\?æffThin disk  Si II ¾™™š<#×
+=£×
+¾¸Qì<#×
+<£×
+HD 99984  .@n{¾Â\?æffThin disk  K I   =ÌÌÍÿÿÿÿ>õÂ¾¸Rÿÿÿÿ=\)HD 99984  .@n{¾Â\?æffThin disk  Ca I  ¾³33<õÂ<õÂ¾Â\=uÂ    HD 99984  .@n{¾Â\?æffThin disk  Sc II 	¾€  <£×
+>¸¾…¸<£×
+=õÂHD 99984  .@n{¾Â\?æffThin disk  Ti II ¾¸R=uÂ=\)¾¸R=uÂ=\)HD 99984  .@n{¾Â\?æffThin disk  Fe I  ¾Ç®=uÂ¼#×
+¾³33=uÂ<õÂHD 99984  .@n{¾Â\?æffThin disk  Fe II ¾Â\=#×
+    ¾Â\=#×
+    HD 99984  .@n{¾Â\?æffThin disk  Cu I  ¿¸=LÌÍ¾\)¾æff<õÂ½\)HD 99984  .@n{¾Â\?æffThin disk  &Sr II ¾™™šÿÿÿÿ=£×
+¾…¸ÿÿÿÿ=õÂHD 99984  .@n{¾Â\?æffThin disk  (Zr II ¾”zá<#×
+=¸Qì¾Š=q<#×
+=áG®HD 99984  .@n{¾Â\?æffThin disk  8Ba II ½ÌÌÍ=£×
+>\)¾aG®<#×
+>#×
+HD 99984  .@n{¾Â\?æffThin disk  ?Eu II ¾W
+=ÿÿÿÿ>.{¾LÌÍÿÿÿÿ>8QìHD 100563 <@Š=q=uÂ?ÌÌÍThin disk  Li I  @.¸Rÿÿÿÿÿÿÿÿ@*=qÿÿÿÿÿÿÿÿHD 100563 <@Š=q=uÂ?ÌÌÍThin disk  C I   =uÂ<õÂ    =uÂ<õÂ    HD 100563 <@Š=q=uÂ?ÌÌÍThin disk   CH     ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 100563 <@Š=q=uÂ?ÌÌÍThin disk  O I   =¸Qì=uÂ<õÂ½uÂ<#×
+½õÂHD 100563 <@Š=q=uÂ?ÌÌÍThin disk  Na I  >aG®ÿÿÿÿ>#×
+>.{ÿÿÿÿ=áG®HD 100563 <@Š=q=uÂ?ÌÌÍThin disk  Mg I  >\)=#×
+=£×
+>\)<£×
+=£×
+HD 100563 <@Š=q=uÂ?ÌÌÍThin disk  Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 100563 <@Š=q=uÂ?ÌÌÍThin disk  Si I  >¸<£×
+=\)>\)<#×
+=£×
+HD 100563 <@Š=q=uÂ?ÌÌÍThin disk  Si II >™š<õÂ=¸Qì=áG®<#×
+=LÌÍHD 100563 <@Š=q=uÂ?ÌÌÍThin disk  K I   >®{ÿÿÿÿ>\)>™šÿÿÿÿ=¸QìHD 100563 <@Š=q=uÂ?ÌÌÍThin disk  Ca I  =¸Qì<õÂ<õÂ<õÂ=LÌÍ¼õÂHD 100563 <@Š=q=uÂ?ÌÌÍThin disk  Sc II >¸<õÂ=\)=õÂ<£×
+=uÂHD 100563 <@Š=q=uÂ?ÌÌÍThin disk  Ti II =£×
+=áG®<£×
+=£×
+=áG®<£×
+HD 100563 <@Š=q=uÂ?ÌÌÍThin disk  Fe I  =uÂ=uÂ    =£×
+=uÂ<£×
+HD 100563 <@Š=q=uÂ?ÌÌÍThin disk  Fe II 
+=uÂ=£×
+    =uÂ=£×
+    HD 100563 <@Š=q=uÂ?ÌÌÍThin disk  Cu I  ¾#×
+=#×
+¾aG®¾™š<£×
+¾W
+=HD 100563 <@Š=q=uÂ?ÌÌÍThin disk  &Sr II >LÌÍÿÿÿÿ>\)>LÌÍÿÿÿÿ>\)HD 100563 <@Š=q=uÂ?ÌÌÍThin disk  (Zr II >\)=uÂ=£×
+>™š=uÂ=¸QìHD 100563 <@Š=q=uÂ?ÌÌÍThin disk  8Ba II >k…=¸Qì>.{>8Qì=LÌÍ=õÂHD 100563 <@Š=q=uÂ?ÌÌÍThin disk  ?Eu II     ÿÿÿÿ½uÂ=áG®ÿÿÿÿ=LÌÍHD 102870 @„zá=áG®?À  Thin disk  Li I  ?øQìÿÿÿÿÿÿÿÿ?ôzáÿÿÿÿÿÿÿÿHD 102870 @„zá=áG®?À  Thin disk  C I   =õÂ=õÂ<#×
+=£×
+=#×
+¼õÂHD 102870 @„zá=áG®?À  Thin disk   CH    >.{=\)=uÂÿÿÿÿÿÿÿÿÿÿÿÿHD 102870 @„zá=áG®?À  Thin disk  O I   =#×
+=LÌÍ½\)½LÌÍ<õÂ¾#×
+HD 102870 @„zá=áG®?À  Thin disk  Na I  >W
+==\)=ÌÌÍ>#×
+=#×
+=LÌÍHD 102870 @„zá=áG®?À  Thin disk  Mg I  >¸=LÌÍ<£×
+=õÂ<õÂ<#×
+HD 102870 @„zá=áG®?À  Thin disk  Al I  =ÌÌÍÿÿÿÿ¼#×
+>\)ÿÿÿÿ<õÂHD 102870 @„zá=áG®?À  Thin disk  Si I  	>\)=#×
+<õÂ>¸=#×
+<£×
+HD 102870 @„zá=áG®?À  Thin disk  Si II =\)<£×
+½#×
+<õÂ<õÂ½£×
+HD 102870 @„zá=áG®?À  Thin disk  K I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 102870 @„zá=áG®?À  Thin disk  Ca I  =¸Qì<õÂ¼£×
+=#×
+=LÌÍ½\)HD 102870 @„zá=áG®?À  Thin disk  Sc II 	>8Qì=#×
+=\)>#×
+=#×
+=LÌÍHD 102870 @„zá=áG®?À  Thin disk  Ti II 
+=õÂ<õÂ<#×
+=õÂ<õÂ<#×
+HD 102870 @„zá=áG®?À  Thin disk  Fe I  =£×
+=#×
+¼õÂ=ÌÌÍ=#×
+¼#×
+HD 102870 @„zá=áG®?À  Thin disk  Fe II =áG®=uÂ    =áG®=uÂ    HD 102870 @„zá=áG®?À  Thin disk  Cu I  >\)    <õÂ=áG®=LÌÍ    HD 102870 @„zá=áG®?À  Thin disk  &Sr II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 102870 @„zá=áG®?À  Thin disk  (Zr II =áG®<£×
+    >¸<#×
+<£×
+HD 102870 @„zá=áG®?À  Thin disk  8Ba II >¸=ÌÌÍ<£×
+=£×
+=\)¼õÂHD 102870 @„zá=áG®?À  Thin disk  ?Eu II >uÂÿÿÿÿ>¸>…¸ÿÿÿÿ>™šHD 103095 
+@•¸¿¡G®?fffHalo       Li I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 103095 
+@•¸¿¡G®?fffHalo       C I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 103095 
+@•¸¿¡G®?fffHalo        CH    ¿¯\)=\)½áG®ÿÿÿÿÿÿÿÿÿÿÿÿHD 103095 
+@•¸¿¡G®?fffHalo       O I   ¿uÂ<£×
+>™™š¿Që…<#×
+>áG®HD 103095 
+@•¸¿¡G®?fffHalo       Na I  ¿Ç®=ÌÌÍ¾™™š¿Æff<õÂ¾”záHD 103095 
+@•¸¿¡G®?fffHalo       Mg I  ¿†ff=LÌÍ>W
+=¿ˆõÃ=#×
+>B\HD 103095 
+@•¸¿¡G®?fffHalo       Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 103095 
+@•¸¿¡G®?fffHalo       Si I  ¿…¸=£×
+>aG®¿…¸=£×
+>aG®HD 103095 
+@•¸¿¡G®?fffHalo       Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 103095 
+@•¸¿¡G®?fffHalo       K I   ¿“33ÿÿÿÿ=áG®¿{ÿÿÿÿ>™šHD 103095 
+@•¸¿¡G®?fffHalo       Ca I  ¿†ff=#×
+>W
+=¿G®=uÂ>€  HD 103095 
+@•¸¿¡G®?fffHalo       Sc II ¿¢\=\)¼#×
+¿™™š=uÂ=uÂHD 103095 
+@•¸¿¡G®?fffHalo       Ti II 
+¿…¸=#×
+>aG®¿ƒ×
+=#×
+>k…HD 103095 
+@•¸¿¡G®?fffHalo       Fe I  ¿   =£×
+<#×
+¿   =£×
+<#×
+HD 103095 
+@•¸¿¡G®?fffHalo       Fe II ¿¡G®=£×
+    ¿¡G®=£×
+    HD 103095 
+@•¸¿¡G®?fffHalo       Cu I  ¿×
+=<õÂ¾×
+=¿ÕÂ=#×
+¾Ñë…HD 103095 
+@•¸¿¡G®?fffHalo       &Sr II ¿¦ffÿÿÿÿ½#×
+¿«…ÿÿÿÿ½£×
+HD 103095 
+@•¸¿¡G®?fffHalo       (Zr II ¿E¸ÿÿÿÿ>úáH¿=p¤ÿÿÿÿ?¸HD 103095 
+@•¸¿¡G®?fffHalo       8Ba II ¿¹™š=#×
+¾B\¿³33=uÂ¾\)HD 103095 
+@•¸¿¡G®?fffHalo       ?Eu II ¿.{ÿÿÿÿ?zá¿.{ÿÿÿÿ?záHD 105755 ¨@™š¿:áH?™™šThin disk  Li I  ?ü(öÿÿÿÿÿÿÿÿ?úáHÿÿÿÿÿÿÿÿHD 105755 ¨@™š¿:áH?™™šThin disk  C I   ¾õÂ=#×
+>€  ¿   =LÌÍ>k…HD 105755 ¨@™š¿:áH?™™šThin disk   CH    ¿ÌÍ<õÂ>8QìÿÿÿÿÿÿÿÿÿÿÿÿHD 105755 ¨@™š¿:áH?™™šThin disk  O I   ¾uÂ=#×
+>úáH¾€  <õÂ>õÂHD 105755 ¨@™š¿:áH?™™šThin disk  Na I  ¿ë…<£×
+>#×
+¿ë…<£×
+>#×
+HD 105755 ¨@™š¿:áH?™™šThin disk  Mg I  ¾ë…=¸Qì>Š=q¾áG®=ÌÌÍ>”záHD 105755 ¨@™š¿:áH?™™šThin disk  Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 105755 ¨@™š¿:áH?™™šThin disk  Si I  	¾úáH<õÂ>uÂ¾õÂ<õÂ>€  HD 105755 ¨@™š¿:áH?™™šThin disk  Si II ¿       >k…¿\<#×
+>aG®HD 105755 ¨@™š¿:áH?™™šThin disk  K I   ¾\)ÿÿÿÿ>æff¿¸ÿÿÿÿ>W
+=HD 105755 ¨@™š¿:áH?™™šThin disk  Ca I  ¿¸=#×
+>W
+=¿
+=q=LÌÍ>B\HD 105755 ¨@™š¿:áH?™™šThin disk  Sc II ¿   =LÌÍ>k…¿   =#×
+>k…HD 105755 ¨@™š¿:áH?™™šThin disk  Ti II ¾ë…=LÌÍ>Š=q¾ë…=LÌÍ>Š=qHD 105755 ¨@™š¿:áH?™™šThin disk  Fe I  ¿=p¤<õÂ¼#×
+¿:áH<õÂ    HD 105755 ¨@™š¿:áH?™™šThin disk  Fe II ¿:áH=LÌÍ    ¿:áH=LÌÍ    HD 105755 ¨@™š¿:áH?™™šThin disk  Cu I  ¿(õÃ<#×
+=\)¿(ö<#×
+=õÂHD 105755 ¨@™š¿:áH?™™šThin disk  &Sr II ¿=p¤=#×
+¼#×
+¿@  <#×
+¼£×
+HD 105755 ¨@™š¿:áH?™™šThin disk  (Zr II ¿(õÃ<£×
+=\)¿#×
+<#×
+=¸QìHD 105755 ¨@™š¿:áH?™™šThin disk  8Ba II ¿^¸R=#×
+¾\)¿fff=LÌÍ¾.{HD 105755 ¨@™š¿:áH?™™šThin disk  ?Eu II ¾Ñë…ÿÿÿÿ>£×
+¾ÌÌÍÿÿÿÿ>¨õÃHD 106516 œ@{¿:áH?À  Thick disk Li I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 106516 œ@{¿:áH?À  Thick disk C I   ¿
+=<#×
+>\)¿
+=    >\)HD 106516 œ@{¿:áH?À  Thick disk  CH    	¿\)=áG®>.{ÿÿÿÿÿÿÿÿÿÿÿÿHD 106516 œ@{¿:áH?À  Thick disk O I   ¾LÌÍ=LÌÍ?®¾\)<õÂ>æffHD 106516 œ@{¿:áH?À  Thick disk Na I  ¿™š=\)>¸¿™š=#×
+>¸HD 106516 œ@{¿:áH?À  Thick disk Mg I  ¾³33=uÂ>Â\¾®{=uÂ>Ç®HD 106516 œ@{¿:áH?À  Thick disk Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 106516 œ@{¿:áH?À  Thick disk Si I  ¾×
+==LÌÍ>¸R¾ÌÌÍ<#×
+>¨õÃHD 106516 œ@{¿:áH?À  Thick disk Si II ¾×
+==£×
+>¸R¾×
+==uÂ>¸RHD 106516 œ@{¿:áH?À  Thick disk K I   ½õÂÿÿÿÿ?(ö¾Â\ÿÿÿÿ>³33HD 106516 œ@{¿:áH?À  Thick disk Ca I  ¿ÌÍ=#×
+>8Qì¿\)=uÂ>.{HD 106516 œ@{¿:áH?À  Thick disk Sc II ¿ë…<õÂ>#×
+¿¸<õÂ>W
+=HD 106516 œ@{¿:áH?À  Thick disk Ti II ¾áG®=LÌÍ>”zá¾áG®=LÌÍ>”záHD 106516 œ@{¿:áH?À  Thick disk Fe I  ¿B\=LÌÍ¼õÂ¿:áH=LÌÍ    HD 106516 œ@{¿:áH?À  Thick disk Fe II ¿:áH=uÂ    ¿:áH=uÂ    HD 106516 œ@{¿:áH?À  Thick disk Cu I  ¿\(öÿÿÿÿ¾¸¿G®ÿÿÿÿ½LÌÍHD 106516 œ@{¿:áH?À  Thick disk &Sr II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 106516 œ@{¿:áH?À  Thick disk (Zr II ¿   <£×
+>k…¾úáH<£×
+>uÂHD 106516 œ@{¿:áH?À  Thick disk 8Ba II ¿aG®=#×
+¾™š¿aG®<£×
+¾™šHD 106516 œ@{¿:áH?À  Thick disk ?Eu II ¾áG®ÿÿÿÿ>”zá¾Ñë…ÿÿÿÿ>£×
+HD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       Li I  @ë…ÿÿÿÿÿÿÿÿ@£×ÿÿÿÿÿÿÿÿHD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       C I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo        CH    ¿Ã×
+<£×
+>\)ÿÿÿÿÿÿÿÿÿÿÿÿHD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       O I   ¿“33ÿÿÿÿ?¸¿‹…ÿÿÿÿ?záHD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       Na I  ¿°£×=#×
+>”zá¿Ï\)<£×
+=#×
+HD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       Mg I  ¿Â\ÿÿÿÿ>™š¿½p¤ÿÿÿÿ>B\HD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       Al I  À
+áHÿÿÿÿ¿   ¿Ù™šÿÿÿÿ¼õÂHD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       Si I  ¿«…ÿÿÿÿ>¨õÃ¿§®ÿÿÿÿ>¸QìHD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       K I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       Ca I  ¿³33=\)>Š=q¿¬ÌÍ=LÌÍ>£×
+HD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       Sc II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       Ti II ¿¬ÌÍ=LÌÍ>£×
+¿¬ÌÍ=LÌÍ>£×
+HD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       Fe I  ¿à  =õÂ½£×
+¿İp¤>¸½uÂHD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       Fe II ¿ÕÂ=LÌÍ    ¿ÕÂ=LÌÍ    HD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       Cu I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       &Sr II ¿¼(ö    >LÌÍ¿Ë…    =£×
+HD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       (Zr II ¿«…<#×
+>¨õÃ¿ª=q<#×
+>®{HD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       8Ba II ¿ìÌÍ=uÂ¾8Qì¿Ü(ö=uÂ½LÌÍHD 108177 Ô@‡
+=¿ÕÂ?ŒÌÍHalo       ?Eu II ¿¦ffÿÿÿÿ>½p¤¿¥¸ÿÿÿÿ>Â\HD 110897  @¸¿ë…?™™šThin disk  Li I  ?ıp¤ÿÿÿÿÿÿÿÿ?úáHÿÿÿÿÿÿÿÿHD 110897  @¸¿ë…?™™šThin disk  C I   ¿
+=q<#×
+<õÂ¿¸<#×
+=LÌÍHD 110897  @¸¿ë…?™™šThin disk   CH    ¾ë…<£×
+=áG®ÿÿÿÿÿÿÿÿÿÿÿÿHD 110897  @¸¿ë…?™™šThin disk  O I   ¿\)ÿÿÿÿ<#×
+¿®ÿÿÿÿ=#×
+HD 110897  @¸¿ë…?™™šThin disk  Na I  ¿¸<õÂ=LÌÍ¿¸<õÂ=LÌÍHD 110897  @¸¿ë…?™™šThin disk  Mg I  ¾Ç®=#×
+>8Qì¾Ç®=#×
+>8QìHD 110897  @¸¿ë…?™™šThin disk  Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 110897  @¸¿ë…?™™šThin disk  Si I  	¾×
+=<õÂ>™š¾Ñë…=#×
+>#×
+HD 110897  @¸¿ë…?™™šThin disk  Si II ¾¸Qì=#×
+>W
+=¾¸Qì=uÂ>W
+=HD 110897  @¸¿ë…?™™šThin disk  K I   ¾¸Qìÿÿÿÿ>W
+=¿   ÿÿÿÿ=\)HD 110897  @¸¿ë…?™™šThin disk  Ca I  ¾õÂ=#×
+=¸Qì¿   =LÌÍ=\)HD 110897  @¸¿ë…?™™šThin disk  Sc II 	¾áG®<õÂ>¸¾×
+=<õÂ>™šHD 110897  @¸¿ë…?™™šThin disk  Ti II ¾áG®=#×
+>¸¾áG®=#×
+>¸HD 110897  @¸¿ë…?™™šThin disk  Fe I  ¿
+=q<õÂ<õÂ¿¸<õÂ=LÌÍHD 110897  @¸¿ë…?™™šThin disk  Fe II ¿ë…=#×
+    ¿ë…=#×
+    HD 110897  @¸¿ë…?™™šThin disk  Cu I  ¿\)=#×
+<#×
+¿®<õÂ=#×
+HD 110897  @¸¿ë…?™™šThin disk  &Sr II ¿(ö=#×
+½#×
+¿¸R<£×
+½LÌÍHD 110897  @¸¿ë…?™™šThin disk  (Zr II ¿\)=uÂ<#×
+¿\)=LÌÍ<#×
+HD 110897  @¸¿ë…?™™šThin disk  8Ba II ¿#×
+<#×
+½\)¿+…=#×
+½ÌÌÍHD 110897  @¸¿ë…?™™šThin disk  ?Eu II ¾¸Qìÿÿÿÿ>W
+=¾¸Rÿÿÿÿ>…¸HD 114710 Ê@
+==uÂ?ŒÌÍThin disk  Li I  @'
+=ÿÿÿÿÿÿÿÿ@%¸ÿÿÿÿÿÿÿÿHD 114710 Ê@
+==uÂ?ŒÌÍThin disk  C I   ½\)<#×
+¾¸½\)<#×
+¾¸HD 114710 Ê@
+==uÂ?ŒÌÍThin disk   CH     ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 114710 Ê@
+==uÂ?ŒÌÍThin disk  O I   ½ÌÌÍ=#×
+¾#×
+½õÂ=#×
+¾8QìHD 114710 Ê@
+==uÂ?ŒÌÍThin disk  Na I  =#×
+=LÌÍ¼£×
+<£×
+=#×
+½#×
+HD 114710 Ê@
+==uÂ?ŒÌÍThin disk  Mg I  <£×
+=uÂ½#×
+<#×
+=LÌÍ½LÌÍHD 114710 Ê@
+==uÂ?ŒÌÍThin disk  Al I  =LÌÍ=\)¼#×
+=£×
+=uÂ<£×
+HD 114710 Ê@
+==uÂ?ŒÌÍThin disk  Si I  	=uÂ<£×
+    =LÌÍ<£×
+¼#×
+HD 114710 Ê@
+==uÂ?ŒÌÍThin disk  Si II     <#×
+½uÂ¼#×
+    ½\)HD 114710 Ê@
+==uÂ?ŒÌÍThin disk  K I   >¸ÿÿÿÿ=\)=LÌÍÿÿÿÿ¼#×
+HD 114710 Ê@
+==uÂ?ŒÌÍThin disk  Ca I  =áG®=#×
+=LÌÍ=\)<õÂ<#×
+HD 114710 Ê@
+==uÂ?ŒÌÍThin disk  Sc II =uÂ<£×
+    =\)<£×
+<#×
+HD 114710 Ê@
+==uÂ?ŒÌÍThin disk  Ti II 	=uÂ<õÂ    =uÂ<õÂ    HD 114710 Ê@
+==uÂ?ŒÌÍThin disk  Fe I  =¸Qì=#×
+<õÂ=ÌÌÍ    =#×
+HD 114710 Ê@
+==uÂ?ŒÌÍThin disk  Fe II =uÂ=uÂ    =uÂ=uÂ    HD 114710 Ê@
+==uÂ?ŒÌÍThin disk  Cu I      <õÂ½uÂ    =#×
+½uÂHD 114710 Ê@
+==uÂ?ŒÌÍThin disk  &Sr II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 114710 Ê@
+==uÂ?ŒÌÍThin disk  (Zr II =õÂÿÿÿÿ=uÂ>\)ÿÿÿÿ=£×
+HD 114710 Ê@
+==uÂ?ŒÌÍThin disk  8Ba II >uÂ<õÂ>8Qì>W
+=<õÂ>™šHD 114710 Ê@
+==uÂ?ŒÌÍThin disk  ?Eu II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  Li I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  C I   ½uÂ=#×
+=#×
+½uÂ=#×
+=#×
+HD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk   CH    ½áG®=#×
+¼#×
+ÿÿÿÿÿÿÿÿÿÿÿÿHD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  O I   ¼£×
+<#×
+=£×
+<£×
+<#×
+=õÂHD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  Na I  ½ÌÌÍ<õÂ    ½áG®=#×
+¼#×
+HD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  Mg I  ½LÌÍ<õÂ=LÌÍ½£×
+<õÂ<£×
+HD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  Al I  <£×
+<#×
+=õÂ    <£×
+=ÌÌÍHD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  Si I  	¼£×
+<õÂ=£×
+¼£×
+<õÂ=£×
+HD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  Si II ¼#×
+=#×
+=¸Qì    <£×
+=ÌÌÍHD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  K I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  Ca I  ¾¸=uÂ¼õÂ¾™š=uÂ½LÌÍHD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  Sc II 	¼£×
+<õÂ=£×
+¼#×
+<õÂ=¸QìHD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  Ti II ½ÌÌÍ=#×
+    ½ÌÌÍ=#×
+    HD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  Fe I  ¾\)=uÂ½#×
+¾™š=uÂ½LÌÍHD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  Fe II ½ÌÌÍ=LÌÍ    ½ÌÌÍ=LÌÍ    HD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  Cu I  ¾aG®=#×
+½õÂ¾k…=LÌÍ¾¸HD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  &Sr II ¾k…<#×
+¾¸¾€  <#×
+¾™šHD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  (Zr II ¾LÌÍ=uÂ½ÌÌÍ¾B\=LÌÍ½¸QìHD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  8Ba II ¾\)=uÂ¾8Qì¾…¸=uÂ¾#×
+HD 115617 r@ŒÌÍ½ÌÌÍ?ŒÌÍThin disk  ?Eu II ½áG®ÿÿÿÿ¼#×
+½áG®ÿÿÿÿ¼#×
+HD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk Li I  ?®{ÿÿÿÿÿÿÿÿ?®{ÿÿÿÿÿÿÿÿHD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk C I   ¿!G®ÿÿÿÿ>.{¿!G®ÿÿÿÿ>.{HD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk  CH     ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk O I   ¾Ñë…<õÂ>Ç®¾³33<õÂ>æffHD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk Na I  ¿=p¤<£×
+=uÂ¿:áH<#×
+=\)HD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk Mg I  ¿®=#×
+>Š=q¿¸=LÌÍ>\)HD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk Si I  ¿\)    >uÂ¿\)<#×
+>uÂHD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk Si II ¿
+=qÿÿÿÿ>…¸¿®ÿÿÿÿ>Š=qHD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk K I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk Ca I  ¿(ö=\)>B\¿™š=£×
+>LÌÍHD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk Sc II 	¿®=#×
+>Š=q¿   =#×
+>™™šHD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk Ti II ¿®=LÌÍ>Š=q¿®=LÌÍ>Š=qHD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk Fe I  ¿Që…=LÌÍ¼£×
+¿LÌÍ=LÌÍ    HD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk Fe II ¿LÌÍ=LÌÍ    ¿LÌÍ=LÌÍ    HD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk Cu I  ¿:áH<£×
+=\)¿0£×<£×
+=áG®HD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk &Sr II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk (Zr II ¾áG®ÿÿÿÿ>¸Qì¾áG®ÿÿÿÿ>¸QìHD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk 8Ba II ¿aG®=LÌÍ½£×
+¿aG®<õÂ½£×
+HD 134088 b@¸R¿LÌÍ?ŒÌÍThick disk ?Eu II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 134169 @€£×¿G®?™™šThin disk  Li I  @
+=ÿÿÿÿÿÿÿÿ@ffÿÿÿÿÿÿÿÿHD 134169 @€£×¿G®?™™šThin disk  C I   ¿
+=<õÂ>B\¿™š<#×
+>8QìHD 134169 @€£×¿G®?™™šThin disk   CH    ¿&ff<õÂ>¸ÿÿÿÿÿÿÿÿÿÿÿÿHD 134169 @€£×¿G®?™™šThin disk  O I   ¾™™š<#×
+>õÂ¾³33<#×
+>Ü(öHD 134169 @€£×¿G®?™™šThin disk  Na I  ¿.{=LÌÍ=ÌÌÍ¿0£×=#×
+=¸QìHD 134169 @€£×¿G®?™™šThin disk  Mg I  ¾æff=LÌÍ>¨õÃ¾áG®=#×
+>®{HD 134169 @€£×¿G®?™™šThin disk  Al I  ¿#×
+=áG®>\)¿
+=q=ÌÌÍ>uÂHD 134169 @€£×¿G®?™™šThin disk  Si I  ¿\)=#×
+>aG®¿\)=#×
+>aG®HD 134169 @€£×¿G®?™™šThin disk  Si II ¿\    >Š=q¿®    >€  HD 134169 @€£×¿G®?™™šThin disk  K I   ¾”záÿÿÿÿ>úáH¿\)ÿÿÿÿ>aG®HD 134169 @€£×¿G®?™™šThin disk  Ca I  ¿!G®=LÌÍ>™š¿¸R=LÌÍ>#×
+HD 134169 @€£×¿G®?™™šThin disk  Sc II 	¿¸R=#×
+>#×
+¿(ö<õÂ>.{HD 134169 @€£×¿G®?™™šThin disk  Ti II ¿ÌÍ<õÂ>k…¿ÌÍ<õÂ>k…HD 134169 @€£×¿G®?™™šThin disk  Fe I  ¿E¸=uÂ<#×
+¿5Â=uÂ=\)HD 134169 @€£×¿G®?™™šThin disk  Fe II ¿G®=\)    ¿G®=\)    HD 134169 @€£×¿G®?™™šThin disk  Cu I  ¿n{<#×
+¾™š¿^¸R<õÂ½¸QìHD 134169 @€£×¿G®?™™šThin disk  &Sr II ¿:áH=#×
+=LÌÍ¿8Qì=uÂ=uÂHD 134169 @€£×¿G®?™™šThin disk  (Zr II ¿+…=uÂ=áG®¿#×
+=LÌÍ>\)HD 134169 @€£×¿G®?™™šThin disk  8Ba II ¿^¸R=£×
+½¸Qì¿p£×<#×
+¾#×
+HD 134169 @€£×¿G®?™™šThin disk  ?Eu II ¾úáHÿÿÿÿ>”zá¾Ü(öÿÿÿÿ>³33HD 138776 @‰™š>uÂ?¦ffThin disk  Li I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 138776 @‰™š>uÂ?¦ffThin disk  C I   >k…=#×
+¼#×
+>uÂ=#×
+    HD 138776 @‰™š>uÂ?¦ffThin disk   CH    >…¸=uÂ<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿHD 138776 @‰™š>uÂ?¦ffThin disk  O I   >.{ÿÿÿÿ½\)>\)ÿÿÿÿ½ÌÌÍHD 138776 @‰™š>uÂ?¦ffThin disk  Na I  >Ñë…<õÂ>.{>Â\<£×
+>\)HD 138776 @‰™š>uÂ?¦ffThin disk  Mg I  >”zá<£×
+=LÌÍ>Š=q<£×
+<õÂHD 138776 @‰™š>uÂ?¦ffThin disk  Al I  >áG®<õÂ>LÌÍ>Ñë…=#×
+>.{HD 138776 @‰™š>uÂ?¦ffThin disk  Si I  >£×
+=#×
+=£×
+>¸R=#×
+=\)HD 138776 @‰™š>uÂ?¦ffThin disk  Si II >£×
+<õÂ=£×
+>£×
+<£×
+=£×
+HD 138776 @‰™š>uÂ?¦ffThin disk  K I   >…¸ÿÿÿÿ<£×
+>™šÿÿÿÿ½¸QìHD 138776 @‰™š>uÂ?¦ffThin disk  Ca I  >™š=uÂ½¸Qì>¸=uÂ½áG®HD 138776 @‰™š>uÂ?¦ffThin disk  Sc II >¸=#×
+½áG®>¸<õÂ½áG®HD 138776 @‰™š>uÂ?¦ffThin disk  Ti II >LÌÍ<õÂ½#×
+>LÌÍ<õÂ½#×
+HD 138776 @‰™š>uÂ?¦ffThin disk  Fe I  >…¸=¸Qì<£×
+>uÂ=¸Qì    HD 138776 @‰™š>uÂ?¦ffThin disk  Fe II >uÂ=LÌÍ    >uÂ=LÌÍ    HD 138776 @‰™š>uÂ?¦ffThin disk  Cu I  >½p¤=#×
+>¸>®{<õÂ=ÌÌÍHD 138776 @‰™š>uÂ?¦ffThin disk  &Sr II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 138776 @‰™š>uÂ?¦ffThin disk  (Zr II >…¸ÿÿÿÿ<£×
+>…¸ÿÿÿÿ<£×
+HD 138776 @‰™š>uÂ?¦ffThin disk  8Ba II ½#×
+=áG®¾\)¼£×
+=õÂ¾…¸HD 138776 @‰™š>uÂ?¦ffThin disk  ?Eu II     ÿÿÿÿ¾uÂ    ÿÿÿÿ¾uÂHD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       Li I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       C I   ÀQì<£×
+>¨õÃÀ £×=LÌÍ>æffHD 140283 ”@lÌÍÀp¤?ÌÌÍHalo        CH    ÀG®=LÌÍ>áG®ÿÿÿÿÿÿÿÿÿÿÿÿHD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       O I   ¿õÂ=\)?
+=q¿èõÃ=£×
+?#×
+HD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       Na I  À'
+=<£×
+¾\)À1ë…<#×
+¾£×
+HD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       Mg I  Àp¤ÿÿÿÿ>€  À	™šÿÿÿÿ>¸RHD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       Al I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       Si I  Àp¤ÿÿÿÿ>€  À(öÿÿÿÿ>Š=qHD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       K I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       Ca I  Àë…=#×
+>8QìÀ®=LÌÍ>®{HD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       Sc II À+…<õÂ¾aG®À £×<õÂ½LÌÍHD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       Ti II À{=uÂ>uÂÀÌÍ=LÌÍ>…¸HD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       Fe I  À!ë…=uÂ½\)Àp¤=uÂ    HD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       Fe II Àp¤=\)    Àp¤=\)    HD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       Cu I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       &Sr II ÀFff    ¿#×
+ÀI™š<õÂ¿0£×HD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       (Zr II À(öÿÿÿÿ<£×
+À…ÿÿÿÿ<õÂHD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       8Ba II Àb\ÿÿÿÿ¿Š=qÀMp¤ÿÿÿÿ¿@  HD 140283 ”@lÌÍÀp¤?ÌÌÍHalo       ?Eu II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 142091 Ê@G®½\)?™™šThin disk  Li I  >\)ÿÿÿÿÿÿÿÿ>.{ÿÿÿÿÿÿÿÿHD 142091 Ê@G®½\)?™™šThin disk  C I   =LÌÍÿÿÿÿ=õÂ=LÌÍÿÿÿÿ=õÂHD 142091 Ê@G®½\)?™™šThin disk   CH    
+¾W
+==#×
+¾\)ÿÿÿÿÿÿÿÿÿÿÿÿHD 142091 Ê@G®½\)?™™šThin disk  O I       ÿÿÿÿ=\)<£×
+ÿÿÿÿ=¸QìHD 142091 Ê@G®½\)?™™šThin disk  Na I  >.{<õÂ>uÂ=uÂ<õÂ>¸HD 142091 Ê@G®½\)?™™šThin disk  Mg I  =LÌÍ=uÂ=õÂ<õÂ=\)=ÌÌÍHD 142091 Ê@G®½\)?™™šThin disk  Al I  >uÂ<#×
+>¸R>™š<#×
+>aG®HD 142091 Ê@G®½\)?™™šThin disk  Si I  	=¸Qì=\)>#×
+=LÌÍ=uÂ=õÂHD 142091 Ê@G®½\)?™™šThin disk  Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 142091 Ê@G®½\)?™™šThin disk  K I   =£×
+ÿÿÿÿ>™š¼õÂÿÿÿÿ=#×
+HD 142091 Ê@G®½\)?™™šThin disk  Ca I  ¼õÂ=£×
+=#×
+¼õÂ=uÂ=#×
+HD 142091 Ê@G®½\)?™™šThin disk  Sc II     =uÂ=\)<#×
+<õÂ=£×
+HD 142091 Ê@G®½\)?™™šThin disk  Ti II ½uÂ=uÂ<#×
+½uÂ=uÂ<#×
+HD 142091 Ê@G®½\)?™™šThin disk  Fe I  ¼£×
+=£×
+=LÌÍ¼£×
+=\)=LÌÍHD 142091 Ê@G®½\)?™™šThin disk  Fe II ½\)=ÌÌÍ    ½\)=ÌÌÍ    HD 142091 Ê@G®½\)?™™šThin disk  Cu I      =LÌÍ=\)¼£×
+<õÂ=LÌÍHD 142091 Ê@G®½\)?™™šThin disk  &Sr II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 142091 Ê@G®½\)?™™šThin disk  (Zr II ¾8Qì<#×
+½áG®¾.{<#×
+½ÌÌÍHD 142091 Ê@G®½\)?™™šThin disk  8Ba II ½áG®<#×
+½#×
+½uÂ<£×
+<#×
+HD 142091 Ê@G®½\)?™™šThin disk  ?Eu II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿHD 142373 Æ@}p¤¿
+=q?³33Thin disk  Li I  @(öÿÿÿÿÿÿÿÿ@=qÿÿÿÿÿÿÿÿHD 142373 Æ@}p¤¿
+=q?³33Thin disk  C I   ¿   <#×
+=#×
+¿\<#×
+<õÂHD 142373 Æ@}p¤¿
+=q?³33Thin disk   CH    ¿\=#×
+<õÂÿÿÿÿÿÿÿÿÿÿÿÿHD 142373 Æ@}p¤¿
+=q?³33Thin disk  O I   ¾½p¤=LÌÍ>.{¾ÌÌÍ=LÌÍ>\)HD 142373 Æ@}p¤¿
+=q?³33Thin disk  Na I  ¿
+=q<õÂ    ¿ÌÍ<#×
+¼#×
+HD 142373 Æ@}p¤¿
+=q?³33Thin disk  Mg I  ¾Ñë…<õÂ>¸¾ÌÌÍ<£×
+>\)HD 142373 Æ@}p¤¿
+=q?³33Thin disk  Al I  ¿záÿÿÿÿ½#×
+¾úáHÿÿÿÿ=LÌÍHD 142373 Æ@}p¤¿
+=q?³33Thin disk  Si I  
+¾æff<õÂ=¸Qì¾æff<õÂ=¸QìHD 142373 Æ@}p¤¿
+=q?³33Thin disk  Si II ¾Ü(ö<£×
+=áG®¾æff<£×
+=¸QìHD 142373 Æ@}p¤¿
+=q?³33Thin disk  K I   ¾.{ÿÿÿÿ>½p¤¾õÂÿÿÿÿ=uÂHD 142373 Æ@}p¤¿
+=q?³33Thin disk  Ca I  ¾õÂ=LÌÍ=uÂ¾úáH=#×
+=LÌÍHD 142373 Æ@}p¤¿
+=q?³33Thin disk  Sc II 	¾×
+==LÌÍ=õÂ¾Ñë…=#×
+>¸HD 142373 Æ@}p¤¿
+=q?³33Thin disk  Ti II ¾Ü(ö<õÂ=áG®¾Ü(ö<õÂ=áG®HD 142373 Æ@}p¤¿
+=q?³33Thin disk  Fe I  ¿\)=LÌÍ¼£×
+¿\)=LÌÍ¼£×
+HD 142373 Æ@}p¤¿
+=q?³33Thin disk  Fe II ¿
+=q=LÌÍ    ¿
+=q=LÌÍ    HD 142373 Æ@}p¤¿
+=q?³33Thin disk  Cu I  ¿\)<õÂ¼£×
+¿\<õÂ<õÂHD 142373 Æ@}p¤¿
+=q?³33Thin disk  &Sr II ¿
+=q=uÂ    ¿ÌÍ>™š¼#×
+HD 142373 Æ@}p¤¿
+=q?³33Thin disk  (Zr II ¾Ñë…    >¸¾Ñë…    >¸HD 142373 Æ@}p¤¿
+=q?³33Thin disk  8Ba II ¿¸R=uÂ½£×
+¿333=uÂ¾#×
+HD 142373 Æ@}p¤¿
+=q?³33Thin disk  ?Eu II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       Li I  @33ÿÿÿÿÿÿÿÿ@G®ÿÿÿÿÿÿÿÿBD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       C I   ¿´zá=£×
+=LÌÍ¿®{=#×
+=ÌÌÍBD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo        CH    
+¿˜Qì<õÂ>Š=qÿÿÿÿÿÿÿÿÿÿÿÿBD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       O I   ¿fff<õÂ?\)¿^¸R<õÂ?
+=BD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       Na I  ¿ˆõÃ=uÂ>Ç®¿¬ÌÍ<#×
+=áG®BD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       Mg I  ¿‡®=\)>ÌÌÍ¿…¸=£×
+>×
+=BD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       Al I  À×
+ÿÿÿÿ¿™š¿Â\ÿÿÿÿ½uÂBD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       Si I  ¿\)=uÂ>®{¿Š=q=#×
+>Â\BD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       K I   ¿—
+=ÿÿÿÿ>\)¿¨õÃÿÿÿÿ>\)BD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       Ca I  ¿“33=uÂ>¸R¿‹…=LÌÍ>½p¤BD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       Sc II ¿Â\<õÂ½uÂ¿·
+=<õÂ<õÂBD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       Ti II ¿{=#×
+>³33¿{=#×
+>³33BD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       Fe I  ¿ºáH=\)    ¿¸Qì=uÂ<£×
+BD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       Fe II ¿ºáH=LÌÍ    ¿ºáH=LÌÍ    BD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       Cu I  À
+==LÌÍ¿#×
+¿ôzá=#×
+¾æffBD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       &Sr II ¿“33<£×
+>¸R¿¡G®    >LÌÍBD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       (Zr II ¿k…<£×
+?
+=q¿hõÃ<#×
+?ÌÍBD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       8Ba II ¿¯\)=£×
+=¸Qì¿¨õÃ<õÂ>\)BD+07 4841ò@„ÌÍ¿ºáH?¦ffHalo       ?Eu II ¿záHÿÿÿÿ>õÂ¿xQìÿÿÿÿ>úáHBD+09 0352@ˆ  ÀÂ?¦ffHalo       Li I  @ffÿÿÿÿÿÿÿÿ@¸ÿÿÿÿÿÿÿÿBD+09 0352@ˆ  ÀÂ?¦ffHalo       C I   À33=¸Qì=#×
+¿÷
+==uÂ>#×
+BD+09 0352@ˆ  ÀÂ?¦ffHalo        CH    ¿ë…=áG®>€  ÿÿÿÿÿÿÿÿÿÿÿÿBD+09 0352@ˆ  ÀÂ?¦ffHalo       O I   ¿Ç®=uÂ?®¿¼(ö=uÂ?¸RBD+09 0352@ˆ  ÀÂ?¦ffHalo       Na I  ¿ğ£×=áG®>W
+=ÀQì=uÂ½LÌÍBD+09 0352@ˆ  ÀÂ?¦ffHalo       Mg I  ¿ÚáH=LÌÍ>Â\¿×
+==uÂ>Ñë…BD+09 0352@ˆ  ÀÂ?¦ffHalo       Al I  À0  ÿÿÿÿ¿(õÃÀ£×ÿÿÿÿ¾.{BD+09 0352@ˆ  ÀÂ?¦ffHalo       Si I  ¿Ù™šÿÿÿÿ>Ç®¿×
+=ÿÿÿÿ>Ñë…BD+09 0352@ˆ  ÀÂ?¦ffHalo       Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+09 0352@ˆ  ÀÂ?¦ffHalo       K I   Àffÿÿÿÿ¼#×
+ÀG®ÿÿÿÿ=\)BD+09 0352@ˆ  ÀÂ?¦ffHalo       Ca I  ¿ë…=ÌÌÍ>€  ¿Ü(ö=õÂ>½p¤BD+09 0352@ˆ  ÀÂ?¦ffHalo       Sc II À\)=\)¾™šÀ
+=q<£×
+½£×
+BD+09 0352@ˆ  ÀÂ?¦ffHalo       Ti II ¿İp¤=LÌÍ>¸Qì¿Ü(ö=LÌÍ>½p¤BD+09 0352@ˆ  ÀÂ?¦ffHalo       Fe I  Àff=uÂ¼#×
+À×
+=uÂ<õÂBD+09 0352@ˆ  ÀÂ?¦ffHalo       Fe II ÀÂ=#×
+    ÀÂ=#×
+    BD+09 0352@ˆ  ÀÂ?¦ffHalo       Cu I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+09 0352@ˆ  ÀÂ?¦ffHalo       &Sr II À £×=#×
+=£×
+ÀõÃ=#×
+½LÌÍBD+09 0352@ˆ  ÀÂ?¦ffHalo       (Zr II ¿×
+=ÿÿÿÿ>Ñë…¿ÕÂÿÿÿÿ>×
+=BD+09 0352@ˆ  ÀÂ?¦ffHalo       8Ba II À£×<õÂ¾.{Àë…<£×
+=uÂBD+09 0352@ˆ  ÀÂ?¦ffHalo       ?Eu II ¿¹™šÿÿÿÿ?#×
+¿ºáHÿÿÿÿ?!G®BD+24 1676B@y™šÀ(ö?À  Halo       Li I  @	™šÿÿÿÿÿÿÿÿ@õÃÿÿÿÿÿÿÿÿBD+24 1676B@y™šÀ(ö?À  Halo       C I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+24 1676B@y™šÀ(ö?À  Halo        CH     ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+24 1676B@y™šÀ(ö?À  Halo       O I   ¿ç®<õÂ?!G®¿à  <#×
+?0£×BD+24 1676B@y™šÀ(ö?À  Halo       Na I  À'
+=<#×
+¾.{À0£×=#×
+¾£×
+BD+24 1676B@y™šÀ(ö?À  Halo       Mg I  À(ö<#×
+>€  ÀõÃ<#×
+>™™šBD+24 1676B@y™šÀ(ö?À  Halo       Al I  ÀJ=qÿÿÿÿ¿8QìÀ&ffÿÿÿÿ¾#×
+BD+24 1676B@y™šÀ(ö?À  Halo       Si I  Àp¤ÿÿÿÿ>k…Àp¤ÿÿÿÿ>k…BD+24 1676B@y™šÀ(ö?À  Halo       Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+24 1676B@y™šÀ(ö?À  Halo       K I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+24 1676B@y™šÀ(ö?À  Halo       Ca I  ÀõÃ=ÌÌÍ>™™šÀ   =#×
+>áG®BD+24 1676B@y™šÀ(ö?À  Halo       Sc II À!G®<õÂ½£×
+À®<£×
+=\)BD+24 1676B@y™šÀ(ö?À  Halo       Ti II À
+áH=#×
+>Š=qÀ	™š=LÌÍ>”záBD+24 1676B@y™šÀ(ö?À  Halo       Fe I  À   =£×
+½uÂÀ™š=£×
+=#×
+BD+24 1676B@y™šÀ(ö?À  Halo       Fe II À(ö=¸Qì    À(ö=¸Qì    BD+24 1676B@y™šÀ(ö?À  Halo       Cu I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+24 1676B@y™šÀ(ö?À  Halo       &Sr II À#33<#×
+½áG®À'
+==uÂ¾.{BD+24 1676B@y™šÀ(ö?À  Halo       (Zr II ¿èõÃÿÿÿÿ?¸R¿æffÿÿÿÿ?#×
+BD+24 1676B@y™šÀ(ö?À  Halo       8Ba II À@£×    ¿ë…À5¸    ¾Ç®BD+24 1676B@y™šÀ(ö?À  Halo       ?Eu II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+29 2091ä@•p¤¿ôzá?LÌÍHalo       Li I  @£×ÿÿÿÿÿÿÿÿ@\)ÿÿÿÿÿÿÿÿBD+29 2091ä@•p¤¿ôzá?LÌÍHalo       C I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+29 2091ä@•p¤¿ôzá?LÌÍHalo        CH    
+¿Ôzá=LÌÍ>€  ÿÿÿÿÿÿÿÿÿÿÿÿBD+29 2091ä@•p¤¿ôzá?LÌÍHalo       O I   ¿¼(ö>Š=q>áG®¿§®>€  ?™šBD+29 2091ä@•p¤¿ôzá?LÌÍHalo       Na I  ¿ü(ö<#×
+½uÂÀQì<#×
+¾aG®BD+29 2091ä@•p¤¿ôzá?LÌÍHalo       Mg I  ¿Ğ£×=\)>\)¿Ï\)=\)>”záBD+29 2091ä@•p¤¿ôzá?LÌÍHalo       Al I  À\)ÿÿÿÿ¾¨õÃ¿÷
+=ÿÿÿÿ¼£×
+BD+29 2091ä@•p¤¿ôzá?LÌÍHalo       Si I  ¿ÌÌÍ<#×
+>¸R¿Ê=q<#×
+>¨õÃBD+29 2091ä@•p¤¿ôzá?LÌÍHalo       Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+29 2091ä@•p¤¿ôzá?LÌÍHalo       K I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+29 2091ä@•p¤¿ôzá?LÌÍHalo       Ca I  	¿×
+==LÌÍ>k…¿ÌÌÍ=LÌÍ>¸RBD+29 2091ä@•p¤¿ôzá?LÌÍHalo       Sc II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+29 2091ä@•p¤¿ôzá?LÌÍHalo       Ti II ¿Ë…=£×
+>£×
+¿Ê=q=£×
+>¨õÃBD+29 2091ä@•p¤¿ôzá?LÌÍHalo       Fe I  ¿úáH=uÂ½LÌÍ¿úáH=uÂ½LÌÍBD+29 2091ä@•p¤¿ôzá?LÌÍHalo       Fe II 
+¿ôzá=£×
+    ¿ôzá=£×
+    BD+29 2091ä@•p¤¿ôzá?LÌÍHalo       Cu I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+29 2091ä@•p¤¿ôzá?LÌÍHalo       &Sr II ¿øQì    ¼õÂÀ £×<#×
+½ÌÌÍBD+29 2091ä@•p¤¿ôzá?LÌÍHalo       (Zr II ¿Ó33<õÂ>…¸¿Ó33<õÂ>…¸BD+29 2091ä@•p¤¿ôzá?LÌÍHalo       8Ba II Àp¤=uÂ¾™™šÀ×
+=uÂ¾™šBD+29 2091ä@•p¤¿ôzá?LÌÍHalo       ?Eu II ¿¯\)ÿÿÿÿ?
+=q¿®{ÿÿÿÿ?ÌÍBD+37 1458|@lÌÍ¿ù™š?€  Halo       Li I  ?ÁG®ÿÿÿÿÿÿÿÿ?Ã×
+ÿÿÿÿÿÿÿÿBD+37 1458|@lÌÍ¿ù™š?€  Halo       C I   ¿ê=q>¸=õÂ¿ÕÂ=áG®>\)BD+37 1458|@lÌÍ¿ù™š?€  Halo        CH    ¿Ğ£×<õÂ>£×
+ÿÿÿÿÿÿÿÿÿÿÿÿBD+37 1458|@lÌÍ¿ù™š?€  Halo       O I   ¿³33<#×
+?ÌÍ¿¢\<#×
+?.{BD+37 1458|@lÌÍ¿ù™š?€  Halo       Na I  ¿÷
+=<õÂ<£×
+À
+áH<õÂ¾aG®BD+37 1458|@lÌÍ¿ù™š?€  Halo       Mg I  ¿Ôzá=£×
+>”zá¿Ğ£×=\)>£×
+BD+37 1458|@lÌÍ¿ù™š?€  Halo       Al I  ÀÂÿÿÿÿ¾Ç®¿ï\)ÿÿÿÿ=£×
+BD+37 1458|@lÌÍ¿ù™š?€  Halo       Si I  ¿Ñë…<õÂ>¸R¿ÌÌÍ=LÌÍ>¸QìBD+37 1458|@lÌÍ¿ù™š?€  Halo       Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+37 1458|@lÌÍ¿ù™š?€  Halo       K I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+37 1458|@lÌÍ¿ù™š?€  Halo       Ca I  ¿â\=uÂ>8Qì¿Ôzá=LÌÍ>”záBD+37 1458|@lÌÍ¿ù™š?€  Halo       Sc II À   <õÂ½LÌÍ¿ôzá<#×
+=#×
+BD+37 1458|@lÌÍ¿ù™š?€  Halo       Ti II ¿Ôzá=uÂ>”zá¿Ôzá=uÂ>”záBD+37 1458|@lÌÍ¿ù™š?€  Halo       Fe I  ÀG®=uÂ½\)À   =uÂ½LÌÍBD+37 1458|@lÌÍ¿ù™š?€  Halo       Fe II ¿ù™š=¸Qì    ¿ù™š=¸Qì    BD+37 1458|@lÌÍ¿ù™š?€  Halo       Cu I  À*áHÿÿÿÿ¿8QìÀÌÍÿÿÿÿ¿   BD+37 1458|@lÌÍ¿ù™š?€  Halo       &Sr II ¿Ñë…    >¸R¿ØQì<#×
+>…¸BD+37 1458|@lÌÍ¿ù™š?€  Halo       (Zr II ¿¯\)=#×
+?zá¿¬ÌÍ<£×
+?™šBD+37 1458|@lÌÍ¿ù™š?€  Halo       8Ba II ¿ìÌÍ=\)=ÌÌÍ¿æff<õÂ>™šBD+37 1458|@lÌÍ¿ù™š?€  Halo       ?Eu II ¿¾¸Rÿÿÿÿ>ë…¿¾¸Rÿÿÿÿ>ë…BD+66 0268´@—
+=À×
+?™šHalo       Li I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+66 0268´@—
+=À×
+?™šHalo       C I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+66 0268´@—
+=À×
+?™šHalo        CH    
+Àë…<£×
+<õÂÿÿÿÿÿÿÿÿÿÿÿÿBD+66 0268´@—
+=À×
+?™šHalo       O I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+66 0268´@—
+=À×
+?™šHalo       Na I  ÀG®<#×
+¾W
+=ÀÂ<#×
+¾\)BD+66 0268´@—
+=À×
+?™šHalo       Mg I  ¿ê=q=¸Qì>k…¿ë…=£×
+>aG®BD+66 0268´@—
+=À×
+?™šHalo       Al I  ÀõÃÿÿÿÿ½£×
+¿ş¸Rÿÿÿÿ=\)BD+66 0268´@—
+=À×
+?™šHalo       Si I  ¿ÚáH=uÂ>³33¿Ù™š=uÂ>¸QìBD+66 0268´@—
+=À×
+?™šHalo       Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+66 0268´@—
+=À×
+?™šHalo       K I   ¿ıp¤ÿÿÿÿ=£×
+¿ñë…ÿÿÿÿ>.{BD+66 0268´@—
+=À×
+?™šHalo       Ca I  ¿ó33=uÂ>#×
+¿ê=q=LÌÍ>k…BD+66 0268´@—
+=À×
+?™šHalo       Sc II À
+==áG®½LÌÍÀzá=¸Qì¼#×
+BD+66 0268´@—
+=À×
+?™šHalo       Ti II ¿ç®=£×
+>€  ¿æff=£×
+>…¸BD+66 0268´@—
+=À×
+?™šHalo       Fe I  ÀÂ=uÂ¼õÂÀÂ=uÂ¼õÂBD+66 0268´@—
+=À×
+?™šHalo       Fe II 	À×
+>™š    À×
+>™š    BD+66 0268´@—
+=À×
+?™šHalo       Cu I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD+66 0268´@—
+=À×
+?™šHalo       &Sr II À¸<#×
+¼£×
+ÀÂ    ¼õÂBD+66 0268´@—
+=À×
+?™šHalo       (Zr II ¿Ó33<£×
+>Ñë…¿Ó33<#×
+>Ñë…BD+66 0268´@—
+=À×
+?™šHalo       8Ba II ÀÂ=uÂ¾\)Àp¤<#×
+¾™šBD+66 0268´@—
+=À×
+?™šHalo       ?Eu II ¿±ë…ÿÿÿÿ?+…¿±ë…ÿÿÿÿ?+…BD-04 3208ö@‚\ÀÌÍ?³33Halo       Li I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD-04 3208ö@‚\ÀÌÍ?³33Halo       C I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD-04 3208ö@‚\ÀÌÍ?³33Halo        CH     ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD-04 3208ö@‚\ÀÌÍ?³33Halo       O I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD-04 3208ö@‚\ÀÌÍ?³33Halo       Na I  ÀQì=áG®=\)Àzá=LÌÍ½õÂBD-04 3208ö@‚\ÀÌÍ?³33Halo       Mg I  ¿øQìÿÿÿÿ>…¸¿ñë…ÿÿÿÿ>¸RBD-04 3208ö@‚\ÀÌÍ?³33Halo       Al I  À@£×ÿÿÿÿ¿O\)À\)ÿÿÿÿ¾”záBD-04 3208ö@‚\ÀÌÍ?³33Halo       Si I  À   ÿÿÿÿ>LÌÍ¿ü(öÿÿÿÿ>k…BD-04 3208ö@‚\ÀÌÍ?³33Halo       Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD-04 3208ö@‚\ÀÌÍ?³33Halo       K I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD-04 3208ö@‚\ÀÌÍ?³33Halo       Ca I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD-04 3208ö@‚\ÀÌÍ?³33Halo       Sc II À(ö<õÂ<#×
+À¸<#×
+=õÂBD-04 3208ö@‚\ÀÌÍ?³33Halo       Ti II ¿î{<õÂ>®{¿ìÌÍ<£×
+>³33BD-04 3208ö@‚\ÀÌÍ?³33Halo       Fe I  Àë…=uÂ½£×
+ÀÌÍ=uÂ    BD-04 3208ö@‚\ÀÌÍ?³33Halo       Fe II ÀÌÍ=¸Qì    ÀÌÍ=¸Qì    BD-04 3208ö@‚\ÀÌÍ?³33Halo       Cu I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD-04 3208ö@‚\ÀÌÍ?³33Halo       &Sr II À®<õÂ=£×
+À\)<#×
+½#×
+BD-04 3208ö@‚\ÀÌÍ?³33Halo       (Zr II ¿ğ£×<#×
+>£×
+¿î{<#×
+>®{BD-04 3208ö@‚\ÀÌÍ?³33Halo       8Ba II À,(ö=LÌÍ¾úáHÀ…<õÂ¾k…BD-04 3208ö@‚\ÀÌÍ?³33Halo       ?Eu II ¿úáHÿÿÿÿ>uÂ¿ê=qÿÿÿÿ>½p¤BD-13 3442 @|ÌÍÀ'®?³33Halo       Li I  @…ÿÿÿÿÿÿÿÿ@
+=qÿÿÿÿÿÿÿÿBD-13 3442 @|ÌÍÀ'®?³33Halo       C I   À'
+==uÂ<#×
+ÀáH<õÂ>LÌÍBD-13 3442 @|ÌÍÀ'®?³33Halo        CH     ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD-13 3442 @|ÌÍÀ'®?³33Halo       O I   À(ö>8Qì>Ü(öÀÂ>.{?®BD-13 3442 @|ÌÍÀ'®?³33Halo       Na I  À%¸=ÌÌÍ=#×
+À,ÌÍ=LÌÍ½¸QìBD-13 3442 @|ÌÍÀ'®?³33Halo       Mg I  À®<#×
+>€  Àzá=#×
+>™™šBD-13 3442 @|ÌÍÀ'®?³33Halo       Al I  ÀXQìÿÿÿÿ¿B\À5Âÿÿÿÿ¾aG®BD-13 3442 @|ÌÍÀ'®?³33Halo       Si I  À(öÿÿÿÿ>8QìÀ¸ÿÿÿÿ>”záBD-13 3442 @|ÌÍÀ'®?³33Halo       Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD-13 3442 @|ÌÍÀ'®?³33Halo       K I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD-13 3442 @|ÌÍÀ'®?³33Halo       Ca I  À\)<#×
+>Â\ÀõÃ=#×
+>õÂBD-13 3442 @|ÌÍÀ'®?³33Halo       Sc II À.{<£×
+½ÌÌÍÀ#×
+<£×
+=uÂBD-13 3442 @|ÌÍÀ'®?³33Halo       Ti II À\=uÂ>¨õÃÀ\=uÂ>¨õÃBD-13 3442 @|ÌÍÀ'®?³33Halo       Fe I  À0£×=uÂ¾\)À'®=uÂ    BD-13 3442 @|ÌÍÀ'®?³33Halo       Fe II À'®=¸Qì    À'®=¸Qì    BD-13 3442 @|ÌÍÀ'®?³33Halo       Cu I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD-13 3442 @|ÌÍÀ'®?³33Halo       &Sr II À#×
+=¸Qì=uÂÀ#×
+<£×
+=uÂBD-13 3442 @|ÌÍÀ'®?³33Halo       (Zr II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿBD-13 3442 @|ÌÍÀ'®?³33Halo       8Ba II ÀZ=q    ¿J=qÀLÌÍ    ¿záBD-13 3442 @|ÌÍÀ'®?³33Halo       ?Eu II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿG090-003  w@y™šÀ\?¦ffHalo       Li I  @{ÿÿÿÿÿÿÿÿ@p¤ÿÿÿÿÿÿÿÿG090-003  w@y™šÀ\?¦ffHalo       C I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿG090-003  w@y™šÀ\?¦ffHalo        CH    ¿Ş¸R=\)>™™šÿÿÿÿÿÿÿÿÿÿÿÿG090-003  w@y™šÀ\?¦ffHalo       O I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿG090-003  w@y™šÀ\?¦ffHalo       Na I  ¿ê=qÿÿÿÿ>W
+=¿ë…ÿÿÿÿ>LÌÍG090-003  w@y™šÀ\?¦ffHalo       Mg I  ¿ìÌÍ=uÂ>B\¿æff=\)>uÂG090-003  w@y™šÀ\?¦ffHalo       Al I  À\)ÿÿÿÿ¾LÌÍ¿â\ÿÿÿÿ>Š=qG090-003  w@y™šÀ\?¦ffHalo       Si I  ¿Ù™š=#×
+>®{¿Ó33<õÂ>Ç®G090-003  w@y™šÀ\?¦ffHalo       Si II  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿG090-003  w@y™šÀ\?¦ffHalo       K I    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿG090-003  w@y™šÀ\?¦ffHalo       Ca I  ¿èõÃ=\)>aG®¿Ù™š=£×
+>®{G090-003  w@y™šÀ\?¦ffHalo       Sc II À¸=#×
+½#×
+À\<#×
+    G090-003  w@y™šÀ\?¦ffHalo       Ti II ¿ØQì=\)>³33¿×
+==\)>¸QìG090-003  w@y™šÀ\?¦ffHalo       Fe I  Àff=£×
+½uÂÀ×
+=£×
+¼£×
+G090-003  w@y™šÀ\?¦ffHalo       Fe II À\=uÂ    À\=uÂ    G090-003  w@y™šÀ\?¦ffHalo       Cu I   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿG090-003  w@y™šÀ\?¦ffHalo       &Sr II ¿ıp¤<#×
+=uÂÀQì    ½¸QìG090-003  w@y™šÀ\?¦ffHalo       (Zr II ¿ÕÂ=LÌÍ>½p¤¿Ó33=#×
+>Ç®G090-003  w@y™šÀ\?¦ffHalo       8Ba II À®=\)½£×
+À   =LÌÍ=#×
+G090-003  w@y™šÀ\?¦ffHalo       ?Eu II ¿Å¸ÿÿÿÿ?   ¿Å¸ÿÿÿÿ?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
