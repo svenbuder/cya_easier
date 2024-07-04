@@ -16,3 +16,5 @@ nihao_simulation_analysis/
 |  └── .../                         -> ...
 └── figures/                        -> figure output directory for cya_easier.ipynb
 ```
+
+If this is not enough information for you, also check out the [Hypatia catalag](http://hypatiacatalog.com) by [Hinkel et al. (2014)](http://adsabs.harvard.edu/abs/2014AJ....148...54H).
